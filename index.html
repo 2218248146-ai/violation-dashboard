@@ -10,19 +10,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 
 /* ── 登录页 ── */
 #login-page { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(160deg, #fbeaec 0%, #f5f5f7 60%); }
-.login-box { background: white; border-radius: 20px; padding: 44px 48px 40px; box-shadow: 0 8px 40px rgba(0,0,0,0.08); width: 400px; text-align: center; }
+.login-box { background: white; border-radius: 20px; padding: 44px 48px 40px; box-shadow: 0 8px 40px rgba(0,0,0,0.08); width: 440px; text-align: center; }
 .login-logo { font-size: 40px; margin-bottom: 12px; }
 .login-title { font-size: 22px; font-weight: 800; margin-bottom: 6px; }
 .login-sub { font-size: 13px; color: #888; margin-bottom: 28px; }
 .login-label { font-size: 13px; color: #555; text-align: left; margin-bottom: 8px; font-weight: 500; }
-#am-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; min-height: 48px; }
+#am-grid { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; min-height: 48px; }
 .am-btn { padding: 10px 18px; border-radius: 10px; border: 2px solid #eee; background: #fafafa; font-size: 14px; font-weight: 600; cursor: pointer; transition: all .15s; color: #333; }
 .am-btn:hover { border-color: #e8344e; background: #fff5f6; color: #e8344e; }
 .am-btn.selected { border-color: #e8344e; background: #e8344e; color: white; }
-.login-btn { width: 100%; padding: 14px; border-radius: 12px; background: #e8344e; color: white; font-size: 16px; font-weight: 700; border: none; cursor: pointer; transition: background .15s; margin-top: 8px; }
+.divider { display: flex; align-items: center; gap: 10px; margin: 4px 0 16px; color: #ccc; font-size: 12px; }
+.divider::before, .divider::after { content:''; flex:1; height:1px; background:#eee; }
+.other-row { display: flex; gap: 8px; margin-bottom: 16px; }
+.other-input { flex: 1; padding: 10px 14px; border-radius: 10px; border: 2px solid #eee; font-size: 14px; outline: none; transition: border .15s; }
+.other-input:focus { border-color: #e8344e; }
+.request-btn { padding: 10px 16px; border-radius: 10px; border: none; background: #fff0f2; color: #e8344e; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background .15s; }
+.request-btn:hover { background: #ffdde2; }
+.login-btn { width: 100%; padding: 14px; border-radius: 12px; background: #e8344e; color: white; font-size: 16px; font-weight: 700; border: none; cursor: pointer; transition: background .15s; margin-top: 4px; }
 .login-btn:hover { background: #c0213a; }
 .login-btn:disabled { background: #ccc; cursor: not-allowed; }
 .loading-tip { font-size: 12px; color: #aaa; margin-top: 10px; }
+.toast { position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%); background: #1d1d1f; color: white; padding: 12px 24px; border-radius: 12px; font-size: 13px; z-index: 999; opacity: 0; transition: opacity .3s; pointer-events: none; }
+.toast.show { opacity: 1; }
 
 /* ── 主页面 ── */
 #main-page { display: none; }
@@ -145,9 +154,16 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
     <div class="login-label">选择你的 AM 名字</div>
     <div id="am-grid"><span class="loading-tip">加载中…</span></div>
     <button class="login-btn" id="login-btn" disabled>查看我的看板 →</button>
+    <div class="divider">或者输入其他名字</div>
+    <div class="other-row">
+      <input class="other-input" id="other-input" placeholder="输入 AM 名字，如：夏日" maxlength="20"
+        oninput="onOtherInput()" onkeydown="if(event.key==='Enter')requestReport()">
+      <button class="request-btn" id="request-btn" onclick="requestReport()" disabled>📩 请求生成</button>
+    </div>
     <div class="loading-tip" id="load-status"></div>
   </div>
 </div>
+<div class="toast" id="toast"></div>
 
 <div id="main-page">
   <div class="banner">
@@ -463,6 +479,77 @@ function toggleDetail(idx) {
   document.querySelectorAll('.dr.open').forEach(r => r.classList.remove('open'));
   document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'));
   if (!isOpen) { detail.classList.add('open'); row.classList.add('expanded'); }
+}
+
+// ── 其他AM输入 ──
+function onOtherInput() {
+  const v = document.getElementById('other-input').value.trim();
+  document.getElementById('request-btn').disabled = v.length === 0;
+  // 取消常用AM的选中状态
+  if (v) {
+    document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
+    document.getElementById('login-btn').disabled = true;
+  }
+}
+
+function requestReport() {
+  const name = document.getElementById('other-input').value.trim();
+  if (!name) return;
+
+  // 先检查 data.json 里有没有这个AM的数据
+  if (DATA && DATA.ams && DATA.ams[name] && !DATA.ams[name].placeholder && DATA.ams[name].merchants && DATA.ams[name].merchants.length > 0) {
+    loadAM(name);
+    return;
+  }
+
+  // 没有数据 → 发 hi 消息给青青触发生成
+  const hiUrl = `https://hi.xiaohongshu.com/im?target=chenxinyi11@xiaohongshu.com`;
+  const msg = `@青青 请帮我生成违规看板数据，AM名字：${name}`;
+
+  // 复制消息到剪贴板 + 打开 hi
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(msg).then(() => {
+      showToast(`消息已复制到剪贴板，正在打开 hi…`);
+      setTimeout(() => window.open(hiUrl, '_blank'), 800);
+    });
+  } else {
+    window.open(hiUrl, '_blank');
+  }
+
+  // 同时显示状态
+  const btn = document.getElementById('request-btn');
+  btn.textContent = '⏳ 已发送请求';
+  btn.disabled = true;
+  document.getElementById('load-status').textContent =
+    `已请求生成「${name}」的数据，青青处理完成后（约20分钟）刷新此页面即可查看`;
+
+  // 轮询等待数据
+  let tries = 0;
+  const poll = setInterval(async () => {
+    tries++;
+    try {
+      const resp = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
+      const newData = await resp.json();
+      if (newData.ams && newData.ams[name] && !newData.ams[name].placeholder && newData.ams[name].merchants && newData.ams[name].merchants.length > 0) {
+        clearInterval(poll);
+        DATA = newData;
+        showToast(`「${name}」的数据已生成，自动进入看板！`);
+        setTimeout(() => loadAM(name), 1000);
+      }
+    } catch(e) {}
+    if (tries > 60) { // 最多轮询30分钟
+      clearInterval(poll);
+      btn.textContent = '📩 请求生成';
+      btn.disabled = false;
+    }
+  }, 30000); // 每30秒轮询一次
+}
+
+function showToast(msg, ms = 3000) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), ms);
 }
 
 // ── 启动 ──
