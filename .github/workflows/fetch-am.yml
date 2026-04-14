@@ -1,0 +1,31 @@
+name: 查询AM商家数据
+
+on:
+  workflow_dispatch:
+    inputs:
+      am_name:
+        description: 'AM名字'
+        required: true
+        type: string
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 取RedBI数据并更新data.json
+        env:
+          AM_NAME: ${{ github.event.inputs.am_name }}
+          XHS_COOKIE: ${{ secrets.XHS_COOKIE }}
+        run: python3 .github/scripts/fetch_am_data.py
+
+      - name: 提交推送
+        run: |
+          git config user.name "violation-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "data: 更新 ${AM_NAME} 商家数据"
+          git push
