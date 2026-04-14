@@ -1,28 +1,17 @@
 {
-  "updatedAt": "2026-04-14T20:47:10.881958+08:00",
-  "checkedCount": 50,
-  "violationCount": 16,
+  "updatedAt": "2026-04-14T20:49:23.171526+08:00",
   "ams": {
-    "全部": {
-      "displayName": "全部（安芷/夏日/精卫/蘑朵）",
-      "category": "亲子生活·童装童鞋",
+    "安芷": {
+      "displayName": "安芷",
+      "category": "童装童鞋·亲子生活",
       "placeholder": false,
       "merchants": [
         {
-          "id": "63db9c9e505ba20001836df0",
-          "name": "番茄弟弟的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
           "id": "656c078b0852060001c9c6a1",
           "name": "TooYoo与你｜男童穿搭的店",
-          "todayViolations": 5,
-          "week7Violations": 5,
+          "week7Count": 0,
+          "todayCount": 2,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
@@ -33,75 +22,110 @@
               "isBlackBox": true
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "648bbcda2719510001c0d731",
           "name": "允儿妈童装的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
           "name": "NANO KIDS的店",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "todayItems": [],
+          "week7Count": 1,
+          "todayCount": 0,
           "week7Items": [
             {
               "reason": "封标跟风",
               "isBlackBox": true
             }
           ],
-          "lastViolationDate": "2026-04-07",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": true,
+          "amAdvice": ""
+        },
+        {
+          "id": "68873c8b4c27360015d58b7b",
+          "name": "balaOne官方旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "66128389745579000199f6e9",
+          "name": "Eer｜4.16早8.30二周年店庆的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6464d4b7ebbcb2000151ff6c",
           "name": "MiniBala旗舰店",
-          "todayViolations": 1,
-          "week7Violations": 2,
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "68873c8b4c27360015d58b7b",
-          "name": "balaOne官方旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "id": "6440b228a3c2d90001dccd85",
+          "name": "A.ND设计师童装的店",
+          "week7Count": 0,
+          "todayCount": 1,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [
+            {
+              "reason": "笔记含有不合规营销推广内容",
+              "isBlackBox": true
+            }
+          ],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "66128389745579000199f6e9",
-          "name": "Eer的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "id": "69796643a64ce7001555d053",
+          "name": "绮遇童年的店",
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63db9c9e505ba20001836df0",
+          "name": "番茄弟弟的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "649e92f6a71a610001e56574",
           "name": "Hush Puppies暇步士童装旗舰店",
-          "todayViolations": 1,
-          "week7Violations": 1,
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "服饰虚假宣传关键信息不规范",
@@ -113,65 +137,75 @@
               "status": "处罚中，可申诉（倒计时6天）"
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-14",
-          "isBlackBox": false
-        },
-        {
-          "id": "6440b228a3c2d90001dccd85",
-          "name": "A.ND设计师童装的店",
-          "todayViolations": 1,
-          "week7Violations": 1,
-          "todayItems": [
-            {
-              "reason": "笔记含有不合规营销推广内容",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "69796643a64ce7001555d053",
-          "name": "绮遇童年的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "643e3beffde23e0001a3365a",
           "name": "大小卷儿运营号的店",
-          "todayViolations": 0,
-          "week7Violations": 5,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "634fbaf214b5490001e58d53",
-          "name": "孕之优品旗舰店",
-          "todayViolations": 10,
-          "week7Violations": 10,
+          "id": "68c10f4aff2efd001543a4e3",
+          "name": "派町韩系童品的店",
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
           "todayItems": [
             {
-              "reason": "工业化流水号-经营账号-他相似笔记",
+              "reason": "拟真人像-已主动声明AIGC视频",
               "isBlackBox": true
             }
           ],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64390a986fdda10001e84590",
+          "name": "ppapa shop的店",
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "698595ba8ab5a80015f612af",
+          "name": "允儿妈萌宝的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67ad9357af01d90015f29f1a",
+          "name": "一秋妈设计师童装的店",
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
+          "todayItems": [
+            {
+              "reason": "商品价格信息异常-天眼识别水下商家",
+              "isBlackBox": true
+            }
+          ],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "673c0490f343ff00154c1f16",
           "name": "芽芽宝贝买手店的店",
-          "todayViolations": 9,
-          "week7Violations": 10,
+          "week7Count": 0,
+          "todayCount": 2,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
@@ -182,414 +216,255 @@
               "isBlackBox": true
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "62f5e934d248f10001590caa",
-          "name": "纽乐葆旗舰店",
-          "todayViolations": 2,
-          "week7Violations": 6,
-          "todayItems": [
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "isBlackBox": true
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "62837db44e9c1500018f1e46",
-          "name": "ZMA孕妇装旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
-        },
-        {
-          "id": "68c10f4aff2efd001543a4e3",
-          "name": "派町韩系童品的店",
-          "todayViolations": 1,
-          "week7Violations": 3,
-          "todayItems": [
-            {
-              "reason": "拟真人像-已主动声明AIGC视频",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "5fffc0459a79d5000109a2e4",
-          "name": "MASANON孕妇装的店",
-          "todayViolations": 1,
-          "week7Violations": 3,
-          "todayItems": [
-            {
-              "reason": "封标跟风",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "698595ba8ab5a80015f612af",
-          "name": "允儿妈萌宝的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "6482f8188b61ef00019f59df",
-          "name": "ELLE KIDS童装旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "64390a986fdda10001e84590",
-          "name": "ppapa shop的店",
-          "todayViolations": 0,
-          "week7Violations": 3,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6877591f673c1e001513e072",
           "name": "佳宝北美的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
           "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "67ad9357af01d90015f29f1a",
-          "name": "一秋妈设计师童装的店",
-          "todayViolations": 1,
-          "week7Violations": 1,
-          "todayItems": [
-            {
-              "reason": "商品价格信息异常-天眼识别水下商家",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "62d27c563d1b6a000114fe9e",
           "name": "河南伊日服装的店的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6482f8188b61ef00019f59df",
+          "name": "ELLE KIDS童装旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "69ba4ce6fb821000151f7fe7",
+          "name": "悦禾4号店的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6296050f56228a000189da4c",
           "name": "桑桑姐～的店",
-          "todayViolations": 0,
-          "week7Violations": 2,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61d84bbcf64538000105ec02",
+          "name": "微怡麻麻的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6541b35043e89d0001bcbedc",
           "name": "咸柠七baby童装店的店",
-          "todayViolations": 0,
-          "week7Violations": 4,
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
           "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-12",
-          "isBlackBox": false
-        },
-        {
-          "id": "68abc7d5ce578e00151c736d",
-          "name": "青岛即墨童装源头工厂的的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "6108f489c1c7880001345af1",
-          "name": "LEOHAPPY设计师童装亲子装的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "5fd1fa47382d3400012e598a",
-          "name": "STRAFBRG舒适宝旗舰店",
-          "todayViolations": 1,
-          "week7Violations": 4,
-          "todayItems": [
-            {
-              "reason": "笔记包含虚假营销的内容",
-              "isBlackBox": false
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": false
-        },
-        {
-          "id": "65267a467fa15200013b9c5c",
-          "name": "蚕多贝的店",
-          "todayViolations": 0,
-          "week7Violations": 2,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-12",
-          "isBlackBox": false
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
           "name": "蕃妈设计师童装的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65267a467fa15200013b9c5c",
+          "name": "蚕多贝的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6108f489c1c7880001345af1",
+          "name": "LEOHAPPY设计师童装亲子装的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
           "name": "啵小爸BOZPAPA易发服装的店",
-          "todayViolations": 3,
-          "week7Violations": 10,
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "65dc828a6902e500017da185",
-          "name": "十里屋的店",
-          "todayViolations": 1,
-          "week7Violations": 6,
-          "todayItems": [
-            {
-              "reason": "封标跟风",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
-        },
-        {
-          "id": "61d84bbcf64538000105ec02",
-          "name": "微怡麻麻的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "6752630f3eb73600158af708",
-          "name": "满妮mannymommy的店",
-          "todayViolations": 0,
-          "week7Violations": 6,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
-        },
-        {
-          "id": "69ba4ce6fb821000151f7fe7",
-          "name": "悦禾4号店的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "660a92f5745579000199ae01",
-          "name": "PAW&PAW的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
-        },
-        {
-          "id": "664a0b72c7b2730001d99b3e",
-          "name": "限定甜妹Pink童装的店",
-          "todayViolations": 0,
-          "week7Violations": 10,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-11",
-          "isBlackBox": false
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "683952c4a1a15b00153345f4",
           "name": "歌旗高定童装的店",
-          "todayViolations": 1,
-          "week7Violations": 5,
+          "week7Count": 0,
+          "todayCount": 1,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "违规营销-包运费虚假",
               "isBlackBox": false
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": false
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "64f6d65fdace090001ca48b2",
           "name": "真维斯童装旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 2,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-06",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "647da6a739b63800015abbb6",
-          "name": "嘟嘟家童装店旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 8,
-          "todayItems": [],
+          "id": "6752630f3eb73600158af708",
+          "name": "满妮mannymommy的店",
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-12",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "68c1479efa43320015cc37cf",
           "name": "小首尔韩系童品的店",
-          "todayViolations": 0,
-          "week7Violations": 2,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-10",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "663c725197af9100018e1cf1",
           "name": "安踏儿童服饰专卖店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
           "name": "little MO&Co.旗舰店",
-          "todayViolations": 0,
-          "week7Violations": 3,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-08",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "660a92f5745579000199ae01",
+          "name": "PAW&PAW的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "664a0b72c7b2730001d99b3e",
+          "name": "限定甜妹Pink童装的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "647da6a739b63800015abbb6",
+          "name": "嘟嘟家童装店旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "6504215e8265a10001b24aa3",
           "name": "贝贝Miki童装的店",
-          "todayViolations": 0,
-          "week7Violations": 4,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-12",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
           "name": "蓝鲸童话馆的店",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "todayItems": [],
+          "week7Count": 0,
+          "todayCount": 0,
           "week7Items": [],
-          "lastViolationDate": "2026-04-11",
-          "isBlackBox": false
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "641af5a79cd18100012edfe8",
-          "name": "六月喜鹊月子服的店",
-          "todayViolations": 0,
-          "week7Violations": 1,
+          "id": "68abc7d5ce578e00151c736d",
+          "name": "青岛即墨童装源头工厂的的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
           "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-09",
-          "isBlackBox": false
-        },
-        {
-          "id": "636101a583f0d000019dc509",
-          "name": "ELLIE&LUKE的店",
-          "todayViolations": 0,
-          "week7Violations": 5,
-          "todayItems": [],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-12",
-          "isBlackBox": false
-        },
-        {
-          "id": "662df71ac7b2730001531a8b",
-          "name": "WOOKIDS 4号店的店",
-          "todayViolations": 2,
-          "week7Violations": 5,
-          "todayItems": [
-            {
-              "reason": "商品价格信息异常",
-              "isBlackBox": true
-            }
-          ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
           "id": "627ca149928e3300017d3a8c",
           "name": "chenbebe的店",
-          "todayViolations": 3,
-          "week7Violations": 10,
+          "week7Count": 0,
+          "todayCount": 3,
+          "week7Items": [],
           "todayItems": [
             {
               "reason": "售卖山寨假货",
@@ -604,21 +479,1133 @@
               "isBlackBox": true
             }
           ],
-          "week7Items": [],
-          "lastViolationDate": "2026-04-13",
-          "isBlackBox": true
+          "isBlackBox": false,
+          "amAdvice": ""
         },
         {
-          "id": "643b7491da28d90001319a66",
-          "name": "小懒孕期穿搭的店",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "todayItems": [],
+          "id": "662df71ac7b2730001531a8b",
+          "name": "WOOKIDS 4号店的店",
+          "week7Count": 0,
+          "todayCount": 1,
           "week7Items": [],
-          "lastViolationDate": null,
-          "isBlackBox": false
+          "todayItems": [
+            {
+              "reason": "商品价格信息异常",
+              "isBlackBox": true
+            }
+          ],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "648fe9c948b95a0001e0acd0",
+          "name": "祯有范童装的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6583aa4f4f737f0001e2b7cb",
+          "name": "柒柒公主日常穿搭的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "664026a0a57f5800010e52ff",
+          "name": "右欧童装旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65aa5f49c787340001b1e335",
+          "name": "乔一麻麻童装铺的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6440342d76c7f600018e6691",
+          "name": "ee.11的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "62f8bde1d248f10001591312",
+          "name": "小粗腿原创童装的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "68c13794d8d80d00157a53d1",
+          "name": "甜柚baby穿搭的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "699eb97b3f2158001514430d",
+          "name": "布丁kids童品5店的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "673d869a8413dc0015bd0c00",
+          "name": "郑阿囍AXIStudio童装的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65d41c926902e500017d58f9",
+          "name": "奶牛布克的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "667e13b153fb2b00014e956f",
+          "name": "antakids旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "58e7398ea8e29113b1245082",
+          "name": "爬爬papa旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "654875ebbffe73000155f879",
+          "name": "Bedhead Hats旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "66d6d1cc7b526000163ace44",
+          "name": "rosa kids的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "667250e95d874700016fcde3",
+          "name": "MOONSTAR精萌专卖店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65d87510cce9850001661aa2",
+          "name": "ASICS KIDS亚瑟士旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64acee70320d73000143e007",
+          "name": "牧童童鞋专卖店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63e4adee42138f00017aebb1",
+          "name": "oumai baby的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6243e73e6092b6000195bbc8",
+          "name": "VandV Children的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "66d6cf5b7b526000163ace0a",
+          "name": "开野OPEN VIEW旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6177f8a2f1d3f70001cc35f6",
+          "name": "CHUCHUNA 丘丘纳旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "668b3825b798130001a264cf",
+          "name": "new balance儿童专卖店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "660a4413d0c9250001621e05",
+          "name": "搬运熊母婴的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "62d4fcf3f233e7000156f4d5",
+          "name": "Rylee+Cru的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "645dc9cfade0810001626e8e",
+          "name": "WOOLLY KIDS旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "59804d7f1d97713ae461bcd2",
+          "name": "KIDSING旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6724b50ed48b0b0015101a17",
+          "name": "米宝兔 Miya Land的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "5ec355e943f6f00001bd591f",
+          "name": "babylove旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "608a5f12c7b18c00010287e8",
+          "name": "littlebluelamb小蓝羊旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65d2ff5e6902e500017d5081",
+          "name": "Seeyoo一颗西柚的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "60f69aab7f5c81000184435b",
+          "name": "小小lenfance的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65d70435cce9850001660dc7",
+          "name": "FILAKIDS旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65f2aaed0d7eaa0001210996",
+          "name": "ExtraOne旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "630dd214d855f300010fb952",
+          "name": "MINI A TURE COPENHAGEN旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "656db388c4cfac0001b9e4a2",
+          "name": "jeep儿童鞋旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6881a9e33519cf001598ac57",
+          "name": "igor童鞋旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "62c4e3cd43b3640001f327c4",
+          "name": "Potatooo Kidzvogue的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6141d6938357fd000188fcdf",
+          "name": "TOPSTAR童鞋旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65ec2dbf148a6f0001286f17",
+          "name": "ABCdoukids儿童鞋的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67a59d74141ecf00154d4f3c",
+          "name": "DoodleNoodle的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "68889cc9dc9d7b00151ba9c5",
+          "name": "北美销冠宝宝衣的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67ea4f8d17bb3b0015373241",
+          "name": "DOLPHIN HAHA的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "660d24ecf641fa00018ff8a8",
+          "name": "bundgaard旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "642d2ef06fdda1000104020a",
+          "name": "SparklingLucy的大宝的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "623972c83ddf6900011fddd9",
+          "name": "whitewheat旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67a2c23627115000157e6ce2",
+          "name": "QUINCY MAE旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63eaee90783b79000194ac24",
+          "name": "BREEZEsquare的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63e626ec783b790001948d47",
+          "name": "HARROLD哈罗德童装旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6301fabcdd53840001789987",
+          "name": "大a童品童鞋的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61c9586046835c0001fb4d71",
+          "name": "LittleNordicBaby的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "667a31794d44b6000116c6c7",
+          "name": "SMIBU旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64473882a3c2d90001dd0da7",
+          "name": "BeneBene童装旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63046ab77e09110001b7e018",
+          "name": "TINY ONE的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6225aaebc476840001a52d1e",
+          "name": "OLIVIO&CO旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64e30e8aec28e40001b7c549",
+          "name": "Tozmama 豆几妈旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64d5ccac884d8e0001429f0e",
+          "name": "SUNNY WHITE Green旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "653653f543e89d0001b283e3",
+          "name": "Seed and Fleur的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "667d237daf25610001f078dd",
+          "name": "The 12M Lab的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "687a117f99c7e800158a4cb2",
+          "name": "TheehT official旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61fe0155308ca100016f70fc",
+          "name": "Doctorbaby Gift的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "620e16bbd5c2f40001dca2af",
+          "name": "Jellycat旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6166d38a35ff4c000123058c",
+          "name": "拼酷旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "68d4a1223e2d240015c844be",
+          "name": "Tangle旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "643fbab876c7f600018e6137",
+          "name": "孩子气旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "5ac207371d977123278904e9",
+          "name": "牛听听旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67043ae3ba66fd0015501049",
+          "name": "乐乐上迪乐园的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65e8686b148a6f0001284c9e",
+          "name": "佛小伴IP系列的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "671a003bef81e60015a35cad",
+          "name": "Taaol Baby的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "5befbfed77e30817210c5b32",
+          "name": "TOI图益旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64b782084177e5000111c1ed",
+          "name": "趣味佳商贸馆的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "666ebbc8a6c67f0001bdcd6e",
+          "name": "可可妈很哇塞！的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "69ae95360919730015a30226",
+          "name": "畅享动力玩具绵绵的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64f82cd600efc800012abd27",
+          "name": "NYPC纽约客的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61bc27f5e77c13000100e1d9",
+          "name": "MY FIRST BOOK旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6661b53883cedf0001f5108c",
+          "name": "小熊与小小熊的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64b0f84fc46602000150f32f",
+          "name": "PLAYMOBIL摩比世界旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61792bbaf86a3e00013ae667",
+          "name": "Weekend手作的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6602a92a7455790001a6f61c",
+          "name": "Takbebe旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6706a96e0a76990016e0fbd7",
+          "name": "Nimo酱的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "652f5f7011a9dd0001166b98",
+          "name": "童趣爬爬垫阁的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "68a684de14795c0015a71e08",
+          "name": "优肯拼豆的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6267ca322855550001d3d8c6",
+          "name": "计客GiiKER旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64f477e9ae36980001e1106e",
+          "name": "大小王玩具屋的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "63da201e783b7900010d3fac",
+          "name": "淘嘟嘟的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65047209effd830001fa8fe6",
+          "name": "喜乐麻麻（双胞胎）的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "57a9548c8340c30cd8ab8c5b",
+          "name": "Hape哈佩旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6114f289fc67c90001f268b7",
+          "name": "凯叔讲故事旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "64a40dd159d5cb00016b3252",
+          "name": "驰誉模型CHIYU MODELS的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65323dfc11a9dd000116844b",
+          "name": "Spring buds旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "61824842dcd9710001814baa",
+          "name": "shukiku旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65325fdb4a095c00019d69eb",
+          "name": "爱贝儿母婴玩具的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6497a7823bb0f90001991c40",
+          "name": "FOXING汽车模型🦊的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "68aa9253e316ae001599fa64",
+          "name": "爪爪小鼠宝的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "62595cd546050e000128a47e",
+          "name": "ROKR若客旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "5fd35d426d35690001287451",
+          "name": "SmartGames爱思极旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6459af53625b5b0001e124a6",
+          "name": "squishy慢回弹面包工厂的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "613ef8d49aba3200019f3b47",
+          "name": "秋名山车管所的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "664c0cc997af9100018eb734",
+          "name": "Ezz图韵小铺的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "686e789142b9b30015d2afae",
+          "name": "多八点的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "622bf9d1054308000110ac9d",
+          "name": "PANDA FACTORY熊猫工厂的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "646c8ed5275ad100015c2471",
+          "name": "Beckmann贝克曼旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6705fa24a9bf3400163bc3ff",
+          "name": "仙子有个魔法棒的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "65f9220156541c00011d779b",
+          "name": "LiSSHA的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6603c1aff0b5350001bad3ac",
+          "name": "Lumibricks灯搭旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "6481a3e8aedab5000169078b",
+          "name": "辛安小角落的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "67ab027037d4940016bcaaa0",
+          "name": "九号潮玩工程师的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "66cd5b5d294d28001592b01e",
+          "name": "Rugabub旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "5c4abf6775e4f07923d98e55",
+          "name": "美乐童年旗舰店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
+        },
+        {
+          "id": "671dcfc27f3e1d0015a42114",
+          "name": "羽羽麻麻挑好物的店",
+          "week7Count": 0,
+          "todayCount": 0,
+          "week7Items": [],
+          "todayItems": [],
+          "isBlackBox": false,
+          "amAdvice": ""
         }
       ]
+    },
+    "夏日": {
+      "displayName": "夏日",
+      "category": "亲子生活",
+      "placeholder": true,
+      "merchants": []
+    },
+    "精卫": {
+      "displayName": "精卫",
+      "category": "亲子生活",
+      "placeholder": true,
+      "merchants": []
+    },
+    "蘑朵": {
+      "displayName": "蘑朵",
+      "category": "亲子生活",
+      "placeholder": true,
+      "merchants": []
     }
   }
 }
