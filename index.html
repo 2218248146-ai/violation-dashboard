@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>违规风向看板</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f7; color: #1d1d1f; min-height: 100vh; }
+
+/* ── 登录页 ── */
+#login-page {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 100vh; background: linear-gradient(160deg, #fbeaec 0%, #f5f5f7 60%);
+}
+.login-box {
+  background: white; border-radius: 20px; padding: 44px 48px 40px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.08); width: 380px; text-align: center;
+}
+.login-logo { font-size: 40px; margin-bottom: 12px; }
+.login-title { font-size: 22px; font-weight: 800; color: #1d1d1f; margin-bottom: 6px; }
+.login-sub { font-size: 13px; color: #888; margin-bottom: 32px; }
+.login-label { font-size: 13px; color: #555; text-align: left; margin-bottom: 8px; font-weight: 500; }
+.am-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 28px; }
+.am-btn {
+  padding: 14px 10px; border-radius: 12px; border: 2px solid #eee;
+  background: #fafafa; font-size: 15px; font-weight: 600; cursor: pointer;
+  transition: all .15s; color: #333;
+}
+.am-btn:hover { border-color: #e8344e; background: #fff5f6; color: #e8344e; }
+.am-btn.selected { border-color: #e8344e; background: #e8344e; color: white; }
+.login-input {
+  width: 100%; padding: 12px 16px; border-radius: 10px; border: 1.5px solid #e0e0e0;
+  font-size: 15px; outline: none; transition: border-color .15s; margin-bottom: 16px;
+}
+.login-input:focus { border-color: #e8344e; }
+.login-btn {
+  width: 100%; padding: 14px; border-radius: 12px; background: #e8344e;
+  color: white; font-size: 16px; font-weight: 700; border: none; cursor: pointer;
+  transition: background .15s;
+}
+.login-btn:hover { background: #c0213a; }
+.login-btn:disabled { background: #ccc; cursor: not-allowed; }
+
+/* ── 主页面 ── */
+#main-page { display: none; }
+
+.banner {
+  background: linear-gradient(135deg, #e8344e 0%, #c0213a 60%, #8b1a2e 100%);
+  color: white; padding: 22px 40px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.banner-left h1 { font-size: 22px; font-weight: 800; }
+.banner-left p { margin-top: 4px; font-size: 12px; opacity: 0.8; }
+.banner-right { display: flex; align-items: center; gap: 14px; }
+.am-chip {
+  background: rgba(255,255,255,0.2); border-radius: 20px;
+  padding: 6px 16px; font-size: 13px; font-weight: 600;
+}
+.switch-btn {
+  background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+  color: white; padding: 6px 14px; border-radius: 8px; font-size: 12px;
+  cursor: pointer; transition: background .15s;
+}
+.switch-btn:hover { background: rgba(255,255,255,0.25); }
+
+.main { max-width: 1200px; margin: 0 auto; padding: 28px 24px; }
+
+/* tabs */
+.tabs { display: flex; gap: 0; border-bottom: 2px solid #eee; margin-bottom: 28px; }
+.tab {
+  padding: 12px 28px; font-size: 14px; cursor: pointer;
+  border-bottom: 3px solid transparent; margin-bottom: -2px;
+  color: #888; font-weight: 500; transition: all .15s;
+}
+.tab.active { color: #e8344e; border-bottom-color: #e8344e; font-weight: 700; }
+.tab:hover:not(.active) { color: #555; }
+
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* 摘要 */
+.summary-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 28px; }
+.summary-card {
+  background: white; border-radius: 14px; padding: 20px 22px;
+  border: 1px solid #eee; text-align: center;
+}
+.summary-card .s-number { font-size: 36px; font-weight: 800; margin: 6px 0 4px; }
+.summary-card .s-label { font-size: 12px; color: #888; }
+.summary-card .s-sub { font-size: 11px; color: #bbb; margin-top: 4px; }
+.s-total .s-number { color: #1d1d1f; }
+.s-violation .s-number { color: #e8344e; }
+.s-blackbox .s-number { color: #b5190e; }
+.s-safe .s-number { color: #1a9950; }
+
+/* 违规风向 */
+.violation-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 32px; }
+.vc { border-radius: 14px; padding: 18px 18px; color: white; }
+.vc-title { font-size: 13px; font-weight: 700; margin-bottom: 12px; }
+.vc ol { padding-left: 16px; }
+.vc li { font-size: 12px; line-height: 1.7; margin-bottom: 8px; opacity: 0.93; }
+.vc-red { background: linear-gradient(135deg, #e8344e, #c92b41); }
+.vc-orange { background: linear-gradient(135deg, #f07a1a, #d96a10); }
+.vc-purple { background: linear-gradient(135deg, #7b5ef6, #6244d4); }
+.vc-teal { background: linear-gradient(135deg, #0ca678, #089163); }
+
+/* section */
+.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.section-header h2 { font-size: 16px; font-weight: 700; }
+.tag { font-size: 11px; color: #e8344e; background: #fff0f2; border: 1px solid #ffcdd4; padding: 2px 8px; border-radius: 10px; }
+.section-gap { margin-bottom: 36px; }
+.updated { font-size: 12px; color: #bbb; margin-bottom: 14px; margin-top: -6px; }
+
+/* 基准卡片 */
+.metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.metric-card { background: white; border-radius: 14px; padding: 20px 22px; border: 1px solid #eee; }
+.metric-card .mc-title { font-size: 13px; font-weight: 700; margin-bottom: 14px; }
+.metric-row { display: flex; justify-content: space-between; align-items: center; padding: 7px 0; border-bottom: 1px solid #f5f5f5; }
+.metric-row:last-of-type { border-bottom: none; }
+.metric-row .lbl { font-size: 12px; color: #666; }
+.metric-row .val { font-size: 17px; font-weight: 800; }
+.val.red { color: #e8344e; } .val.blue { color: #1a7fe8; } .val.gray { color: #999; }
+.metric-note { margin-top: 12px; font-size: 11px; color: #aaa; border-top: 1px solid #f0f0f0; padding-top: 10px; }
+
+/* 搜索 */
+.search-bar {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+}
+.search-input {
+  padding: 9px 14px; border-radius: 8px; border: 1.5px solid #e0e0e0;
+  font-size: 13px; outline: none; width: 260px; transition: border-color .15s;
+}
+.search-input:focus { border-color: #e8344e; }
+.filter-btn {
+  padding: 8px 14px; border-radius: 8px; font-size: 12px; cursor: pointer;
+  border: 1.5px solid #eee; background: white; color: #555; transition: all .15s;
+}
+.filter-btn.active { border-color: #e8344e; background: #fff0f2; color: #e8344e; font-weight: 600; }
+
+/* 商家表格 */
+.merchant-table { width: 100%; border-collapse: collapse; background: white; border-radius: 14px; overflow: hidden; border: 1px solid #eee; }
+.merchant-table thead tr { background: #fafafa; }
+.merchant-table th { padding: 11px 16px; font-size: 11px; color: #999; font-weight: 600; text-align: left; border-bottom: 1px solid #eee; }
+.merchant-table td { padding: 13px 16px; font-size: 13px; border-bottom: 1px solid #f5f5f5; vertical-align: top; line-height: 1.5; }
+.merchant-table tr:last-child td { border-bottom: none; }
+.merchant-table tbody tr { cursor: pointer; transition: background .1s; }
+.merchant-table tbody tr:hover td { background: #fef9f9; }
+.merchant-table tbody tr.expanded td { background: #fff5f6; }
+
+/* 展开行 */
+.detail-row { display: none; }
+.detail-row.open { display: table-row; }
+.detail-row td { background: #fff8f8 !important; padding: 0 !important; border-bottom: 1px solid #f5f5f5 !important; }
+.detail-inner { padding: 16px 20px 20px; }
+.detail-inner h4 { font-size: 13px; font-weight: 700; color: #555; margin-bottom: 12px; }
+.violation-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 14px; background: white; border-radius: 10px; margin-bottom: 8px; border: 1px solid #eee; }
+.violation-item:last-child { margin-bottom: 0; }
+.vi-badges { display: flex; flex-direction: column; gap: 4px; min-width: 54px; }
+.vi-content { flex: 1; }
+.vi-reason { font-size: 13px; font-weight: 600; color: #1d1d1f; margin-bottom: 4px; }
+.vi-date { font-size: 11px; color: #aaa; }
+.vi-tip { font-size: 12px; color: #666; margin-top: 6px; background: #f8f8f8; padding: 6px 10px; border-radius: 6px; border-left: 3px solid #e8344e; }
+.no-violation-row td { text-align: center; color: #bbb; font-size: 13px; padding: 30px !important; }
+
+/* 徽标 */
+.badge { display: inline-block; padding: 2px 7px; border-radius: 7px; font-size: 10px; font-weight: 700; }
+.badge-bb { background: #fee; color: #c0213a; border: 1px solid #fcc; }
+.badge-wb { background: #f0f6ff; color: #1a5fbd; border: 1px solid #cde; }
+.badge-ok { background: #f0faf4; color: #1a7a4a; border: 1px solid #b8e6cb; }
+.badge-today { background: #fff8e6; color: #b87a00; border: 1px solid #f5d87a; }
+.count-chip { font-weight: 800; color: #e8344e; }
+
+/* 健康商家 */
+.healthy-wrap { background: white; border-radius: 14px; padding: 18px 22px; border: 1px solid #eee; display: flex; flex-wrap: wrap; gap: 8px; }
+.healthy-chip { background: #f0faf4; border: 1px solid #b8e6cb; color: #1a7a4a; padding: 5px 14px; border-radius: 20px; font-size: 12px; }
+
+/* 空状态 */
+.empty { text-align: center; padding: 60px; color: #ccc; font-size: 14px; }
+
+/* 苍穹链接 */
+.crm-link { font-size: 11px; color: #aaa; text-decoration: none; }
+.crm-link:hover { color: #e8344e; }
+
+/* 响应式 */
+@media (max-width: 900px) {
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .violation-grid { grid-template-columns: repeat(2, 1fr); }
+  .metric-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── 登录页 ── -->
+<div id="login-page">
+  <div class="login-box">
+    <div class="login-logo">👗</div>
+    <div class="login-title">违规风向看板</div>
+    <div class="login-sub">小红书电商 · 亲子生活类目</div>
+    <div class="login-label">选择你的 AM 名字</div>
+    <div class="am-grid" id="am-grid">
+      <!-- 动态生成 -->
+    </div>
+    <div class="login-label">或手动输入</div>
+    <input class="login-input" id="am-input" placeholder="输入 AM 姓名..." autocomplete="off">
+    <button class="login-btn" id="login-btn" disabled>查看我的看板 →</button>
+  </div>
+</div>
+
+<!-- ── 主页面 ── -->
+<div id="main-page">
+  <div class="banner">
+    <div class="banner-left">
+      <h1 id="banner-title">👗 违规风向看板</h1>
+      <p id="banner-sub"></p>
+    </div>
+    <div class="banner-right">
+      <span class="am-chip" id="am-chip"></span>
+      <button class="switch-btn" onclick="switchAM()">切换 AM</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('overview', this)">📊 违规看板</div>
+      <div class="tab" onclick="switchTab('merchants', this)">🏪 商家明细</div>
+    </div>
+
+    <!-- 违规看板 tab -->
+    <div class="tab-content active" id="tab-overview">
+
+      <!-- 摘要数字 -->
+      <div class="summary-row">
+        <div class="summary-card s-total">
+          <div class="s-label">监控商家总数</div>
+          <div class="s-number" id="stat-total">-</div>
+          <div class="s-sub" id="stat-category"></div>
+        </div>
+        <div class="summary-card s-violation">
+          <div class="s-label">近7日有违规</div>
+          <div class="s-number" id="stat-violation">-</div>
+          <div class="s-sub" id="stat-violation-pct"></div>
+        </div>
+        <div class="summary-card s-blackbox">
+          <div class="s-label">含黑盒处罚</div>
+          <div class="s-number" id="stat-blackbox">-</div>
+          <div class="s-sub">⚠️ 商家无感知，需重点跟进</div>
+        </div>
+        <div class="summary-card s-safe">
+          <div class="s-label">近7日无违规</div>
+          <div class="s-number" id="stat-safe">-</div>
+          <div class="s-sub">经营状态健康</div>
+        </div>
+      </div>
+
+      <!-- 基准对比 -->
+      <div class="section-gap">
+        <div class="section-header">
+          <h2>📈 违规基准对比</h2>
+          <span class="tag" id="stat-tag">近7日</span>
+        </div>
+        <p class="updated" id="updated-label"></p>
+        <div class="metric-grid">
+          <div class="metric-card">
+            <div class="mc-title">🔴 高风险商家</div>
+            <div class="metric-row"><span class="lbl">违规条数最高</span><span class="val red" id="m-max">-</span></div>
+            <div class="metric-row"><span class="lbl">含黑盒处罚</span><span class="val red" id="m-blackbox-pct">-</span></div>
+            <div class="metric-row"><span class="lbl">最常见违规类型</span><span class="val red" id="m-top-type">-</span></div>
+            <div class="metric-note" id="m-top-merchants"></div>
+          </div>
+          <div class="metric-card">
+            <div class="mc-title">📊 整体均值</div>
+            <div class="metric-row"><span class="lbl">人均近7日违规</span><span class="val blue" id="m-avg">-</span></div>
+            <div class="metric-row"><span class="lbl">有违规商家占比</span><span class="val blue" id="m-pct">-</span></div>
+            <div class="metric-row"><span class="lbl">黑盒处罚商家占比</span><span class="val blue" id="m-bb-pct">-</span></div>
+            <div class="metric-note" id="m-note"></div>
+          </div>
+          <div class="metric-card">
+            <div class="mc-title">⚠️ 今日新增</div>
+            <div class="metric-row"><span class="lbl">今日新增违规商家</span><span class="val gray" id="m-today">-</span></div>
+            <div class="metric-row"><span class="lbl">今日新增黑盒</span><span class="val gray" id="m-today-bb">-</span></div>
+            <div class="metric-row"><span class="lbl">可申诉白盒</span><span class="val gray" id="m-today-wb">-</span></div>
+            <div class="metric-note">白盒处罚商家可申诉，AM 可主动推动整改</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 违规风向 -->
+      <div class="section-gap">
+        <div class="section-header">
+          <h2>🔍 本周违规类型风向</h2>
+          <span class="tag">基于违规记录归因分析</span>
+        </div>
+        <div class="violation-grid" id="violation-trends">
+          <!-- 动态生成 -->
+        </div>
+      </div>
+
+      <!-- 健康商家 -->
+      <div class="section-gap">
+        <div class="section-header">
+          <h2>✅ 近7日无违规商家</h2>
+          <span class="tag" id="healthy-count-tag"></span>
+        </div>
+        <div class="healthy-wrap" id="healthy-wrap"></div>
+      </div>
+    </div>
+
+    <!-- 商家明细 tab -->
+    <div class="tab-content" id="tab-merchants">
+      <div class="search-bar">
+        <input class="search-input" id="search-input" placeholder="🔍 搜索商家名称..." oninput="filterMerchants()">
+        <button class="filter-btn active" id="filter-all" onclick="setFilter('all', this)">全部</button>
+        <button class="filter-btn" id="filter-today" onclick="setFilter('today', this)">今日有违规</button>
+        <button class="filter-btn" id="filter-blackbox" onclick="setFilter('blackbox', this)">含黑盒</button>
+        <button class="filter-btn" id="filter-safe" onclick="setFilter('safe', this)">无违规</button>
+      </div>
+
+      <table class="merchant-table" id="merchant-table">
+        <thead>
+          <tr>
+            <th style="width:26%">商家名称</th>
+            <th style="width:9%">今日新增</th>
+            <th style="width:9%">近7日</th>
+            <th style="width:12%">处罚性质</th>
+            <th style="width:44%">AM 建议</th>
+          </tr>
+        </thead>
+        <tbody id="merchant-tbody">
+          <!-- 动态生成 -->
+        </tbody>
+      </table>
+    </div>
+
+  </div><!-- /main -->
+</div><!-- /main-page -->
+
+<script>
+// ── 数据 ──
+const DATA = {"updatedAt":"2026-04-14T18:27:46+08:00","ams":{"安芷":{"displayName":"安芷","category":"童装童鞋·亲子生活","merchants":[{"id":"63db9c9e505ba20001836df0","name":"番茄弟弟的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"656c078b0852060001c9c6a1","name":"TooYoo与你｜男童穿搭的店","todayCount":5,"week7Count":5,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"工业化流水号-经营账号-他相似笔记","isBlackBox":true,"isToday":true},{"date":"2026-04-14","reason":"商品价格信息异常","isBlackBox":true,"isToday":true}]},{"id":"648bbcda2719510001c0d731","name":"允儿妈童装的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"6489c7d1ebbcb2000155641e","name":"NANO KIDS的店","todayCount":0,"week7Count":1,"hasBlackBox":true,"violations":[{"date":"2026-04-07","reason":"封标跟风","isBlackBox":true,"isToday":false}]},{"id":"6464d4b7ebbcb2000151ff6c","name":"MiniBala旗舰店","todayCount":1,"week7Count":2,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"工业化流水号-经营账号-他相似笔记","isBlackBox":true,"isToday":true}]},{"id":"68873c8b4c27360015d58b7b","name":"balaOne官方旗舰店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"66128389745579000199f6e9","name":"Eer的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"649e92f6a71a610001e56574","name":"Hush Puppies暇步士童装旗舰店","todayCount":1,"week7Count":1,"hasBlackBox":false,"violations":[{"date":"2026-04-14","reason":"服饰虚假宣传关键信息不规范","isBlackBox":false,"isToday":true}]},{"id":"6440b228a3c2d90001dccd85","name":"A.ND设计师童装的店","todayCount":1,"week7Count":1,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"笔记含有不合规营销推广内容","isBlackBox":true,"isToday":true}]},{"id":"69796643a64ce7001555d053","name":"绮遇童年的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"643e3beffde23e0001a3365a","name":"大小卷儿运营号的店","todayCount":0,"week7Count":5,"hasBlackBox":false,"violations":[]},{"id":"634fbaf214b5490001e58d53","name":"孕之优品旗舰店","todayCount":10,"week7Count":10,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"工业化流水号-经营账号-他相似笔记","isBlackBox":true,"isToday":true}]},{"id":"673c0490f343ff00154c1f16","name":"芽芽宝贝买手店的店","todayCount":9,"week7Count":10,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"工业化流水号-经营账号-他相似笔记","isBlackBox":true,"isToday":true},{"date":"2026-04-14","reason":"笔记关联商品价格信息异常","isBlackBox":true,"isToday":true}]},{"id":"62f5e934d248f10001590caa","name":"纽乐葆旗舰店","todayCount":2,"week7Count":6,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"笔记存在创作质量不佳的内容","isBlackBox":true,"isToday":true},{"date":"2026-04-14","reason":"工业化流水号-经营账号-他相似笔记","isBlackBox":true,"isToday":true}]},{"id":"62837db44e9c1500018f1e46","name":"ZMA孕妇装旗舰店","todayCount":0,"week7Count":1,"hasBlackBox":false,"violations":[]},{"id":"68c10f4aff2efd001543a4e3","name":"派町韩系童品的店","todayCount":1,"week7Count":3,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"拟真人像-已主动声明AIGC视频","isBlackBox":true,"isToday":true}]},{"id":"5fffc0459a79d5000109a2e4","name":"MASANON孕妇装的店","todayCount":1,"week7Count":3,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"封标跟风","isBlackBox":true,"isToday":true}]},{"id":"698595ba8ab5a80015f612af","name":"允儿妈萌宝的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"6482f8188b61ef00019f59df","name":"ELLE KIDS童装旗舰店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"64390a986fdda10001e84590","name":"ppapa shop的店","todayCount":0,"week7Count":3,"hasBlackBox":false,"violations":[]},{"id":"6877591f673c1e001513e072","name":"佳宝北美的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"67ad9357af01d90015f29f1a","name":"一秋妈设计师童装的店","todayCount":1,"week7Count":1,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"商品价格信息异常-天眼识别水下商家","isBlackBox":true,"isToday":true}]},{"id":"62d27c563d1b6a000114fe9e","name":"河南伊日服装的店的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"6296050f56228a000189da4c","name":"桑桑姐～的店","todayCount":0,"week7Count":2,"hasBlackBox":false,"violations":[]},{"id":"6541b35043e89d0001bcbedc","name":"咸柠七baby童装店的店","todayCount":0,"week7Count":4,"hasBlackBox":false,"violations":[]},{"id":"68abc7d5ce578e00151c736d","name":"青岛即墨童装源头工厂的的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"6108f489c1c7880001345af1","name":"LEOHAPPY设计师童装亲子装的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"5fd1fa47382d3400012e598a","name":"STRAFBRG舒适宝旗舰店","todayCount":1,"week7Count":4,"hasBlackBox":false,"violations":[{"date":"2026-04-14","reason":"笔记包含虚假营销的内容","isBlackBox":false,"isToday":true}]},{"id":"65267a467fa15200013b9c5c","name":"蚕多贝的店","todayCount":0,"week7Count":2,"hasBlackBox":false,"violations":[]},{"id":"66d6db7dd550aa0015e2a532","name":"蕃妈设计师童装的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"66c5b7d4077c7f0015a76a8f","name":"啵小爸BOZPAPA易发服装的店","todayCount":3,"week7Count":10,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"商品价格信息异常","isBlackBox":true,"isToday":true}]},{"id":"65dc828a6902e500017da185","name":"十里屋的店","todayCount":1,"week7Count":6,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"封标跟风","isBlackBox":true,"isToday":true}]},{"id":"61d84bbcf64538000105ec02","name":"微怡麻麻的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"6752630f3eb73600158af708","name":"满妮mannymommy的店","todayCount":0,"week7Count":6,"hasBlackBox":false,"violations":[]},{"id":"69ba4ce6fb821000151f7fe7","name":"悦禾4号店的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"660a92f5745579000199ae01","name":"PAW&PAW的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"664a0b72c7b2730001d99b3e","name":"限定甜妹Pink童装的店","todayCount":0,"week7Count":10,"hasBlackBox":false,"violations":[]},{"id":"683952c4a1a15b00153345f4","name":"歌旗高定童装的店","todayCount":1,"week7Count":5,"hasBlackBox":false,"violations":[{"date":"2026-04-14","reason":"违规营销-包运费虚假","isBlackBox":false,"isToday":true}]},{"id":"64f6d65fdace090001ca48b2","name":"真维斯童装旗舰店","todayCount":0,"week7Count":2,"hasBlackBox":false,"violations":[]},{"id":"647da6a739b63800015abbb6","name":"嘟嘟家童装店旗舰店","todayCount":0,"week7Count":8,"hasBlackBox":false,"violations":[]},{"id":"68c1479efa43320015cc37cf","name":"小首尔韩系童品的店","todayCount":0,"week7Count":2,"hasBlackBox":false,"violations":[]},{"id":"663c725197af9100018e1cf1","name":"安踏儿童服饰专卖店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]},{"id":"64c8b27ee21b7a00014a7125","name":"little MO&Co.旗舰店","todayCount":0,"week7Count":3,"hasBlackBox":false,"violations":[]},{"id":"6504215e8265a10001b24aa3","name":"贝贝Miki童装的店","todayCount":0,"week7Count":4,"hasBlackBox":false,"violations":[]},{"id":"67a6d7d52302820015ffe7f3","name":"蓝鲸童话馆的店","todayCount":0,"week7Count":1,"hasBlackBox":false,"violations":[]},{"id":"641af5a79cd18100012edfe8","name":"六月喜鹊月子服的店","todayCount":0,"week7Count":1,"hasBlackBox":false,"violations":[]},{"id":"636101a583f0d000019dc509","name":"ELLIE&LUKE的店","todayCount":0,"week7Count":5,"hasBlackBox":false,"violations":[]},{"id":"662df71ac7b2730001531a8b","name":"WOOKIDS 4号店的店","todayCount":2,"week7Count":5,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"商品价格信息异常","isBlackBox":true,"isToday":true}]},{"id":"627ca149928e3300017d3a8c","name":"chenbebe的店","todayCount":3,"week7Count":10,"hasBlackBox":true,"violations":[{"date":"2026-04-14","reason":"售卖山寨假货","isBlackBox":false,"isToday":true},{"date":"2026-04-14","reason":"拟真人像-已主动声明AIGC视频","isBlackBox":true,"isToday":true},{"date":"2026-04-14","reason":"封标跟风","isBlackBox":true,"isToday":true}]},{"id":"643b7491da28d90001319a66","name":"小懒孕期穿搭的店","todayCount":0,"week7Count":0,"hasBlackBox":false,"violations":[]}]}}};
+
+// ── AI 解读库 ──
+const TIPS = {
+  '工业化流水号': '平台检测到笔记与其他账号高度雷同，判定批量仿制。建议立即停用内容模板工具，下架违规笔记，改为差异化原创内容。黑盒无法申诉，只能靠后续合规内容恢复权重。',
+  '封标跟风': '蹭爆款标题关键词（如他人货号/品名），平台容忍度极低。建议立即修改笔记标题，回归自有产品真实描述。',
+  '价格信息异常': '商品定价存在异常，可能涉及隐性低价引流。建议商家核查所有商品价格是否符合平台规则，问题商品立即下架。',
+  '天眼识别水下': '平台主动巡查识别，存在隐性低价行为。情节较重，不可拖延，需立即整改，否则可能升级为店铺级处罚。',
+  '虚假宣传': '笔记含夸大或不实描述，白盒处罚可申诉。建议商家修改违规措辞后发起申诉，同时排查其他笔记话术。',
+  '虚假营销': '笔记营销内容不实，白盒可申诉。修改后申诉，同步排查其他促销话术。',
+  'AIGC': 'AIGC 视频合规性需核查，平台对 AI 生成内容管控持续趋严。建议减少 AIGC 视频使用，回归真实种草内容。',
+  '拟真人像': '即使已声明 AIGC 仍触发处罚，说明平台标准在提高。建议核查 AIGC 声明方式是否符合最新要求。',
+  '售卖山寨假货': '⚠️ 高风险！平台对知识产权违规容忍度极低，可能触发连带处罚甚至店铺封禁。需立即下架相关商品，优先处理。',
+  '不合规营销': '笔记中含不符合规范的营销推广内容。排查笔记中的促销话术，黑盒处罚需通过后续合规内容恢复。',
+  '内容质量': '平台判定笔记内容质量不佳，黑盒限流。需推动商家提升内容质量，停止批量低质发布。',
+  '导流': '笔记/直播中存在导流至站外的行为。需立即整改，导流类违规平台会持续监测。',
+  '包运费': '运费营销话术与实际不符。白盒可申诉，核实真实运费情况后修改并申诉。',
+  'default': '建议联系商家确认违规详情，根据处罚状态决定是否申诉，同步排查相似内容。'
+};
+
+function getTip(reason) {
+  for (const key of Object.keys(TIPS)) {
+    if (key !== 'default' && reason.includes(key)) return TIPS[key];
+  }
+  return TIPS['default'];
+}
+
+// ── 状态 ──
+let currentAM = null;
+let currentFilter = 'all';
+let currentMerchants = [];
+
+// ── 登录页逻辑 ──
+const amList = Object.keys(DATA.ams);
+
+// 生成 AM 按钮
+const amGrid = document.getElementById('am-grid');
+amList.forEach(name => {
+  const btn = document.createElement('button');
+  btn.className = 'am-btn';
+  btn.textContent = name;
+  btn.onclick = () => {
+    document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
+    btn.classList.add('selected');
+    document.getElementById('am-input').value = name;
+    document.getElementById('login-btn').disabled = false;
+  };
+  amGrid.appendChild(btn);
+});
+
+document.getElementById('am-input').addEventListener('input', function() {
+  document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
+  document.getElementById('login-btn').disabled = !this.value.trim();
+});
+
+document.getElementById('login-btn').onclick = () => {
+  const name = document.getElementById('am-input').value.trim();
+  if (!name) return;
+  loadAM(name);
+};
+
+function loadAM(name) {
+  const amData = DATA.ams[name];
+  if (!amData) {
+    alert(`暂无「${name}」的数据，当前支持：${amList.join('、')}`);
+    return;
+  }
+  currentAM = name;
+  currentMerchants = amData.merchants;
+  document.getElementById('login-page').style.display = 'none';
+  document.getElementById('main-page').style.display = 'block';
+  document.getElementById('banner-title').textContent = `👗 ${amData.category} 违规风向看板`;
+  document.getElementById('banner-sub').textContent = `${name} AM · ${amData.merchants.length} 家监控商家 · 每日17:00自动更新`;
+  document.getElementById('am-chip').textContent = `👤 ${name}`;
+
+  const dt = new Date(DATA.updatedAt);
+  document.getElementById('updated-label').textContent = `数据更新于 ${DATA.updatedAt.slice(0,10)}`;
+  document.getElementById('stat-category').textContent = amData.category;
+  document.getElementById('stat-tag').textContent = `近7日 · ${name}名下${amData.merchants.length}家`;
+
+  renderOverview(amData.merchants);
+  renderMerchants(amData.merchants);
+}
+
+function switchAM() {
+  document.getElementById('main-page').style.display = 'none';
+  document.getElementById('login-page').style.display = 'flex';
+  document.getElementById('am-input').value = '';
+  document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
+  document.getElementById('login-btn').disabled = true;
+}
+
+// ── tab 切换 ──
+function switchTab(name, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('tab-' + name).classList.add('active');
+}
+
+// ── 渲染看板 ──
+function renderOverview(merchants) {
+  const total = merchants.length;
+  const withViolation = merchants.filter(m => m.week7Count > 0).length;
+  const withBlackBox = merchants.filter(m => m.hasBlackBox).length;
+  const safe = merchants.filter(m => m.week7Count === 0).length;
+  const todayCount = merchants.filter(m => m.todayCount > 0).length;
+  const todayBB = merchants.filter(m => m.todayCount > 0 && m.hasBlackBox).length;
+  const todayWB = merchants.filter(m => m.todayCount > 0 && !m.hasBlackBox && m.todayCount > 0).length;
+
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-violation').textContent = withViolation;
+  document.getElementById('stat-violation-pct').textContent = `占比 ${Math.round(withViolation/total*100)}%`;
+  document.getElementById('stat-blackbox').textContent = withBlackBox;
+  document.getElementById('stat-safe').textContent = safe;
+
+  // 基准卡片
+  const maxV = Math.max(...merchants.map(m => m.week7Count));
+  const topMerchants = merchants.filter(m => m.week7Count === maxV && maxV > 0).map(m => m.name.slice(0,8));
+  const avg = (merchants.reduce((s,m) => s + m.week7Count, 0) / total).toFixed(1);
+
+  // 违规类型统计
+  const reasons = {};
+  merchants.forEach(m => m.violations.forEach(v => {
+    reasons[v.reason] = (reasons[v.reason] || 0) + 1;
+  }));
+  const topType = Object.entries(reasons).sort((a,b) => b[1]-a[1])[0];
+
+  document.getElementById('m-max').textContent = maxV > 0 ? `${maxV} 条` : '无';
+  document.getElementById('m-blackbox-pct').textContent = `${Math.round(withBlackBox/total*100)}%`;
+  document.getElementById('m-top-type').textContent = topType ? topType[0].slice(0,8) : '无';
+  document.getElementById('m-top-merchants').textContent = topMerchants.length ? `条数最高：${topMerchants.join('、')}` : '暂无高风险商家';
+  document.getElementById('m-avg').textContent = avg + ' 条';
+  document.getElementById('m-pct').textContent = Math.round(withViolation/total*100) + '%';
+  document.getElementById('m-bb-pct').textContent = Math.round(withBlackBox/total*100) + '%';
+  document.getElementById('m-note').textContent = withViolation > total * 0.5 ? '类目整体违规率偏高，内容合规压力显著' : '类目整体合规状况良好';
+  document.getElementById('m-today').textContent = todayCount + ' 家';
+  document.getElementById('m-today-bb').textContent = todayBB + ' 家';
+  document.getElementById('m-today-wb').textContent = (todayCount - todayBB) + ' 家';
+
+  // 违规风向色块（动态生成TOP4类型）
+  const trendDefs = [
+    { cls:'vc-red', title:'🤖 流水号/仿制内容', keys:['流水号','仿制','相似笔记'], advice:'批量化仿制内容的平台检测持续升级，涉及商家需立即停用内容模板工具，改为差异化原创内容发布。黑盒处罚无法申诉，只能靠后续合规内容恢复权重。' },
+    { cls:'vc-orange', title:'💰 价格信息异常', keys:['价格','水下商家'], advice:'商品定价异常相关违规，部分涉及「天眼识别水下商家」，说明平台正在主动巡查隐性低价行为，情节较重，需优先跟进。' },
+    { cls:'vc-purple', title:'🏷️ 封标跟风', keys:['封标','跟风'], advice:'蹭爆款标题关键词行为，平台容忍度极低，均为黑盒处罚。涉及商家需立即修改笔记标题，避免使用他人货号/爆款关键词。' },
+    { cls:'vc-teal', title:'🎭 内容合规', keys:['AIGC','拟真人','虚假宣传','虚假营销','内容质量','不合规营销'], advice:'AIGC 视频与内容质量类违规集中出现，平台对 AI 生成内容管控趋严。建议商家回归真实种草内容，减少模板化内容生产。' },
+  ];
+
+  const trendEl = document.getElementById('violation-trends');
+  trendEl.innerHTML = '';
+  trendDefs.forEach(def => {
+    const count = merchants.reduce((s,m) => s + m.violations.filter(v => def.keys.some(k => v.reason.includes(k))).length, 0);
+    const affectedMerchants = [...new Set(merchants.filter(m => m.violations.some(v => def.keys.some(k => v.reason.includes(k)))).map(m => m.name.slice(0,6)))];
+    const div = document.createElement('div');
+    div.className = `vc ${def.cls}`;
+    div.innerHTML = `<div class="vc-title">${def.title}（${count}条）</div>
+      <ol><li>本周涉及 <b>${affectedMerchants.length}</b> 家商家${affectedMerchants.length ? '：' + affectedMerchants.slice(0,3).join('、') + (affectedMerchants.length > 3 ? '…' : '') : ''}</li>
+      <li>${def.advice}</li></ol>`;
+    trendEl.appendChild(div);
+  });
+
+  // 健康商家
+  const healthyWrap = document.getElementById('healthy-wrap');
+  const healthy = merchants.filter(m => m.week7Count === 0);
+  document.getElementById('healthy-count-tag').textContent = `共 ${healthy.length} 家`;
+  healthyWrap.innerHTML = healthy.map(m => `<span class="healthy-chip">🟢 ${m.name.slice(0,12)}</span>`).join('');
+}
+
+// ── 渲染商家明细 ──
+function renderMerchants(merchants) {
+  currentFilter = 'all';
+  currentMerchants = merchants;
+  filterMerchants();
+}
+
+function setFilter(type, btn) {
+  currentFilter = type;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterMerchants();
+}
+
+function filterMerchants() {
+  const q = document.getElementById('search-input').value.toLowerCase();
+  let list = currentMerchants;
+
+  if (currentFilter === 'today') list = list.filter(m => m.todayCount > 0);
+  else if (currentFilter === 'blackbox') list = list.filter(m => m.hasBlackBox);
+  else if (currentFilter === 'safe') list = list.filter(m => m.week7Count === 0);
+
+  if (q) list = list.filter(m => m.name.toLowerCase().includes(q));
+
+  // 排序：今日违规条数 > 近7日 > 无违规
+  list = [...list].sort((a,b) => b.todayCount - a.todayCount || b.week7Count - a.week7Count);
+
+  const tbody = document.getElementById('merchant-tbody');
+  tbody.innerHTML = '';
+
+  if (list.length === 0) {
+    tbody.innerHTML = '<tr class="no-violation-row"><td colspan="5">没有符合条件的商家</td></tr>';
+    return;
+  }
+
+  list.forEach((m, idx) => {
+    const hasViolation = m.week7Count > 0;
+    const badgeHtml = m.violations.length > 0
+      ? [...new Set(m.violations.map(v => v.isBlackBox))].map(bb =>
+          `<span class="badge ${bb ? 'badge-bb' : 'badge-wb'}">${bb ? '⚫黑盒' : '⚪白盒'}</span>`).join(' ')
+      : '<span class="badge badge-ok">✅ 合规</span>';
+
+    // AM 建议
+    let advice = '';
+    if (!hasViolation) {
+      advice = '近7日无违规，经营状态健康，保持当前节奏。';
+    } else {
+      const topViolation = m.violations.find(v => v.isBlackBox) || m.violations[0];
+      advice = topViolation ? getTip(topViolation.reason) : '建议联系商家核查近期违规情况。';
+    }
+
+    // 今日 badge
+    const todayBadge = m.todayCount > 0 ? `<span class="badge badge-today">今日+${m.todayCount}</span> ` : '';
+
+    const tr = document.createElement('tr');
+    tr.id = `row-${idx}`;
+    tr.onclick = () => toggleDetail(idx);
+    tr.innerHTML = `
+      <td>
+        <div style="font-weight:600;color:#1d1d1f;margin-bottom:4px">${m.name}</div>
+        <a class="crm-link" href="https://crm.xiaohongshu.com/eccrm/merchant-detail/${m.id}?isSellerId=true&type=shopDiagnosis" target="_blank" onclick="event.stopPropagation()">🔗 苍穹详情页</a>
+      </td>
+      <td>${m.todayCount > 0 ? `<span class="count-chip">${m.todayCount}</span> 条` : '<span style="color:#ccc">—</span>'}</td>
+      <td>${m.week7Count > 0 ? `<span class="count-chip">${m.week7Count}</span> 条` : '<span style="color:#ccc">—</span>'}</td>
+      <td>${badgeHtml}</td>
+      <td style="color:#555;font-size:12px">${advice}</td>
+    `;
+    tbody.appendChild(tr);
+
+    // 展开行（违规明细）
+    const detailTr = document.createElement('tr');
+    detailTr.className = 'detail-row';
+    detailTr.id = `detail-${idx}`;
+    if (m.violations.length === 0) {
+      detailTr.innerHTML = `<td colspan="5"><div class="detail-inner" style="color:#aaa;font-size:13px">近7日无违规记录 ✅</div></td>`;
+    } else {
+      const items = m.violations.map(v => `
+        <div class="violation-item">
+          <div class="vi-badges">
+            <span class="badge ${v.isBlackBox ? 'badge-bb' : 'badge-wb'}">${v.isBlackBox ? '⚫黑盒' : '⚪白盒'}</span>
+            ${v.isToday ? '<span class="badge badge-today">今日</span>' : ''}
+          </div>
+          <div class="vi-content">
+            <div class="vi-reason">${v.reason}</div>
+            <div class="vi-date">${v.date}</div>
+            <div class="vi-tip">💡 ${getTip(v.reason)}</div>
+          </div>
+        </div>`).join('');
+      detailTr.innerHTML = `<td colspan="5"><div class="detail-inner">
+        <h4>违规明细（共 ${m.violations.length} 条记录，点击行收起）</h4>
+        ${items}
+      </div></td>`;
+    }
+    tbody.appendChild(detailTr);
+  });
+}
+
+function toggleDetail(idx) {
+  const row = document.getElementById(`row-${idx}`);
+  const detail = document.getElementById(`detail-${idx}`);
+  const isOpen = detail.classList.contains('open');
+  // 收起所有
+  document.querySelectorAll('.detail-row.open').forEach(r => r.classList.remove('open'));
+  document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'));
+  if (!isOpen) {
+    detail.classList.add('open');
+    row.classList.add('expanded');
+  }
+}
+</script>
+</body>
+</html>
