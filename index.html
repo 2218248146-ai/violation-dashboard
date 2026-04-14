@@ -299,6 +299,10 @@ function renderLoginPage() {
 function loadAM(name) {
   const amData = DATA.ams[name];
   if (!amData) { alert('暂无「' + name + '」的数据'); return; }
+  if (amData.placeholder || !amData.merchants || amData.merchants.length === 0) {
+    alert('「' + name + '」的数据还在接入中，请联系青青配置 🌿');
+    return;
+  }
   currentAM = name;
   currentMerchants = amData.merchants;
   document.getElementById('login-page').style.display = 'none';
