@@ -166,17 +166,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 </div>
 <div class="toast" id="toast"></div>
 
-<!-- 请求生成提示弹窗 -->
-<div id="request-toast" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:1000;display:none;align-items:center;justify-content:center;">
-  <div style="background:white;border-radius:20px;padding:32px 36px;max-width:380px;width:90%;text-align:center;box-shadow:0 16px 60px rgba(0,0,0,0.15);">
-    <div style="font-size:32px;margin-bottom:12px">📩</div>
-    <div style="font-size:17px;font-weight:800;margin-bottom:8px">复制以下消息</div>
-    <div style="font-size:13px;color:#888;margin-bottom:20px">在 Hi 里发给「青青」，数据生成后页面自动刷新</div>
-    <div id="request-toast-text" style="background:#f5f5f7;border-radius:12px;padding:14px 16px;font-size:14px;font-weight:600;color:#1d1d1f;margin-bottom:20px;text-align:left;line-height:1.6;user-select:all;"></div>
-    <button onclick="copyAndClose()" style="width:100%;padding:13px;border-radius:12px;background:#e8344e;color:white;font-size:15px;font-weight:700;border:none;cursor:pointer;margin-bottom:10px">📋 复制消息</button>
-    <button onclick="document.getElementById('request-toast').style.display='none'" style="width:100%;padding:10px;border-radius:12px;background:#f5f5f5;color:#666;font-size:13px;border:none;cursor:pointer">关闭</button>
-  </div>
-</div>
+
 
 <div id="main-page">
   <div class="banner">
@@ -330,15 +320,13 @@ function renderLoginPage() {
   document.getElementById('login-btn').style.display = 'none';
 }
 
-// 统一入口：有数据直接进，没数据触发请求生成
+// 统一入口：有数据直接进，没数据静默等待轮询
 function tryLoadAM(name) {
   const amData = DATA && DATA.ams && DATA.ams[name];
   if (amData && !amData.placeholder && amData.merchants && amData.merchants.length > 0) {
     loadAM(name);
   } else {
-    // 没有数据，触发请求生成流程
-    document.getElementById('other-input').value = name;
-    requestReport();
+    startPolling(name);
   }
 }
 
@@ -516,59 +504,29 @@ function onOtherInput() {
 function requestReport() {
   const name = document.getElementById('other-input').value.trim();
   if (!name) return;
+  tryLoadAM(name);
+}
 
-  // 有数据直接进
-  const amData = DATA && DATA.ams && DATA.ams[name];
-  if (amData && !amData.placeholder && amData.merchants && amData.merchants.length > 0) {
-    loadAM(name); return;
-  }
-
-  // 没有数据 → 复制消息到剪贴板，提示用户去 hi 发给青青
-  const msg = `请帮我生成违规看板数据，AM名字：${name}`;
-
-  const btn = document.getElementById('request-btn');
-  btn.textContent = '⏳ 等待数据生成…';
-  btn.disabled = true;
-
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(msg).catch(() => {});
-  }
-
-  // 弹出提示框
-  document.getElementById('request-toast-text').textContent = msg;
-  document.getElementById('request-toast').style.display = 'flex';
-
+// 静默轮询等待数据就绪
+function startPolling(name) {
   document.getElementById('load-status').textContent =
-    `已发送请求，青青处理完成后（约20分钟）页面自动跳入看板`;
+    `「${name}」的数据将在今天14:00自动生成，页面就绪后自动跳入看板 ⏳`;
 
-  // 轮询等待数据
   let tries = 0;
   const poll = setInterval(async () => {
     tries++;
     try {
-      const resp = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
+      const resp = await fetch(GITHUB_DATA_URL + '?nocache=' + Date.now(), {cache: 'no-store'});
       const newData = await resp.json();
       if (newData.ams && newData.ams[name] && !newData.ams[name].placeholder && newData.ams[name].merchants && newData.ams[name].merchants.length > 0) {
         clearInterval(poll);
         DATA = newData;
-        showToast(`「${name}」的数据已生成，自动进入看板！`);
-        setTimeout(() => loadAM(name), 1000);
+        showToast(`「${name}」的数据已就绪，正在进入看板…`);
+        setTimeout(() => loadAM(name), 800);
       }
     } catch(e) {}
-    if (tries > 60) { // 最多轮询30分钟
-      clearInterval(poll);
-      btn.textContent = '📩 请求生成';
-      btn.disabled = false;
-    }
-  }, 30000); // 每30秒轮询一次
-}
-
-function copyAndClose() {
-  const text = document.getElementById('request-toast-text').textContent;
-  if (navigator.clipboard) {
-    navigator.clipboard.writeText(text).then(() => showToast('✅ 已复制，去 Hi 发给青青吧'));
-  }
-  document.getElementById('request-toast').style.display = 'none';
+    if (tries > 60) clearInterval(poll); // 最多轮询30分钟
+  }, 30000);
 }
 
 function showToast(msg, ms = 3000) {
