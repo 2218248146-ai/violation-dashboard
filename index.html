@@ -298,9 +298,14 @@ async function loadData() {
   const status = document.getElementById('load-status');
   status.textContent = '正在拉取最新数据…';
   try {
-    const resp = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
+    const resp = await fetch(GITHUB_DATA_URL + '?nocache=' + Date.now(), {cache: 'no-store'});
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     DATA = await resp.json();
+    // 兼容旧结构（key="全部"）：自动迁移为"安芷"
+    if (DATA.ams && DATA.ams['全部'] && !DATA.ams['安芷']) {
+      DATA.ams['安芷'] = {...DATA.ams['全部'], displayName: '安芷'};
+      delete DATA.ams['全部'];
+    }
     renderLoginPage();
     status.textContent = '数据已更新：' + (DATA.updatedAt || '').slice(0, 10);
   } catch(e) {
