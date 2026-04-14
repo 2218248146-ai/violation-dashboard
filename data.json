@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-14T21:14:01.662737+08:00",
+  "updatedAt": "2026-04-14T21:16:10.589241+08:00",
   "ams": {
     "安芷": {
       "displayName": "安芷",
@@ -47,7 +47,7 @@
             }
           ],
           "todayItems": [],
-          "isBlackBox": true,
+          "isBlackBox": false,
           "amAdvice": ""
         },
         {
@@ -592,13 +592,13 @@
     "夏日": {
       "displayName": "夏日",
       "category": "亲子生活",
-      "placeholder": true,
+      "placeholder": false,
       "merchants": []
     },
     "精卫": {
       "displayName": "精卫",
       "category": "亲子生活",
-      "placeholder": true,
+      "placeholder": false,
       "merchants": []
     },
     "蘑朵": {
