@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>违规风向看板</title>
+<meta name="data-url" content="https://raw.githubusercontent.com/2218248146-ai/violation-dashboard/main/data.json">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f7; color: #1d1d1f; min-height: 100vh; }
@@ -262,7 +263,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 
 <script>
 // ── 常量 ──
-const GITHUB_DATA_URL = "https://raw.githubusercontent.com/2218248146-ai/violation-dashboard/main/data.json";
+// data.json URL 从 meta 标签读取（部署时由初始化流程写入）
+// 其他人 fork 后，初始化流程会把这里改成自己的仓库地址
+const _meta = document.querySelector('meta[name="data-url"]');
+const GITHUB_DATA_URL = _meta ? _meta.content : "https://raw.githubusercontent.com/2218248146-ai/violation-dashboard/main/data.json";
 
 // ── AI 解读库 ──
 const TIPS = {
