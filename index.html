@@ -308,29 +308,34 @@ async function loadData() {
 function renderLoginPage() {
   const grid = document.getElementById('am-grid');
   grid.innerHTML = '';
-  const ams = Object.keys(DATA.ams);
-  if (ams.length === 0) { grid.innerHTML = '<span style="color:#aaa;font-size:13px">暂无 AM 数据</span>'; return; }
-  ams.forEach(name => {
+  // 固定显示的 AM 列表（有数据 + 无数据都显示，点击统一走 tryLoadAM）
+  const knownAMs = ['安芷', '夏日', '精卫', '蘑朵'];
+  knownAMs.forEach(name => {
     const btn = document.createElement('button');
     btn.className = 'am-btn';
     btn.textContent = name;
-    btn.onclick = () => {
-      document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      document.getElementById('login-btn').disabled = false;
-      document.getElementById('login-btn').onclick = () => loadAM(name);
-    };
+    btn.onclick = () => tryLoadAM(name);
     grid.appendChild(btn);
   });
+  // 隐藏底部「查看我的看板」按钮（不再需要二次点击）
+  document.getElementById('login-btn').style.display = 'none';
+}
+
+// 统一入口：有数据直接进，没数据触发请求生成
+function tryLoadAM(name) {
+  const amData = DATA && DATA.ams && DATA.ams[name];
+  if (amData && !amData.placeholder && amData.merchants && amData.merchants.length > 0) {
+    loadAM(name);
+  } else {
+    // 没有数据，触发请求生成流程
+    document.getElementById('other-input').value = name;
+    requestReport();
+  }
 }
 
 function loadAM(name) {
   const amData = DATA.ams[name];
-  if (!amData) { alert('暂无「' + name + '」的数据'); return; }
-  if (amData.placeholder || !amData.merchants || amData.merchants.length === 0) {
-    alert('「' + name + '」的数据还在接入中，请联系青青配置 🌿');
-    return;
-  }
+  if (!amData) { return; }
   currentAM = name;
   currentMerchants = amData.merchants;
   document.getElementById('login-page').style.display = 'none';
@@ -497,21 +502,16 @@ function toggleDetail(idx) {
 function onOtherInput() {
   const v = document.getElementById('other-input').value.trim();
   document.getElementById('request-btn').disabled = v.length === 0;
-  // 取消常用AM的选中状态
-  if (v) {
-    document.querySelectorAll('.am-btn').forEach(b => b.classList.remove('selected'));
-    document.getElementById('login-btn').disabled = true;
-  }
 }
 
 function requestReport() {
   const name = document.getElementById('other-input').value.trim();
   if (!name) return;
 
-  // 先检查 data.json 里有没有这个AM的数据
-  if (DATA && DATA.ams && DATA.ams[name] && !DATA.ams[name].placeholder && DATA.ams[name].merchants && DATA.ams[name].merchants.length > 0) {
-    loadAM(name);
-    return;
+  // 有数据直接进
+  const amData = DATA && DATA.ams && DATA.ams[name];
+  if (amData && !amData.placeholder && amData.merchants && amData.merchants.length > 0) {
+    loadAM(name); return;
   }
 
   // 没有数据 → 复制消息到剪贴板，提示用户去 hi 发给青青
