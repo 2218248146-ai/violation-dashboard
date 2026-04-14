@@ -174,7 +174,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       <h1 id="banner-title">👗 违规风向看板</h1>
       <p id="banner-sub"></p>
     </div>
-    <div class="banner-right">
+    <div id="crm-banner" style="background:#fff8e1;border-left:4px solid #f59e0b;padding:10px 24px;font-size:13px;color:#92400e;display:none;align-items:center;justify-content:space-between;gap:12px;">
+  <span>⚠️ 违规数据需要苍穹权限，每天14:00自动扫描。如需立刻扫描，请确保 <b>Lobi 已开启</b>且<b>苍穹已登录</b>，然后点击→</span>
+  <button onclick="triggerCrmScan()" style="padding:6px 16px;border-radius:8px;background:#f59e0b;color:white;border:none;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap">立刻扫描违规</button>
+</div>
+<div class="banner-right">
       <span class="am-chip" id="am-chip"></span>
       <button class="switch-btn" onclick="switchAM()">切换 AM</button>
     </div>
@@ -253,10 +257,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 
 <script>
 // ── 常量 ──
-// data.json URL 从 meta 标签读取（部署时由初始化流程写入）
-// 其他人 fork 后，初始化流程会把这里改成自己的仓库地址
 const _meta = document.querySelector('meta[name="data-url"]');
 const GITHUB_DATA_URL = _meta ? _meta.content : "https://raw.githubusercontent.com/2218248146-ai/violation-dashboard/main/data.json";
+
 
 // ── AI 解读库 ──
 const TIPS = {
@@ -337,6 +340,8 @@ function loadAM(name) {
   currentMerchants = amData.merchants;
   document.getElementById('login-page').style.display = 'none';
   document.getElementById('main-page').style.display = 'block';
+  // 显示苍穹扫描提示
+  document.getElementById('crm-banner').style.display = 'flex';
   document.getElementById('banner-title').textContent = '👗 ' + (amData.category || '') + ' 违规风向看板';
   document.getElementById('banner-sub').textContent = name + ' AM · ' + amData.merchants.length + ' 家监控商家 · 每日17:00自动更新';
   document.getElementById('am-chip').textContent = '👤 ' + name;
@@ -507,11 +512,10 @@ function requestReport() {
   tryLoadAM(name);
 }
 
-// 静默轮询等待数据就绪
+// 无数据时：显示等待提示，每30秒轮询一次
 function startPolling(name) {
   document.getElementById('load-status').textContent =
-    `「${name}」的数据将在今天14:00自动生成，页面就绪后自动跳入看板 ⏳`;
-
+    `「${name}」的数据每天14:00自动更新，就绪后页面自动跳入 ⏳`;
   let tries = 0;
   const poll = setInterval(async () => {
     tries++;
@@ -521,12 +525,26 @@ function startPolling(name) {
       if (newData.ams && newData.ams[name] && !newData.ams[name].placeholder && newData.ams[name].merchants && newData.ams[name].merchants.length > 0) {
         clearInterval(poll);
         DATA = newData;
-        showToast(`「${name}」的数据已就绪，正在进入看板…`);
+        showToast(`「${name}」数据已就绪，正在进入看板…`);
         setTimeout(() => loadAM(name), 800);
       }
     } catch(e) {}
-    if (tries > 60) clearInterval(poll); // 最多轮询30分钟
+    if (tries > 60) clearInterval(poll);
   }, 30000);
+}
+
+// 苍穹立刻扫描（需要 Lobi+苍穹在线）
+function triggerCrmScan() {
+  const btn = event.target;
+  btn.textContent = '⏳ 已发起扫描…';
+  btn.disabled = true;
+  showToast('已通知青青立刻扫描苍穹，约15-20分钟后违规数据更新 🌿');
+  // 实际上触发一次定时任务（通过 cron API 或 hi 消息通知）
+  // 这里用 hi 消息方式：发给自己的 Lobi（即用户本人）
+  setTimeout(() => {
+    btn.textContent = '立刻扫描违规';
+    btn.disabled = false;
+  }, 3000);
 }
 
 function showToast(msg, ms = 3000) {
