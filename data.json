@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15 18:45:45",
+  "updatedAt": "2026-04-15 19:06:21",
   "ams": {
     "安芷": {
       "displayName": "安芷",
@@ -10,8 +10,7 @@
           "name": "番茄弟弟的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "656c078b0852060001c9c6a1",
@@ -23,20 +22,14 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             },
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -45,8 +38,7 @@
           "name": "允儿妈童装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
@@ -58,8 +50,8 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "date": "2026-04-07",
-              "isToday": false
+              "isToday": false,
+              "date": "2026-04-10"
             }
           ]
         },
@@ -73,11 +65,8 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -86,16 +75,14 @@
           "name": "balaOne官方旗舰店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "66128389745579000199f6e9",
           "name": "Eer的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "649e92f6a71a610001e56574",
@@ -107,11 +94,10 @@
             {
               "reason": "服饰虚假宣传关键信息不规范",
               "isBlackBox": false,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "笔记限流/笔记搜索限流/限制该笔记准入市集",
-              "status": "处罚中，可申诉（倒计时6天）",
-              "violationId": "426115771238239739"
+              "date": "2026-04-14",
+              "object": "CT672儿童短袖T恤｜春夏百搭小神器（笔记）",
+              "punishment": "笔记限流/笔记搜索限流/限制该笔记准入市集"
             }
           ]
         },
@@ -125,11 +111,8 @@
             {
               "reason": "笔记含有不合规营销推广内容",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -138,16 +121,40 @@
           "name": "绮遇童年的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "643e3beffde23e0001a3365a",
           "name": "大小卷儿运营号的店",
           "todayCount": 0,
-          "week7Count": 5,
+          "week7Count": 4,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "笔记未通过原创声明认证",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "634fbaf214b5490001e58d53",
@@ -159,11 +166,8 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -177,20 +181,14 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             },
             {
               "reason": "笔记关联商品价格信息异常",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -204,20 +202,14 @@
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -225,9 +217,22 @@
           "id": "62837db44e9c1500018f1e46",
           "name": "ZMA孕妇装旗舰店",
           "todayCount": 0,
-          "week7Count": 1,
+          "week7Count": 2,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "68c10f4aff2efd001543a4e3",
@@ -239,11 +244,8 @@
             {
               "reason": "拟真人像-已主动声明AIGC视频",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -257,11 +259,8 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -270,32 +269,42 @@
           "name": "允儿妈萌宝的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "6482f8188b61ef00019f59df",
           "name": "ELLE KIDS童装旗舰店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "64390a986fdda10001e84590",
           "name": "ppapa shop的店",
           "todayCount": 0,
-          "week7Count": 3,
+          "week7Count": 2,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "超高展中风险控热",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "6877591f673c1e001513e072",
           "name": "佳宝北美的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "67ad9357af01d90015f29f1a",
@@ -307,11 +316,8 @@
             {
               "reason": "商品价格信息异常-天眼识别水下商家",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -320,8 +326,7 @@
           "name": "河南伊日服装的店的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "6296050f56228a000189da4c",
@@ -329,31 +334,61 @@
           "todayCount": 0,
           "week7Count": 2,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "商品价格信息异常",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "商品价格信息异常",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            }
+          ]
         },
         {
           "id": "6541b35043e89d0001bcbedc",
           "name": "咸柠七baby童装店的店",
           "todayCount": 0,
-          "week7Count": 4,
+          "week7Count": 3,
           "lastViolationDate": "2026-04-12",
-          "violations": []
+          "violations": [
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "68abc7d5ce578e00151c736d",
           "name": "青岛即墨童装源头工厂的的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "6108f489c1c7880001345af1",
           "name": "LEOHAPPY设计师童装亲子装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "5fd1fa47382d3400012e598a",
@@ -365,11 +400,8 @@
             {
               "reason": "笔记包含虚假营销的内容",
               "isBlackBox": false,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -377,17 +409,23 @@
           "id": "65267a467fa15200013b9c5c",
           "name": "蚕多贝的店",
           "todayCount": 0,
-          "week7Count": 2,
+          "week7Count": 1,
           "lastViolationDate": "2026-04-12",
-          "violations": []
+          "violations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
           "name": "蕃妈设计师童装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
@@ -399,11 +437,8 @@
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -417,11 +452,8 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -430,40 +462,123 @@
           "name": "微怡麻麻的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "6752630f3eb73600158af708",
           "name": "满妮mannymommy的店",
           "todayCount": 0,
-          "week7Count": 6,
+          "week7Count": 4,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "虚假营销相似违规召回",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "虚假营销相似违规召回",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "69ba4ce6fb821000151f7fe7",
           "name": "悦禾4号店的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "660a92f5745579000199ae01",
           "name": "PAW&PAW的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
           "name": "限定甜妹Pink童装的店",
           "todayCount": 0,
-          "week7Count": 10,
+          "week7Count": 26,
           "lastViolationDate": "2026-04-11",
-          "violations": []
+          "violations": [
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-14"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-14"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-13"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-13"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-13"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            },
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            }
+          ]
         },
         {
           "id": "683952c4a1a15b00153345f4",
@@ -475,11 +590,8 @@
             {
               "reason": "违规营销-包运费虚假",
               "isBlackBox": false,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -487,17 +599,43 @@
           "id": "64f6d65fdace090001ca48b2",
           "name": "真维斯童装旗舰店",
           "todayCount": 0,
-          "week7Count": 2,
+          "week7Count": 0,
           "lastViolationDate": "2026-04-06",
-          "violations": []
+          "violations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-06"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-06"
+            }
+          ]
         },
         {
           "id": "647da6a739b63800015abbb6",
           "name": "嘟嘟家童装店旗舰店",
           "todayCount": 0,
-          "week7Count": 8,
+          "week7Count": 2,
           "lastViolationDate": "2026-04-12",
-          "violations": []
+          "violations": [
+            {
+              "reason": "直播间-应急风险-应急-控热",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "笔记画面、音频等包含低质内容",
+              "isBlackBox": false,
+              "isToday": false,
+              "date": "2026-04-10"
+            }
+          ]
         },
         {
           "id": "68c1479efa43320015cc37cf",
@@ -505,31 +643,99 @@
           "todayCount": 0,
           "week7Count": 2,
           "lastViolationDate": "2026-04-10",
-          "violations": []
+          "violations": [
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-10"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-09"
+            }
+          ]
         },
         {
           "id": "663c725197af9100018e1cf1",
           "name": "安踏儿童服饰专卖店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
           "name": "little MO&Co.旗舰店",
           "todayCount": 0,
-          "week7Count": 3,
+          "week7Count": 0,
           "lastViolationDate": "2026-04-08",
-          "violations": []
+          "violations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-08"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-08"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-08"
+            }
+          ]
         },
         {
           "id": "6504215e8265a10001b24aa3",
           "name": "贝贝Miki童装的店",
           "todayCount": 0,
-          "week7Count": 4,
+          "week7Count": 6,
           "lastViolationDate": "2026-04-12",
-          "violations": []
+          "violations": [
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-09"
+            },
+            {
+              "reason": "笔记存在创作质量不佳的内容",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-09"
+            }
+          ]
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
@@ -537,23 +743,54 @@
           "todayCount": 0,
           "week7Count": 1,
           "lastViolationDate": "2026-04-11",
-          "violations": []
+          "violations": [
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-11"
+            }
+          ]
         },
         {
           "id": "641af5a79cd18100012edfe8",
           "name": "六月喜鹊月子服的店",
           "todayCount": 0,
-          "week7Count": 1,
-          "lastViolationDate": "2026-04-09",
-          "violations": []
+          "week7Count": 0,
+          "lastViolationDate": "2026-04-09"
         },
         {
           "id": "636101a583f0d000019dc509",
           "name": "ELLIE&LUKE的店",
           "todayCount": 0,
-          "week7Count": 5,
+          "week7Count": 4,
           "lastViolationDate": "2026-04-12",
-          "violations": []
+          "violations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-15"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            },
+            {
+              "reason": "工业化流水号-经营账号-他相似笔记",
+              "isBlackBox": true,
+              "isToday": false,
+              "date": "2026-04-12"
+            }
+          ]
         },
         {
           "id": "662df71ac7b2730001531a8b",
@@ -565,11 +802,8 @@
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -583,29 +817,20 @@
             {
               "reason": "售卖山寨假货",
               "isBlackBox": false,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             },
             {
               "reason": "拟真人像-已主动声明AIGC视频",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             },
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "date": "2026-04-15",
               "isToday": true,
-              "punishment": "",
-              "status": "",
-              "violationId": ""
+              "date": "2026-04-13"
             }
           ]
         },
@@ -614,8 +839,7 @@
           "name": "小懒孕期穿搭的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null,
-          "violations": []
+          "lastViolationDate": null
         }
       ]
     }
