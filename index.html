@@ -147,7 +147,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 </head>
 <body>
 
-<div id="login-page">
+<div id="login-page" style="display:none">
   <div class="login-box">
     <div class="login-logo">👗</div>
     <div class="login-title">违规风向看板</div>
@@ -299,8 +299,8 @@ async function loadData() {
       DATA.ams['安芷'] = {...DATA.ams['全部'], displayName: '安芷'};
       delete DATA.ams['全部'];
     }
-    renderLoginPage();
     status.textContent = '数据已更新：' + (DATA.updatedAt || '').slice(0, 10);
+    loadAM('安芷');
   } catch(e) {
     status.textContent = '⚠️ 数据加载失败：' + e.message;
     console.error(e);
