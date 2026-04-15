@@ -192,9 +192,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
     <div class="tab-content active" id="tab-overview">
       <div class="summary-row">
         <div class="scard"><div class="sl">监控商家总数</div><div class="sn sn-total" id="s-total">-</div><div class="ss" id="s-cat"></div></div>
-        <div class="scard"><div class="sl">近7日有违规</div><div class="sn sn-viol" id="s-viol">-</div><div class="ss" id="s-viol-pct"></div></div>
+        <div class="scard"><div class="sl">今日新增违规</div><div class="sn sn-viol" id="s-viol">-</div><div class="ss" id="s-viol-pct"></div></div>
         <div class="scard"><div class="sl">含黑盒处罚</div><div class="sn sn-bb" id="s-bb">-</div><div class="ss">⚠️ 商家无感知，需重点跟进</div></div>
-        <div class="scard"><div class="sl">近7日无违规</div><div class="sn sn-safe" id="s-safe">-</div><div class="ss">经营状态健康</div></div>
+        <div class="scard"><div class="sl">今日无新增</div><div class="sn sn-safe" id="s-safe">-</div><div class="ss">经营状态健康</div></div>
       </div>
 
       <div class="sg">
@@ -228,7 +228,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       </div>
 
       <div class="sg">
-        <div class="sh"><h2>✅ 近7日无违规商家</h2><span class="tag" id="healthy-tag"></span></div>
+        <div class="sh"><h2>✅ 今日无新增违规商家</h2><span class="tag" id="healthy-tag"></span></div>
         <div class="hw" id="healthy-wrap"></div>
       </div>
     </div>
@@ -370,16 +370,16 @@ function switchTab(name, el) {
 function renderOverview(ms) {
   const total = ms.length;
   const withV = ms.filter(m => m.week7Count > 0).length;
-  const withBB = ms.filter(m => m.hasBlackBox).length;
-  const safe = ms.filter(m => m.week7Count === 0).length;
+  const withBB = ms.filter(m => (m.violations||[]).some(v=>v.isBlackBox)).length;
   const tdCount = ms.filter(m => m.todayCount > 0).length;
-  const tdBB = ms.filter(m => m.todayCount > 0 && m.hasBlackBox).length;
+  const tdSafe = ms.filter(m => m.todayCount === 0).length;
+  const tdBB = ms.filter(m => m.todayCount > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
 
   document.getElementById('s-total').textContent = total;
-  document.getElementById('s-viol').textContent = withV;
-  document.getElementById('s-viol-pct').textContent = '占比 ' + Math.round(withV/total*100) + '%';
+  document.getElementById('s-viol').textContent = tdCount;
+  document.getElementById('s-viol-pct').textContent = '占比 ' + Math.round(tdCount/total*100) + '%';
   document.getElementById('s-bb').textContent = withBB;
-  document.getElementById('s-safe').textContent = safe;
+  document.getElementById('s-safe').textContent = tdSafe;
 
   const maxV = Math.max(...ms.map(m => m.week7Count), 0);
   const topNames = ms.filter(m => m.week7Count === maxV && maxV > 0).map(m => m.name.slice(0,8));
@@ -421,7 +421,7 @@ function renderOverview(ms) {
   });
 
   // 健康商家
-  const healthy = ms.filter(m => m.week7Count === 0);
+  const healthy = ms.filter(m => m.todayCount === 0);
   document.getElementById('healthy-tag').textContent = '共 ' + healthy.length + ' 家';
   document.getElementById('healthy-wrap').innerHTML = healthy.map(m => `<span class="hc">🟢 ${m.name.slice(0,14)}</span>`).join('');
 }
