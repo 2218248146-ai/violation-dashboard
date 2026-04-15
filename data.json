@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15 19:06:21",
+  "updatedAt": "2026-04-15 19:15:58",
   "ams": {
     "安芷": {
       "displayName": "安芷",
@@ -10,7 +10,8 @@
           "name": "番茄弟弟的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "656c078b0852060001c9c6a1",
@@ -22,14 +23,18 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             },
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -38,7 +43,8 @@
           "name": "允儿妈童装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
@@ -50,8 +56,8 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-07",
+              "isToday": false
             }
           ]
         },
@@ -65,8 +71,10 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -75,14 +83,16 @@
           "name": "balaOne官方旗舰店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "66128389745579000199f6e9",
           "name": "Eer的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "649e92f6a71a610001e56574",
@@ -94,10 +104,10 @@
             {
               "reason": "服饰虚假宣传关键信息不规范",
               "isBlackBox": false,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-14",
-              "object": "CT672儿童短袖T恤｜春夏百搭小神器（笔记）",
-              "punishment": "笔记限流/笔记搜索限流/限制该笔记准入市集"
+              "punishment": "笔记限流/笔记搜索限流/限制该笔记准入市集",
+              "status": "处罚中，可申诉（倒计时6天）"
             }
           ]
         },
@@ -111,8 +121,10 @@
             {
               "reason": "笔记含有不合规营销推广内容",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -121,7 +133,8 @@
           "name": "绮遇童年的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "643e3beffde23e0001a3365a",
@@ -133,26 +146,26 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "笔记未通过原创声明认证",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -166,8 +179,10 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -181,14 +196,18 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             },
             {
               "reason": "笔记关联商品价格信息异常",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -202,14 +221,18 @@
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -223,14 +246,14 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -244,8 +267,10 @@
             {
               "reason": "拟真人像-已主动声明AIGC视频",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -259,8 +284,10 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -269,14 +296,16 @@
           "name": "允儿妈萌宝的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "6482f8188b61ef00019f59df",
           "name": "ELLE KIDS童装旗舰店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "64390a986fdda10001e84590",
@@ -288,14 +317,14 @@
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "超高展中风险控热",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -304,7 +333,8 @@
           "name": "佳宝北美的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "67ad9357af01d90015f29f1a",
@@ -316,8 +346,10 @@
             {
               "reason": "商品价格信息异常-天眼识别水下商家",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -326,7 +358,8 @@
           "name": "河南伊日服装的店的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "6296050f56228a000189da4c",
@@ -338,14 +371,14 @@
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             }
           ]
         },
@@ -359,20 +392,20 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -381,14 +414,16 @@
           "name": "青岛即墨童装源头工厂的的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "6108f489c1c7880001345af1",
           "name": "LEOHAPPY设计师童装亲子装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "5fd1fa47382d3400012e598a",
@@ -400,8 +435,10 @@
             {
               "reason": "笔记包含虚假营销的内容",
               "isBlackBox": false,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -415,8 +452,8 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -425,7 +462,8 @@
           "name": "蕃妈设计师童装的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
@@ -437,8 +475,10 @@
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -452,8 +492,10 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -462,7 +504,8 @@
           "name": "微怡麻麻的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "6752630f3eb73600158af708",
@@ -474,26 +517,26 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "虚假营销相似违规召回",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "虚假营销相似违规召回",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -502,14 +545,16 @@
           "name": "悦禾4号店的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "660a92f5745579000199ae01",
           "name": "PAW&PAW的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
@@ -521,62 +566,62 @@
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-14"
+              "date": "2026-04-14",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-14"
+              "date": "2026-04-14",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-13"
+              "date": "2026-04-13",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-13"
+              "date": "2026-04-13",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-13"
+              "date": "2026-04-13",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             },
             {
               "reason": "内容无美感",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             }
           ]
         },
@@ -590,8 +635,10 @@
             {
               "reason": "违规营销-包运费虚假",
               "isBlackBox": false,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -605,14 +652,14 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-06"
+              "date": "2026-04-06",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-06"
+              "date": "2026-04-06",
+              "isToday": false
             }
           ]
         },
@@ -626,14 +673,14 @@
             {
               "reason": "直播间-应急风险-应急-控热",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "笔记画面、音频等包含低质内容",
               "isBlackBox": false,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             }
           ]
         },
@@ -647,14 +694,14 @@
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-10"
+              "date": "2026-04-10",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-09"
+              "date": "2026-04-09",
+              "isToday": false
             }
           ]
         },
@@ -663,7 +710,8 @@
           "name": "安踏儿童服饰专卖店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
@@ -675,20 +723,20 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-08"
+              "date": "2026-04-08",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-08"
+              "date": "2026-04-08",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-08"
+              "date": "2026-04-08",
+              "isToday": false
             }
           ]
         },
@@ -702,38 +750,38 @@
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-09"
+              "date": "2026-04-09",
+              "isToday": false
             },
             {
               "reason": "笔记存在创作质量不佳的内容",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-09"
+              "date": "2026-04-09",
+              "isToday": false
             }
           ]
         },
@@ -747,8 +795,8 @@
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-11"
+              "date": "2026-04-11",
+              "isToday": false
             }
           ]
         },
@@ -757,7 +805,39 @@
           "name": "六月喜鹊月子服的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": "2026-04-09"
+          "lastViolationDate": "2026-04-09",
+          "violations": [
+            {
+              "reason": "低差封面标题-黑种",
+              "isBlackBox": true,
+              "date": "2026-04-13",
+              "isToday": false
+            },
+            {
+              "reason": "低差封面标题-黑种",
+              "isBlackBox": true,
+              "date": "2026-04-13",
+              "isToday": false
+            },
+            {
+              "reason": "低差封面标题-黑种",
+              "isBlackBox": true,
+              "date": "2026-04-13",
+              "isToday": false
+            },
+            {
+              "reason": "低差封面标题-黑种",
+              "isBlackBox": true,
+              "date": "2026-04-13",
+              "isToday": false
+            },
+            {
+              "reason": "低差封面标题-黑种",
+              "isBlackBox": true,
+              "date": "2026-04-13",
+              "isToday": false
+            }
+          ]
         },
         {
           "id": "636101a583f0d000019dc509",
@@ -769,26 +849,26 @@
             {
               "reason": "封标跟风",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-15"
+              "date": "2026-04-15",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             },
             {
               "reason": "工业化流水号-经营账号-他相似笔记",
               "isBlackBox": true,
-              "isToday": false,
-              "date": "2026-04-12"
+              "date": "2026-04-12",
+              "isToday": false
             }
           ]
         },
@@ -802,8 +882,10 @@
             {
               "reason": "商品价格信息异常",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -817,20 +899,26 @@
             {
               "reason": "售卖山寨假货",
               "isBlackBox": false,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             },
             {
               "reason": "拟真人像-已主动声明AIGC视频",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             },
             {
               "reason": "封标跟风",
               "isBlackBox": true,
+              "date": "2026-04-15",
               "isToday": true,
-              "date": "2026-04-13"
+              "punishment": "",
+              "status": ""
             }
           ]
         },
@@ -839,7 +927,8 @@
           "name": "小懒孕期穿搭的店",
           "todayCount": 0,
           "week7Count": 0,
-          "lastViolationDate": null
+          "lastViolationDate": null,
+          "violations": []
         }
       ]
     }
