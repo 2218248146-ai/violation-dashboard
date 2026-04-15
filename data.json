@@ -1,2410 +1,484 @@
 {
-  "checkedAt": "2026-04-15T17:02:44.539022+08:00",
-  "checkedDate": "2026-04-15",
-  "total": 50,
-  "results": [
+  "updated": "2026-04-15 17:22:53",
+  "date": "2026-04-15",
+  "merchants": [
+    {
+      "id": "63db9c9e505ba20001836df0",
+      "name": "番茄弟弟的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
     {
       "id": "656c078b0852060001c9c6a1",
       "name": "TooYoo与你｜男童穿搭的店",
-      "week7Count": 12,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 5,
+      "week7Count": 5,
+      "todayItems": [
         {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:27",
-          "isBlackBox": true,
-          "violationId": "426117129807996567"
+          "reason": "工业化流水号-经营账号-他相似笔记",
+          "isBlackBox": true
         },
         {
           "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:26",
-          "isBlackBox": true,
-          "violationId": "426117129799220072"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:13",
-          "isBlackBox": true,
-          "violationId": "426117129589214085"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:10",
-          "isBlackBox": true,
-          "violationId": "426117129538323310"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:09",
-          "isBlackBox": true,
-          "violationId": "426117129504984772"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:09",
-          "isBlackBox": true,
-          "violationId": "426117129511421162"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 16:00:08",
-          "isBlackBox": true,
-          "violationId": "426117129505328004"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 09:30:11",
-          "isBlackBox": true,
-          "violationId": "426112388302339774"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 09:30:10",
-          "isBlackBox": true,
-          "violationId": "426112388297532074"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 09:30:07",
-          "isBlackBox": true,
-          "violationId": "426112388247325247"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 09:30:06",
-          "isBlackBox": true,
-          "violationId": "426112388230482691"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 09:30:05",
-          "isBlackBox": true,
-          "violationId": "426112388205645462"
+          "isBlackBox": true
         }
       ]
     },
     {
       "id": "648bbcda2719510001c0d731",
       "name": "允儿妈童装的店",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-09 21:27:51",
-          "isBlackBox": false,
-          "violationId": "426108762077540465"
-        }
-      ]
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0,
+      "note": "历史2784条，今日未检测到近7日新增"
     },
     {
       "id": "6489c7d1ebbcb2000155641e",
       "name": "NANO KIDS的店",
-      "week7Count": 3,
+      "lastViolationDate": "2026-04-07",
+      "todayCount": 0,
+      "week7Count": 1,
       "week7Items": [
         {
-          "reason": "笔记包含平台不鼓励的内容",
-          "time": "2026-04-15 15:42:34",
-          "isBlackBox": false,
-          "violationId": "1361607622306975744"
-        },
-        {
-          "reason": "低俗风险",
-          "time": "2026-04-15 08:21:18",
-          "isBlackBox": false,
-          "violationId": "1361496572726890496"
-        },
-        {
-          "reason": "低俗风险",
-          "time": "2026-04-11 09:46:55",
-          "isBlackBox": false,
-          "violationId": "1360068567874228224"
-        }
-      ]
-    },
-    {
-      "id": "68873c8b4c27360015d58b7b",
-      "name": "balaOne官方旗舰店",
-      "week7Count": 0,
-      "week7Items": [],
-      "note": ""
-    },
-    {
-      "id": "66128389745579000199f6e9",
-      "name": "Eer｜4.16早8.30二周年店庆的店",
-      "week7Count": 4,
-      "week7Items": [
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-15 11:48:24",
-          "isBlackBox": false,
-          "violationId": "426116876101830257"
-        },
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-14 20:35:05",
-          "isBlackBox": false,
-          "violationId": "426115956719493289"
-        },
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-12 10:38:20",
-          "isBlackBox": false,
-          "violationId": "426112456905824854"
-        },
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-09 23:20:39",
-          "isBlackBox": false,
-          "violationId": "426108875622616853"
+          "reason": "封标跟风",
+          "isBlackBox": true
         }
       ]
     },
     {
       "id": "6464d4b7ebbcb2000151ff6c",
       "name": "MiniBala旗舰店",
-      "week7Count": 3,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 2,
+      "todayItems": [
         {
           "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 15:22:42",
-          "isBlackBox": true,
-          "violationId": "1360877846099279872"
-        },
+          "isBlackBox": true
+        }
+      ]
+    },
+    {
+      "id": "68873c8b4c27360015d58b7b",
+      "name": "balaOne官方旗舰店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "66128389745579000199f6e9",
+      "name": "Eer的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "649e92f6a71a610001e56574",
+      "name": "Hush Puppies暇步士童装旗舰店",
+      "lastViolationDate": "2026-04-14",
+      "todayCount": 1,
+      "week7Count": 1,
+      "todayItems": [
         {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 10:30:04",
-          "isBlackBox": true,
-          "violationId": "426109549479524957"
-        },
-        {
-          "reason": "高价商家社区账号流控",
-          "time": "2026-04-09 08:42:01",
-          "isBlackBox": true,
-          "violationId": "1359327461275369472"
+          "reason": "服饰虚假宣传关键信息不规范",
+          "object": "CT672儿童短袖T恤｜春夏百搭小神器（笔记）",
+          "punishment": "笔记限流/笔记搜索限流/限制该笔记准入市集",
+          "time": "2026-04-14 17:30:50",
+          "violationId": "426115771238239739",
+          "isBlackBox": false,
+          "status": "处罚中，可申诉（倒计时6天）"
         }
       ]
     },
     {
       "id": "6440b228a3c2d90001dccd85",
       "name": "A.ND设计师童装的店",
-      "week7Count": 5,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 1,
+      "todayItems": [
         {
           "reason": "笔记含有不合规营销推广内容",
-          "time": "2026-04-15 13:03:07",
-          "isBlackBox": true,
-          "violationId": "1361567493199925248"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 13:02:54",
-          "isBlackBox": true,
-          "violationId": "1361567440029765632"
-        },
-        {
-          "reason": "违反法律法规",
-          "time": "2026-04-14 11:17:12",
-          "isBlackBox": false,
-          "violationId": "426115395143291337"
-        },
-        {
-          "reason": "违反法律法规",
-          "time": "2026-04-14 10:45:40",
-          "isBlackBox": false,
-          "violationId": "426115363392244998"
-        },
-        {
-          "reason": "笔记存在音频质量不佳的问题",
-          "time": "2026-04-09 10:58:22",
-          "isBlackBox": false,
-          "violationId": "1359361417624948736"
+          "isBlackBox": true
         }
       ]
     },
     {
       "id": "69796643a64ce7001555d053",
       "name": "绮遇童年的店",
-      "week7Count": 0,
-      "week7Items": []
-    },
-    {
-      "id": "63db9c9e505ba20001836df0",
-      "name": "番茄弟弟的店",
-      "week7Count": 2,
-      "week7Items": [
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 17:22:22",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-08 18:52:55",
-          "isBlackBox": true
-        }
-      ],
-      "note": ""
-    },
-    {
-      "id": "649e92f6a71a610001e56574",
-      "name": "Hush Puppies暇步士",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-14 17:30:50",
-          "isBlackBox": false
-        }
-      ],
-      "note": ""
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
       "id": "643e3beffde23e0001a3365a",
       "name": "大小卷儿运营号的店",
-      "week7Count": 4,
-      "week7Items": [
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 5
+    },
+    {
+      "id": "634fbaf214b5490001e58d53",
+      "name": "孕之优品旗舰店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 10,
+      "week7Count": 10,
+      "todayItems": [
         {
           "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-10 22:58:02",
-          "isBlackBox": true,
-          "violationId": "1359905271989919744"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-10 22:52:58",
-          "isBlackBox": true,
-          "violationId": "1359903995759390720"
-        },
-        {
-          "reason": "笔记未通过原创声明认证",
-          "time": "2026-04-10 20:03:51",
-          "isBlackBox": true,
-          "violationId": "1359861435562041344"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-10 20:03:51",
-          "isBlackBox": true,
-          "violationId": "1359861436874858496"
+          "isBlackBox": true
         }
       ]
+    },
+    {
+      "id": "673c0490f343ff00154c1f16",
+      "name": "芽芽宝贝买手店的店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 9,
+      "week7Count": 10,
+      "todayItems": [
+        {
+          "reason": "工业化流水号-经营账号-他相似笔记",
+          "isBlackBox": true
+        },
+        {
+          "reason": "笔记关联商品价格信息异常",
+          "isBlackBox": true
+        }
+      ]
+    },
+    {
+      "id": "62f5e934d248f10001590caa",
+      "name": "纽乐葆旗舰店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 2,
+      "week7Count": 6,
+      "todayItems": [
+        {
+          "reason": "笔记存在创作质量不佳的内容",
+          "isBlackBox": true
+        },
+        {
+          "reason": "工业化流水号-经营账号-他相似笔记",
+          "isBlackBox": true
+        }
+      ]
+    },
+    {
+      "id": "62837db44e9c1500018f1e46",
+      "name": "ZMA孕妇装旗舰店",
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 1
     },
     {
       "id": "68c10f4aff2efd001543a4e3",
       "name": "派町韩系童品的店",
-      "week7Count": 2,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 3,
+      "todayItems": [
         {
-          "reason": "预售商品缺货违规",
-          "time": "2026-04-11 14:10:57",
-          "isBlackBox": false,
-          "violationId": "426111221391473025"
-        },
-        {
-          "reason": "日维度超期发货率高",
-          "time": "2026-04-10 12:04:59",
-          "isBlackBox": false,
-          "violationId": "426109645028788332"
+          "reason": "拟真人像-已主动声明AIGC视频",
+          "isBlackBox": true
         }
       ]
     },
     {
-      "id": "64390a986fdda10001e84590",
-      "name": "ppapa shop的店",
-      "week7Count": 11,
-      "week7Items": [
+      "id": "5fffc0459a79d5000109a2e4",
+      "name": "MASANON孕妇装的店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 3,
+      "todayItems": [
         {
-          "reason": "日维度超期发货率高",
-          "time": "2026-04-15 13:05:18",
-          "isBlackBox": false,
-          "violationId": "426116953504093406"
-        },
-        {
-          "reason": "日维度超期发货率高",
-          "time": "2026-04-14 11:06:10",
-          "isBlackBox": false,
-          "violationId": "426115384036804509"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 03:21:30",
-          "isBlackBox": true,
-          "violationId": "1360333960812134400"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 03:19:14",
-          "isBlackBox": true,
-          "violationId": "1360333389952303104"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 12:30:18",
-          "isBlackBox": true,
-          "violationId": "426111120065242802"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 12:30:16",
-          "isBlackBox": true,
-          "violationId": "426111120041452961"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 12:30:14",
-          "isBlackBox": true,
-          "violationId": "426111120006756541"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 12:30:13",
-          "isBlackBox": true,
-          "violationId": "426111119977329893"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 12:30:01",
-          "isBlackBox": true,
-          "violationId": "426111119789110325"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-10 00:21:11",
-          "isBlackBox": true,
-          "violationId": "1359563806451367936"
-        },
-        {
-          "reason": "超高展中风险控热",
-          "time": "2026-04-10 00:13:56",
-          "isBlackBox": true,
-          "violationId": "1359561984250945536"
+          "reason": "封标跟风",
+          "isBlackBox": true
         }
       ]
     },
     {
       "id": "698595ba8ab5a80015f612af",
       "name": "允儿妈萌宝的店",
-      "week7Count": 0,
-      "week7Items": []
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
-      "id": "67ad9357af01d90015f29f1a",
-      "name": "一秋妈设计师童装的店",
-      "week7Count": 37,
-      "week7Items": [
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 11:30:52",
-          "isBlackBox": true,
-          "violationId": "426116858452637493"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 11:30:40",
-          "isBlackBox": true,
-          "violationId": "426116858251258714"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 10:30:42",
-          "isBlackBox": true,
-          "violationId": "426116797878773282"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 10:30:06",
-          "isBlackBox": true,
-          "violationId": "426116797282834290"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 10:00:19",
-          "isBlackBox": true,
-          "violationId": "426116767291466693"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 09:00:31",
-          "isBlackBox": true,
-          "violationId": "426116707096270942"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:31:22",
-          "isBlackBox": true,
-          "violationId": "426116677748893885"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:31:20",
-          "isBlackBox": true,
-          "violationId": "426116677727906131"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:00:13",
-          "isBlackBox": true,
-          "violationId": "426116646381611049"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:00:12",
-          "isBlackBox": true,
-          "violationId": "426116646388542973"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:43",
-          "isBlackBox": true,
-          "violationId": "426116616680853617"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:41",
-          "isBlackBox": true,
-          "violationId": "426116616676187149"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:41",
-          "isBlackBox": true,
-          "violationId": "426116616659409932"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:40",
-          "isBlackBox": true,
-          "violationId": "426116616659409931"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:34",
-          "isBlackBox": true,
-          "violationId": "426116616559398704"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:32",
-          "isBlackBox": true,
-          "violationId": "426116616513081456"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:30",
-          "isBlackBox": true,
-          "violationId": "426116616461723768"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:26",
-          "isBlackBox": true,
-          "violationId": "426116616413927172"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:25",
-          "isBlackBox": true,
-          "violationId": "426116616407657972"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:22",
-          "isBlackBox": true,
-          "violationId": "426116616331520148"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:20",
-          "isBlackBox": true,
-          "violationId": "426116616294977647"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:18",
-          "isBlackBox": true,
-          "violationId": "426116616290186755"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:15",
-          "isBlackBox": true,
-          "violationId": "426116616239625410"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:15",
-          "isBlackBox": true,
-          "violationId": "426116616223139632"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:13",
-          "isBlackBox": true,
-          "violationId": "426116616195730853"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:10",
-          "isBlackBox": true,
-          "violationId": "426116616139316232"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:06",
-          "isBlackBox": true,
-          "violationId": "426116616088630465"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 07:30:04",
-          "isBlackBox": true,
-          "violationId": "426116616055346713"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:01:11",
-          "isBlackBox": true,
-          "violationId": "426115741396715560"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:01:04",
-          "isBlackBox": true,
-          "violationId": "426115741263914548"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:01:03",
-          "isBlackBox": true,
-          "violationId": "426115741257665010"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:00:53",
-          "isBlackBox": true,
-          "violationId": "426115741089582526"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:00:24",
-          "isBlackBox": true,
-          "violationId": "426115740620287087"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 17:00:16",
-          "isBlackBox": true,
-          "violationId": "426115740468948320"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 09:30:22",
-          "isBlackBox": true,
-          "violationId": "426113838038342419"
-        },
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-10 08:12:07",
-          "isBlackBox": false,
-          "violationId": "426109410617530427"
-        },
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-09 12:57:10",
-          "isBlackBox": false,
-          "violationId": "426108248006787259"
-        }
-      ]
+      "id": "6482f8188b61ef00019f59df",
+      "name": "ELLE KIDS童装旗舰店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
-      "id": "673c0490f343ff00154c1f16",
-      "name": "芽芽宝贝买手店",
-      "week7Count": 20,
-      "week7Items": [
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 15:02:04",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 13:44:15",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 13:30:15",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 13:26:03",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 13:20:06",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 12:40:23",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:20:04",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:16:05",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 09:16:30",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:17:54",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:16:37",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:16:01",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:14:42",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:11:24",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:10:43",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 17:10:10",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 16:51:14",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 16:49:30",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-14 15:17:56",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 14:47:30",
-          "isBlackBox": true
-        }
-      ],
-      "note": "可能更多"
+      "id": "64390a986fdda10001e84590",
+      "name": "ppapa shop的店",
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 3
     },
     {
       "id": "6877591f673c1e001513e072",
       "name": "佳宝北美的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "67ad9357af01d90015f29f1a",
+      "name": "一秋妈设计师童装的店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
       "week7Count": 1,
-      "week7Items": [
+      "todayItems": [
         {
-          "reason": "封标蹭热",
-          "time": "2026-04-15 11:00:01",
-          "isBlackBox": false,
-          "violationId": "426116827397958424"
+          "reason": "商品价格信息异常-天眼识别水下商家",
+          "isBlackBox": true
         }
       ]
     },
     {
       "id": "62d27c563d1b6a000114fe9e",
-      "name": "河南伊日",
-      "week7Count": 0,
-      "week7Items": [],
-      "note": ""
-    },
-    {
-      "id": "6482f8188b61ef00019f59df",
-      "name": "ELLE KIDS童装旗舰店",
-      "week7Count": 0,
-      "week7Items": []
-    },
-    {
-      "id": "69ba4ce6fb821000151f7fe7",
-      "name": "悦禾4号店的店",
-      "week7Count": 0,
-      "week7Items": []
+      "name": "河南伊日服装的店的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
       "id": "6296050f56228a000189da4c",
       "name": "桑桑姐～的店",
-      "week7Count": 4,
-      "week7Items": [
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 03:30:06",
-          "isBlackBox": true,
-          "violationId": "426116374487962972"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 00:30:32",
-          "isBlackBox": true,
-          "violationId": "426116193722122656"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 12:30:19",
-          "isBlackBox": true,
-          "violationId": "426109670526394423"
-        },
-        {
-          "reason": "商品类目错放",
-          "time": "2026-04-10 10:49:26",
-          "isBlackBox": false,
-          "violationId": "426109568957135945"
-        }
-      ]
-    },
-    {
-      "id": "61d84bbcf64538000105ec02",
-      "name": "微怡麻麻的店",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "服饰虚假宣传关键信息不规范",
-          "time": "2026-04-14 17:30:39",
-          "isBlackBox": false,
-          "violationId": "426115771070777908"
-        }
-      ]
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 2
     },
     {
       "id": "6541b35043e89d0001bcbedc",
       "name": "咸柠七baby童装店的店",
-      "week7Count": 9,
-      "week7Items": [
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-15 11:32:13",
-          "isBlackBox": false,
-          "violationId": "1361544616940556288"
-        },
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-14 15:57:10",
-          "isBlackBox": false,
-          "violationId": "426115676967455540"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-14 15:01:48",
-          "isBlackBox": false,
-          "violationId": "1361234973372719104"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-13 15:58:48",
-          "isBlackBox": false,
-          "violationId": "1360886929882615808"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-12 11:06:40",
-          "isBlackBox": true,
-          "violationId": "1360451024613117952"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-10 12:45:02",
-          "isBlackBox": true,
-          "violationId": "1359751002714722304"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-10 12:42:23",
-          "isBlackBox": true,
-          "violationId": "1359750339118026752"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-09 13:42:53",
-          "isBlackBox": false,
-          "violationId": "1359403174448504832"
-        },
-        {
-          "reason": "高价商家社区账号流控",
-          "time": "2026-04-09 08:54:26",
-          "isBlackBox": true,
-          "violationId": "1359330583586557952"
-        }
-      ]
+      "lastViolationDate": "2026-04-12",
+      "todayCount": 0,
+      "week7Count": 4
     },
     {
-      "id": "66d6db7dd550aa0015e2a532",
-      "name": "蕃妈设计师童装的店",
-      "week7Count": 1,
-      "week7Items": [
+      "id": "68abc7d5ce578e00151c736d",
+      "name": "青岛即墨童装源头工厂的的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "6108f489c1c7880001345af1",
+      "name": "LEOHAPPY设计师童装亲子装的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "5fd1fa47382d3400012e598a",
+      "name": "STRAFBRG舒适宝旗舰店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 4,
+      "todayItems": [
         {
-          "reason": "预售商品缺货违规",
-          "time": "2026-04-14 13:10:17",
-          "isBlackBox": false,
-          "violationId": "426115508969147410"
+          "reason": "笔记包含虚假营销的内容",
+          "isBlackBox": false
         }
       ]
     },
     {
       "id": "65267a467fa15200013b9c5c",
       "name": "蚕多贝的店",
-      "week7Count": 2,
-      "week7Items": [
-        {
-          "reason": "笔记包含虚假营销的内容",
-          "time": "2026-04-12 10:26:34",
-          "isBlackBox": false,
-          "violationId": "1360440403825504256"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-10 12:10:29",
-          "isBlackBox": true,
-          "violationId": "1359742311044169728"
-        }
-      ]
+      "lastViolationDate": "2026-04-12",
+      "todayCount": 0,
+      "week7Count": 2
     },
     {
-      "id": "6108f489c1c7880001345af1",
-      "name": "LEOHAPPY设计师童装亲子装的店",
-      "week7Count": 14,
-      "week7Items": [
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:01:34",
-          "isBlackBox": true,
-          "violationId": "426117070524316945"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:01:25",
-          "isBlackBox": true,
-          "violationId": "426117070399113614"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:01:24",
-          "isBlackBox": true,
-          "violationId": "426117070381907929"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:01:23",
-          "isBlackBox": true,
-          "violationId": "426117070355007149"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:01:00",
-          "isBlackBox": true,
-          "violationId": "426117069954889878"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:00:45",
-          "isBlackBox": true,
-          "violationId": "426117069702233354"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 15:00:32",
-          "isBlackBox": true,
-          "violationId": "426117069484129545"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:31:07",
-          "isBlackBox": true,
-          "violationId": "426117039873205302"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:31:04",
-          "isBlackBox": true,
-          "violationId": "426117039847462879"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:30:57",
-          "isBlackBox": true,
-          "violationId": "426117039730437023"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:30:47",
-          "isBlackBox": true,
-          "violationId": "426117039553588303"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:30:45",
-          "isBlackBox": true,
-          "violationId": "426117039515992858"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:30:43",
-          "isBlackBox": true,
-          "violationId": "426117039485024889"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 14:30:34",
-          "isBlackBox": true,
-          "violationId": "426117039333934681"
-        }
-      ]
+      "id": "66d6db7dd550aa0015e2a532",
+      "name": "蕃妈设计师童装的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
       "id": "66c5b7d4077c7f0015a76a8f",
       "name": "啵小爸BOZPAPA易发服装的店",
-      "week7Count": 29,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 3,
+      "week7Count": 10,
+      "todayItems": [
         {
           "reason": "商品价格信息异常",
-          "time": "2026-04-14 22:00:15",
-          "isBlackBox": true,
-          "violationId": "426116042431720393"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 22:00:05",
-          "isBlackBox": true,
-          "violationId": "426116042291336238"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 16:31:16",
-          "isBlackBox": true,
-          "violationId": "426115711285599000"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 16:30:37",
-          "isBlackBox": true,
-          "violationId": "426115710622157740"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 16:30:14",
-          "isBlackBox": true,
-          "violationId": "426115710236695913"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 09:01:39",
-          "isBlackBox": true,
-          "violationId": "426115258694668587"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 09:01:13",
-          "isBlackBox": true,
-          "violationId": "426115258257985601"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 09:00:47",
-          "isBlackBox": true,
-          "violationId": "426115257814103105"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 09:00:23",
-          "isBlackBox": true,
-          "violationId": "426115257409049627"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 22:00:21",
-          "isBlackBox": true,
-          "violationId": "426114592991513719"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 22:00:20",
-          "isBlackBox": true,
-          "violationId": "426114592991176415"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 10:01:02",
-          "isBlackBox": true,
-          "violationId": "426113868909886033"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 10:00:44",
-          "isBlackBox": true,
-          "violationId": "426113868607973801"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 10:00:35",
-          "isBlackBox": true,
-          "violationId": "426113868438657887"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 16:30:42",
-          "isBlackBox": true,
-          "violationId": "426112811603534404"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 16:00:19",
-          "isBlackBox": true,
-          "violationId": "426112781009621719"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-12 16:00:05",
-          "isBlackBox": true,
-          "violationId": "426112780792505079"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 22:30:13",
-          "isBlackBox": true,
-          "violationId": "426111723957094920"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 22:30:11",
-          "isBlackBox": true,
-          "violationId": "426111723936325571"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 22:30:07",
-          "isBlackBox": true,
-          "violationId": "426111723869446232"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 15:00:01",
-          "isBlackBox": true,
-          "violationId": "426111270770934856"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-11 09:30:26",
-          "isBlackBox": true,
-          "violationId": "426110939005526557"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 08:30:36",
-          "isBlackBox": true,
-          "violationId": "426109429220437440"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:30:17",
-          "isBlackBox": true,
-          "violationId": "426108764524097980"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 16:30:54",
-          "isBlackBox": true,
-          "violationId": "426108463137535207"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 16:30:34",
-          "isBlackBox": true,
-          "violationId": "426108462819415336"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 15:00:04",
-          "isBlackBox": true,
-          "violationId": "426108371719131783"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 09:01:27",
-          "isBlackBox": true,
-          "violationId": "426108010708361745"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-08 22:00:11",
-          "isBlackBox": true,
-          "violationId": "426107345070047201"
+          "isBlackBox": true
         }
       ]
     },
     {
+      "id": "65dc828a6902e500017da185",
+      "name": "十里屋的店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 6,
+      "todayItems": [
+        {
+          "reason": "封标跟风",
+          "isBlackBox": true
+        }
+      ]
+    },
+    {
+      "id": "61d84bbcf64538000105ec02",
+      "name": "微怡麻麻的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "6752630f3eb73600158af708",
+      "name": "满妮mannymommy的店",
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 6
+    },
+    {
+      "id": "69ba4ce6fb821000151f7fe7",
+      "name": "悦禾4号店的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "660a92f5745579000199ae01",
+      "name": "PAW&PAW的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
+    },
+    {
+      "id": "664a0b72c7b2730001d99b3e",
+      "name": "限定甜妹Pink童装的店",
+      "lastViolationDate": "2026-04-11",
+      "todayCount": 0,
+      "week7Count": 10
+    },
+    {
       "id": "683952c4a1a15b00153345f4",
       "name": "歌旗高定童装的店",
-      "week7Count": 27,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 1,
+      "week7Count": 5,
+      "todayItems": [
         {
           "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 19:11:09",
-          "isBlackBox": false,
-          "violationId": "426115872226911313"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 15:30:25",
-          "isBlackBox": false,
-          "violationId": "426115650031846485"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 14:44:07",
-          "isBlackBox": false,
-          "violationId": "426115603422399549"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 14:44:07",
-          "isBlackBox": false,
-          "violationId": "426115313371170579"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 13:21:07",
-          "isBlackBox": false,
-          "violationId": "426115519871770499"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-14 09:55:58",
-          "isBlackBox": false,
-          "violationId": "426115313371170578"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-13 23:25:48",
-          "isBlackBox": false,
-          "violationId": "426114679025154614"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-13 18:08:50",
-          "isBlackBox": false,
-          "violationId": "426114002902930950"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-13 18:08:49",
-          "isBlackBox": false,
-          "violationId": "426114359939962847"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-13 14:39:36",
-          "isBlackBox": false,
-          "violationId": "426114149334564509"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-13 12:14:08",
-          "isBlackBox": false,
-          "violationId": "426114002902930949"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-12 15:25:26",
-          "isBlackBox": false,
-          "violationId": "426112745920228728"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-12 15:25:26",
-          "isBlackBox": false,
-          "violationId": "426112413899258330"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-12 14:43:51",
-          "isBlackBox": false,
-          "violationId": "426112704049532903"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-12 09:55:36",
-          "isBlackBox": false,
-          "violationId": "426112413899258329"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 22:54:40",
-          "isBlackBox": false,
-          "violationId": "426110299022696117"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 22:49:16",
-          "isBlackBox": false,
-          "violationId": "426110293586026542"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 19:48:10",
-          "isBlackBox": false,
-          "violationId": "426110111285784277"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 19:48:10",
-          "isBlackBox": false,
-          "violationId": "426109690457983278"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 16:00:33",
-          "isBlackBox": false,
-          "violationId": "426109882155122359"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-10 12:50:08",
-          "isBlackBox": false,
-          "violationId": "426109690457983277"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 23:32:27",
-          "isBlackBox": false,
-          "violationId": "426108887501092527"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 21:54:54",
-          "isBlackBox": false,
-          "violationId": "426108789288630418"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 15:08:43",
-          "isBlackBox": false,
-          "violationId": "426108173261265540"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 15:08:43",
-          "isBlackBox": false,
-          "violationId": "426108380425586570"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 13:46:21",
-          "isBlackBox": false,
-          "violationId": "426108297513320867"
-        },
-        {
-          "reason": "违规营销-包运费虚假",
-          "time": "2026-04-09 11:42:55",
-          "isBlackBox": false,
-          "violationId": "426108173261265539"
+          "isBlackBox": false
         }
       ]
     },
     {
       "id": "64f6d65fdace090001ca48b2",
       "name": "真维斯童装旗舰店",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-14 13:32:54",
-          "isBlackBox": true,
-          "violationId": "1361212600925814784"
-        }
-      ]
+      "lastViolationDate": "2026-04-06",
+      "todayCount": 0,
+      "week7Count": 2
     },
     {
-      "id": "6752630f3eb73600158af708",
-      "name": "满妮mannymommy的店",
-      "week7Count": 5,
-      "week7Items": [
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 11:51:03",
-          "isBlackBox": true,
-          "violationId": "1361549357448839168"
-        },
-        {
-          "reason": "虚假营销相似违规召回",
-          "time": "2026-04-10 14:47:15",
-          "isBlackBox": true,
-          "violationId": "1359781761635786752"
-        },
-        {
-          "reason": "虚假营销相似违规召回",
-          "time": "2026-04-10 14:46:41",
-          "isBlackBox": true,
-          "violationId": "1359781618032001024"
-        },
-        {
-          "reason": "笔记关联商品价格信息异常",
-          "time": "2026-04-09 11:00:11",
-          "isBlackBox": true,
-          "violationId": "426108130227888768"
-        },
-        {
-          "reason": "笔记关联商品价格信息异常",
-          "time": "2026-04-09 01:00:08",
-          "isBlackBox": true,
-          "violationId": "426107526217412313"
-        }
-      ]
+      "id": "647da6a739b63800015abbb6",
+      "name": "嘟嘟家童装店旗舰店",
+      "lastViolationDate": "2026-04-12",
+      "todayCount": 0,
+      "week7Count": 8
     },
     {
       "id": "68c1479efa43320015cc37cf",
       "name": "小首尔韩系童品的店",
-      "week7Count": 0,
-      "week7Items": []
+      "lastViolationDate": "2026-04-10",
+      "todayCount": 0,
+      "week7Count": 2
     },
     {
       "id": "663c725197af9100018e1cf1",
-      "name": "安踏儿童",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "高价商家社区账号流控",
-          "time": "2026-04-14 07:40:34",
-          "isBlackBox": true
-        }
-      ],
-      "note": ""
+      "name": "安踏儿童服饰专卖店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     },
     {
       "id": "64c8b27ee21b7a00014a7125",
       "name": "little MO&Co.旗舰店",
-      "week7Count": 0,
-      "week7Items": []
-    },
-    {
-      "id": "660a92f5745579000199ae01",
-      "name": "PAW&PAW的店",
-      "week7Count": 0,
-      "week7Items": []
-    },
-    {
-      "id": "664a0b72c7b2730001d99b3e",
-      "name": "限定甜妹Pink童装的店",
-      "week7Count": 28,
-      "week7Items": [
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-14 14:06:06",
-          "isBlackBox": true,
-          "violationId": "1361220955259797504"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-14 14:04:34",
-          "isBlackBox": true,
-          "violationId": "1361220572084699136"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-13 21:07:06",
-          "isBlackBox": true,
-          "violationId": "1360964516641886208"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-13 21:07:03",
-          "isBlackBox": true,
-          "violationId": "1360964503479631872"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-13 21:06:53",
-          "isBlackBox": true,
-          "violationId": "1360964460642549760"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:34:06",
-          "isBlackBox": true,
-          "violationId": "1360186138765131776"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:28:43",
-          "isBlackBox": true,
-          "violationId": "1360184783220994048"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:22:21",
-          "isBlackBox": true,
-          "violationId": "1360183179773562880"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:21:45",
-          "isBlackBox": true,
-          "violationId": "1360183028944584704"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:21:15",
-          "isBlackBox": true,
-          "violationId": "1360182904651603970"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:21:02",
-          "isBlackBox": true,
-          "violationId": "1360182850976063488"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:20:25",
-          "isBlackBox": true,
-          "violationId": "1360182694776897536"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:16:33",
-          "isBlackBox": true,
-          "violationId": "1360181722470375424"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:06:15",
-          "isBlackBox": true,
-          "violationId": "1360179130246320130"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:05:43",
-          "isBlackBox": true,
-          "violationId": "1360178993917689856"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:05:35",
-          "isBlackBox": true,
-          "violationId": "1360178959695847424"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:04:56",
-          "isBlackBox": true,
-          "violationId": "1360178796862996480"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:04:50",
-          "isBlackBox": true,
-          "violationId": "1360178774856282112"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:04:40",
-          "isBlackBox": true,
-          "violationId": "1360178729889255424"
-        },
-        {
-          "reason": "机审-内容画风处置",
-          "time": "2026-04-11 17:03:48",
-          "isBlackBox": true,
-          "violationId": "1360178514708619264"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:03:42",
-          "isBlackBox": true,
-          "violationId": "1360178487036067840"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:03:16",
-          "isBlackBox": true,
-          "violationId": "1360178380193746944"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:02:51",
-          "isBlackBox": true,
-          "violationId": "1360178271860531200"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:02:05",
-          "isBlackBox": true,
-          "violationId": "1360178081813975040"
-        },
-        {
-          "reason": "内容无美感",
-          "time": "2026-04-11 17:01:36",
-          "isBlackBox": true,
-          "violationId": "1360177958821814272"
-        },
-        {
-          "reason": "机审-内容画风处置",
-          "time": "2026-04-11 16:53:52",
-          "isBlackBox": true,
-          "violationId": "1360176012592750592"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 18:08:47",
-          "isBlackBox": true,
-          "violationId": "1359470092699508736"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-08 17:08:23",
-          "isBlackBox": true,
-          "violationId": "1359092501763035136"
-        }
-      ]
-    },
-    {
-      "id": "647da6a739b63800015abbb6",
-      "name": "嘟嘟家童装",
-      "week7Count": 2,
-      "week7Items": [
-        {
-          "reason": "无交流互动或回复不及时",
-          "time": "2026-04-14 14:36:30",
-          "isBlackBox": false
-        },
-        {
-          "reason": "笔记画面、音频等包含低质内容",
-          "time": "2026-04-10 09:52:53",
-          "isBlackBox": false
-        }
-      ],
-      "note": ""
+      "lastViolationDate": "2026-04-08",
+      "todayCount": 0,
+      "week7Count": 3
     },
     {
       "id": "6504215e8265a10001b24aa3",
-      "name": "贝贝Miki",
-      "week7Count": 6,
-      "week7Items": [
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 16:50:10",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 08:46:54",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 13:18:20",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 12:57:35",
-          "isBlackBox": true
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-09 15:14:17",
-          "isBlackBox": true
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 11:04:12",
-          "isBlackBox": true
-        }
-      ],
-      "note": ""
+      "name": "贝贝Miki童装的店",
+      "lastViolationDate": "2026-04-12",
+      "todayCount": 0,
+      "week7Count": 4
     },
     {
       "id": "67a6d7d52302820015ffe7f3",
       "name": "蓝鲸童话馆的店",
-      "week7Count": 4,
-      "week7Items": [
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-14 16:55:17",
-          "isBlackBox": false,
-          "violationId": "426115735469337941"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-14 12:37:37",
-          "isBlackBox": true,
-          "violationId": "1361198690618564608"
-        },
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-14 11:36:30",
-          "isBlackBox": false,
-          "violationId": "426115414571522675"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-11 11:55:38",
-          "isBlackBox": true,
-          "violationId": "1360100960580485120"
-        }
-      ]
+      "lastViolationDate": "2026-04-11",
+      "todayCount": 0,
+      "week7Count": 1
     },
     {
-      "id": "68abc7d5ce578e00151c736d",
-      "name": "青岛即墨童装源头工厂的的店",
-      "week7Count": 0,
-      "week7Items": []
+      "id": "641af5a79cd18100012edfe8",
+      "name": "六月喜鹊月子服的店",
+      "lastViolationDate": "2026-04-09",
+      "todayCount": 0,
+      "week7Count": 1
     },
     {
-      "id": "627ca149928e3300017d3a8c",
-      "name": "chenbebe的店",
-      "week7Count": 16,
-      "week7Items": [
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-14 11:32:07",
-          "isBlackBox": true,
-          "violationId": "1361182205783457792"
-        },
-        {
-          "reason": "售卖山寨假货",
-          "time": "2026-04-13 16:53:55",
-          "isBlackBox": false,
-          "violationId": "426114284515031280"
-        },
-        {
-          "reason": "拟真人像-已主动声明AIGC视频",
-          "time": "2026-04-13 13:54:46",
-          "isBlackBox": true,
-          "violationId": "1360855716399144960"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-13 11:41:10",
-          "isBlackBox": true,
-          "violationId": "1360822093725667328"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-12 14:10:46",
-          "isBlackBox": true,
-          "violationId": "1360497355871461376"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 12:00:56",
-          "isBlackBox": true,
-          "violationId": "1360464683455819776"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 09:35:54",
-          "isBlackBox": true,
-          "violationId": "1360428182643404800"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-12 09:03:10",
-          "isBlackBox": true,
-          "violationId": "1360419946213769216"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-12 08:29:26",
-          "isBlackBox": true,
-          "violationId": "1360411456676540416"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-11 17:24:36",
-          "isBlackBox": true,
-          "violationId": "1360183745834905600"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-11 14:55:16",
-          "isBlackBox": true,
-          "violationId": "1360146166968963072"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-10 16:27:37",
-          "isBlackBox": true,
-          "violationId": "1359807020762619904"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-10 12:46:39",
-          "isBlackBox": true,
-          "violationId": "1359751411245178880"
-        },
-        {
-          "reason": "封标跟风",
-          "time": "2026-04-09 18:07:21",
-          "isBlackBox": true,
-          "violationId": "1359469731685548032"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 11:03:43",
-          "isBlackBox": true,
-          "violationId": "1359363117758300160"
-        },
-        {
-          "reason": "售卖山寨假货",
-          "time": "2026-04-09 10:50:17",
-          "isBlackBox": false,
-          "violationId": "426108120278999624"
-        }
-      ]
+      "id": "636101a583f0d000019dc509",
+      "name": "ELLIE&LUKE的店",
+      "lastViolationDate": "2026-04-12",
+      "todayCount": 0,
+      "week7Count": 5
     },
     {
       "id": "662df71ac7b2730001531a8b",
       "name": "WOOKIDS 4号店的店",
-      "week7Count": 7,
-      "week7Items": [
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 2,
+      "week7Count": 5,
+      "todayItems": [
         {
           "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:00:21",
-          "isBlackBox": true,
-          "violationId": "426116646539507215"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-15 08:00:18",
-          "isBlackBox": true,
-          "violationId": "426116646482274346"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 07:30:39",
-          "isBlackBox": true,
-          "violationId": "426113717529107050"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 07:30:36",
-          "isBlackBox": true,
-          "violationId": "426113717489353139"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 08:30:42",
-          "isBlackBox": true,
-          "violationId": "426109429324126581"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 08:30:29",
-          "isBlackBox": true,
-          "violationId": "426109429104525660"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 09:30:06",
-          "isBlackBox": true,
-          "violationId": "426108039566725689"
+          "isBlackBox": true
         }
       ]
     },
     {
-      "id": "648fe9c948b95a0001e0acd0",
-      "name": "祯有范童装的店",
-      "week7Count": 26,
-      "week7Items": [
+      "id": "627ca149928e3300017d3a8c",
+      "name": "chenbebe的店",
+      "lastViolationDate": "2026-04-13",
+      "todayCount": 3,
+      "week7Count": 10,
+      "todayItems": [
         {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-15 15:00:46",
-          "isBlackBox": false,
-          "violationId": "1361597103880167424"
+          "reason": "售卖山寨假货",
+          "isBlackBox": false
         },
         {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:53:42",
-          "isBlackBox": true,
-          "violationId": "1361534926816571392"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:52:11",
-          "isBlackBox": true,
-          "violationId": "1361534544174538752"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:50:54",
-          "isBlackBox": true,
-          "violationId": "1361534219330142208"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:49:26",
-          "isBlackBox": true,
-          "violationId": "1361533850124566528"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:43:45",
-          "isBlackBox": true,
-          "violationId": "1361532423088398336"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:42:24",
-          "isBlackBox": true,
-          "violationId": "1361532082439327744"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 10:41:07",
-          "isBlackBox": true,
-          "violationId": "1361531757022449664"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-15 10:41:06",
-          "isBlackBox": true,
-          "violationId": "1361531755768352768"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 12:06:06",
-          "isBlackBox": true,
-          "violationId": "1361190758876176384"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-14 12:02:38",
-          "isBlackBox": false,
-          "violationId": "1361189886356889600"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 11:51:59",
-          "isBlackBox": true,
-          "violationId": "1361187204801376256"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 11:49:06",
-          "isBlackBox": true,
-          "violationId": "1361186481539129344"
-        },
-        {
-          "reason": "账号存在创作质量不佳的内容",
-          "time": "2026-04-14 11:42:09",
-          "isBlackBox": true,
-          "violationId": "1361184729766567936"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-14 11:42:07",
-          "isBlackBox": true,
-          "violationId": "1361184722379472896"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-13 11:27:51",
-          "isBlackBox": true,
-          "violationId": "1360818744448872448"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 11:27:51",
-          "isBlackBox": true,
-          "violationId": "1360818743177998336"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-13 11:16:37",
-          "isBlackBox": true,
-          "violationId": "1360815916076351488"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 11:16:36",
-          "isBlackBox": true,
-          "violationId": "1360815914780311552"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-13 11:15:58",
-          "isBlackBox": true,
-          "violationId": "1360815752603353090"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 11:15:57",
-          "isBlackBox": true,
-          "violationId": "1360815751403782144"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-13 11:13:55",
-          "isBlackBox": true,
-          "violationId": "1360815236453609472"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 11:13:54",
-          "isBlackBox": true,
-          "violationId": "1360815235216289792"
-        },
-        {
-          "reason": "工业化流水号-经营账号-他相似笔记",
-          "time": "2026-04-13 11:12:30",
-          "isBlackBox": true,
-          "violationId": "1360814883147046912"
-        },
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-09 23:27:20",
-          "isBlackBox": false,
-          "violationId": "426108882350487200"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-09 00:08:20",
-          "isBlackBox": false,
-          "violationId": "1359198185488011264"
-        }
-      ]
-    },
-    {
-      "id": "6583aa4f4f737f0001e2b7cb",
-      "name": "柒柒公主日常穿搭的店",
-      "week7Count": -1,
-      "week7Items": [],
-      "error": "HTTP Error 500: Internal Server Error"
-    },
-    {
-      "id": "664026a0a57f5800010e52ff",
-      "name": "右欧童装旗舰店",
-      "week7Count": 9,
-      "week7Items": [
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 16:50:02",
-          "isBlackBox": true,
-          "violationId": "1361624600051372032"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 13:49:02",
-          "isBlackBox": true,
-          "violationId": "1361579051636269056"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-14 10:28:42",
-          "isBlackBox": true,
-          "violationId": "1361166245461884928"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-14 10:20:47",
-          "isBlackBox": true,
-          "violationId": "1361164254484643840"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-12 10:39:34",
-          "isBlackBox": true,
-          "violationId": "1360444206670233600"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-10 14:13:42",
-          "isBlackBox": true,
-          "violationId": "1359773316962533376"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 17:05:46",
-          "isBlackBox": true,
-          "violationId": "1359454231182790656"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 16:53:54",
-          "isBlackBox": true,
-          "violationId": "1359451244253753344"
-        },
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-09 16:19:46",
-          "isBlackBox": true,
-          "violationId": "1359442655849959424"
-        }
-      ]
-    },
-    {
-      "id": "65aa5f49c787340001b1e335",
-      "name": "乔一麻麻",
-      "week7Count": 2,
-      "week7Items": [
-        {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 02:19:14",
+          "reason": "拟真人像-已主动声明AIGC视频",
           "isBlackBox": true
         },
         {
-          "reason": "笔记存在创作质量不佳的内容 ",
-          "time": "2026-04-15 02:17:58",
+          "reason": "封标跟风",
           "isBlackBox": true
         }
-      ],
-      "note": ""
-    },
-    {
-      "id": "6440342d76c7f600018e6691",
-      "name": "ee.11的店",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "预售商品缺货违规",
-          "time": "2026-04-15 14:10:55",
-          "isBlackBox": false,
-          "violationId": "426117019536911098"
-        }
       ]
     },
     {
-      "id": "62f8bde1d248f10001591312",
-      "name": "小粗腿原创童装的店",
-      "week7Count": 1,
-      "week7Items": [
-        {
-          "reason": "违规营销-虚假现货信息",
-          "time": "2026-04-14 11:14:49",
-          "isBlackBox": false,
-          "violationId": "426115392727402495"
-        }
-      ]
-    },
-    {
-      "id": "68c13794d8d80d00157a53d1",
-      "name": "甜柚baby穿搭的店",
-      "week7Count": 15,
-      "week7Items": [
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:48:12",
-          "isBlackBox": true,
-          "violationId": "426115849118063920"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:47:53",
-          "isBlackBox": true,
-          "violationId": "426115848816529801"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:47:52",
-          "isBlackBox": true,
-          "violationId": "426115848799752584"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:47:47",
-          "isBlackBox": true,
-          "violationId": "426115848715776028"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:26",
-          "isBlackBox": true,
-          "violationId": "426114384702482557"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:23",
-          "isBlackBox": true,
-          "violationId": "426114384661904281"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:22",
-          "isBlackBox": true,
-          "violationId": "426114384641456577"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:20",
-          "isBlackBox": true,
-          "violationId": "426114384610336257"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:18",
-          "isBlackBox": true,
-          "violationId": "426114384574382298"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 16:56:53",
-          "isBlackBox": true,
-          "violationId": "426109938861449491"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 15:54:52",
-          "isBlackBox": true,
-          "violationId": "426109876416395681"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 15:54:48",
-          "isBlackBox": true,
-          "violationId": "426109876350205535"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 15:49:32",
-          "isBlackBox": true,
-          "violationId": "426109871047686519"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 09:18:39",
-          "isBlackBox": true,
-          "violationId": "426109477588672944"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 18:09:21",
-          "isBlackBox": true,
-          "violationId": "426108562259338785"
-        }
-      ]
-    },
-    {
-      "id": "699eb97b3f2158001514430d",
-      "name": "布丁kids童品5店的店",
-      "week7Count": 2,
-      "week7Items": [
-        {
-          "reason": "无交流互动或回复不及时",
-          "time": "2026-04-13 22:13:43",
-          "isBlackBox": false,
-          "violationId": "426114606463644407"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-12 19:17:15",
-          "isBlackBox": false,
-          "violationId": "1360574486080753664"
-        }
-      ]
-    },
-    {
-      "id": "673d869a8413dc0015bd0c00",
-      "name": "郑阿囍AXIStudio童装的店",
-      "week7Count": 29,
-      "week7Items": [
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:23:33",
-          "isBlackBox": true,
-          "violationId": "426115824312716958"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:22:04",
-          "isBlackBox": true,
-          "violationId": "426115822817961700"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-14 18:19:48",
-          "isBlackBox": true,
-          "violationId": "426115820536352675"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 20:15:19",
-          "isBlackBox": true,
-          "violationId": "426114487270257963"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 20:14:31",
-          "isBlackBox": true,
-          "violationId": "426114486472909855"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 20:13:47",
-          "isBlackBox": true,
-          "violationId": "426114485734293737"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:42:18",
-          "isBlackBox": true,
-          "violationId": "426114393644643930"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:38:35",
-          "isBlackBox": true,
-          "violationId": "426114389903279906"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:37:17",
-          "isBlackBox": true,
-          "violationId": "426114388584102347"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-13 18:33:44",
-          "isBlackBox": true,
-          "violationId": "426114385021225101"
-        },
-        {
-          "reason": "无及时且有效的互动",
-          "time": "2026-04-13 17:06:05",
-          "isBlackBox": false,
-          "violationId": "1360903863500148736"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 12:02:07",
-          "isBlackBox": true,
-          "violationId": "426109642139600815"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 12:01:11",
-          "isBlackBox": true,
-          "violationId": "426109641199820508"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-10 12:00:26",
-          "isBlackBox": true,
-          "violationId": "426109640447127687"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:53:57",
-          "isBlackBox": true,
-          "violationId": "426108788332329079"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:52:40",
-          "isBlackBox": true,
-          "violationId": "426108787058741390"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:51:46",
-          "isBlackBox": true,
-          "violationId": "426108786149722491"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:50:36",
-          "isBlackBox": true,
-          "violationId": "426108784974603983"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:49:29",
-          "isBlackBox": true,
-          "violationId": "426108783851243863"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:44:51",
-          "isBlackBox": true,
-          "violationId": "426108779187201234"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:43:12",
-          "isBlackBox": true,
-          "violationId": "426108777526233337"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:42:12",
-          "isBlackBox": true,
-          "violationId": "426108776519623849"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:39:28",
-          "isBlackBox": true,
-          "violationId": "426108773769705379"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:36:45",
-          "isBlackBox": true,
-          "violationId": "426108771033450585"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-09 21:34:05",
-          "isBlackBox": true,
-          "violationId": "426108768352219302"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-08 18:45:41",
-          "isBlackBox": true,
-          "violationId": "426107149283696350"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-08 18:18:17",
-          "isBlackBox": true,
-          "violationId": "426107121699095064"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-08 18:17:08",
-          "isBlackBox": true,
-          "violationId": "426107120524689937"
-        },
-        {
-          "reason": "商品价格信息异常",
-          "time": "2026-04-08 18:14:35",
-          "isBlackBox": true,
-          "violationId": "426107117975914235"
-        }
-      ]
+      "id": "643b7491da28d90001319a66",
+      "name": "小懒孕期穿搭的店",
+      "lastViolationDate": null,
+      "todayCount": 0,
+      "week7Count": 0
     }
   ]
 }
