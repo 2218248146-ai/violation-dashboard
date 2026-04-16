@@ -194,7 +194,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
         <div class="scard"><div class="sl">监控商家总数</div><div class="sn sn-total" id="s-total">-</div><div class="ss" id="s-cat"></div></div>
         <div class="scard"><div class="sl">今日新增违规</div><div class="sn sn-viol" id="s-viol">-</div><div class="ss" id="s-viol-pct"></div></div>
         <div class="scard"><div class="sl">近7日有违规</div><div class="sn sn-viol" id="s-week7">-</div><div class="ss" id="s-week7-pct"></div></div>
-        <div class="scard"><div class="sl">含黑盒处罚</div><div class="sn sn-bb" id="s-bb">-</div><div class="ss">⚠️ 商家无感知，需重点跟进</div></div>
+        <div class="scard"><div class="sl">今日含黑盒</div><div class="sn sn-bb" id="s-bb-today">-</div><div class="ss">⚠️ 今日新增黑盒商家</div></div>
+        <div class="scard"><div class="sl">近7日含黑盒</div><div class="sn sn-bb" id="s-bb-week7">-</div><div class="ss">⚠️ 商家无感知，需重点跟进</div></div>
         <div class="scard"><div class="sl">今日无新增</div><div class="sn sn-safe" id="s-safe">-</div><div class="ss">经营状态健康</div></div>
       </div>
 
@@ -380,15 +381,16 @@ function renderOverview(ms) {
   const week7Count = ms.filter(m => m.week7Count > 0).length;
   const withBB = ms.filter(m => (m.violations||[]).some(v=>v.isBlackBox)).length;
   const tdCount = ms.filter(m => m.todayCount > 0).length;
+  const tdBBCount = ms.filter(m => m.todayCount > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
+  const week7BBCount = ms.filter(m => m.week7Count > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
   const tdSafe = ms.filter(m => m.todayCount === 0).length;
-  const tdBB = ms.filter(m => m.todayCount > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
-
   document.getElementById('s-total').textContent = total;
   document.getElementById('s-viol').textContent = tdCount;
   document.getElementById('s-viol-pct').textContent = '占比 ' + Math.round(tdCount/total*100) + '%';
   document.getElementById('s-week7').textContent = week7Count;
   document.getElementById('s-week7-pct').textContent = '占比 ' + Math.round(week7Count/total*100) + '%';
-  document.getElementById('s-bb').textContent = withBB;
+  document.getElementById('s-bb-today').textContent = tdBBCount;
+  document.getElementById('s-bb-week7').textContent = week7BBCount;
   document.getElementById('s-safe').textContent = tdSafe;
 
   const maxV = Math.max(...ms.map(m => m.week7Count), 0);
@@ -407,8 +409,8 @@ function renderOverview(ms) {
   document.getElementById('m-bbp2').textContent = Math.round(withBB/total*100) + '%';
   document.getElementById('m-note2').textContent = withV > total*0.5 ? '类目整体违规率偏高，内容合规压力显著（含历史未撤销）' : '类目整体合规状况良好';
   document.getElementById('m-td').textContent = tdCount + ' 家';
-  document.getElementById('m-tdbb').textContent = tdBB + ' 家';
-  document.getElementById('m-tdwb').textContent = (tdCount - tdBB) + ' 家';
+  document.getElementById("m-tdbb").textContent = tdBBCount + " 家";
+  document.getElementById("m-tdwb").textContent = (tdCount - tdBBCount) + " 家";
 
   // 违规风向色块
   const trendDefs = [
