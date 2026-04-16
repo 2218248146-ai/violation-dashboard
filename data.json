@@ -1,26 +1,20 @@
 {
-  "updatedAt": "2026-04-16 14:01:52",
+  "updatedAt": "2026-04-16T17:16:55+08:00",
   "ams": {
     "安芷": {
       "displayName": "安芷",
-      "category": "童装童鞋",
-      "checkDate": "2026-04-16",
-      "summary": {
-        "total": 50,
-        "hasViolation": 36,
-        "blackBox": 0,
-        "todayNew": 5,
-        "healthy": 14
-      },
+      "category": "童装童鞋·亲子生活",
+      "placeholder": false,
       "merchants": [
         {
           "id": "656c078b0852060001c9c6a1",
           "name": "TooYoo与你｜男童穿搭的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 2478061.21,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 8,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425697134000996306",
@@ -118,17 +112,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "648bbcda2719510001c0d731",
           "name": "允儿妈童装旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 2400762.9599999995,
+          "checkStatus": "ok",
           "todayViolations": 1,
           "week7Violations": 1,
           "totalActiveViolations": 6,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426118272469422327",
@@ -202,17 +196,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
           "name": "NANO KIDS的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 2092371.5600000017,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 2,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425606594118264160",
@@ -238,17 +232,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "68873c8b4c27360015d58b7b",
           "name": "balaOne官方旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1854910.8900000057,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 6,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426099388173624990",
@@ -322,17 +316,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "66128389745579000199f6e9",
           "name": "Eer｜4.16早8.30二周年店庆的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1779245.3299999998,
+          "checkStatus": "ok",
           "todayViolations": 1,
           "week7Violations": 1,
           "totalActiveViolations": 1,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426118317281753884",
@@ -346,17 +340,17 @@
               "isBlackBox": false,
               "canAppeal": true
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6464d4b7ebbcb2000151ff6c",
           "name": "MiniBala旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1765567.8200000017,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 11,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425626913239435490",
@@ -490,17 +484,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6440b228a3c2d90001dccd85",
           "name": "A.ND设计师童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1638110.9100000004,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 6,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425954797362324409",
@@ -574,28 +568,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "69796643a64ce7001555d053",
           "name": "绮遇童年的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 1566459.3600000057,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "63db9c9e505ba20001836df0",
           "name": "番茄弟弟的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1337831.01,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 4,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425663186415319040",
@@ -645,17 +639,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "649e92f6a71a610001e56574",
           "name": "Hush Puppies暇步士童装旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1319632.87,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 1,
           "totalActiveViolations": 7,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426115771238239739",
@@ -743,17 +737,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "643e3beffde23e0001a3365a",
           "name": "大小卷儿运营号的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1165355.630000003,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 8,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426069505693203399",
@@ -851,17 +845,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "68c10f4aff2efd001543a4e3",
           "name": "派町韩系童品的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 1048745.4200000009,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 1,
           "totalActiveViolations": 2,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426111221391473025",
@@ -890,50 +884,50 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "64390a986fdda10001e84590",
           "name": "ppapa shop的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 1045196.0300000003,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "698595ba8ab5a80015f612af",
           "name": "允儿妈萌宝的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 974349.82,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "67ad9357af01d90015f29f1a",
           "name": "一秋妈设计师童装的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 972368.4000000019,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "673c0490f343ff00154c1f16",
           "name": "芽芽宝贝买手店的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 963870.5400000003,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 10,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425687978254822260",
@@ -1055,28 +1049,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6877591f673c1e001513e072",
           "name": "佳宝北美的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 957353.2199999999,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "62d27c563d1b6a000114fe9e",
           "name": "河南伊日服装的店的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 942495.0100000007,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 7,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425293542574822585",
@@ -1162,17 +1156,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6482f8188b61ef00019f59df",
           "name": "ELLE KIDS童装旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 915642.1600000001,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 4,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425632689802528396",
@@ -1223,28 +1217,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "69ba4ce6fb821000151f7fe7",
           "name": "悦禾4号店的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 893067.9000000024,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "6296050f56228a000189da4c",
           "name": "桑桑姐～的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 801000.5700000011,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 1,
           "totalActiveViolations": 6,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426109568957135945",
@@ -1318,17 +1312,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "61d84bbcf64538000105ec02",
           "name": "微怡麻麻的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 784955.6799999998,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 1,
           "totalActiveViolations": 11,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426115771070777908",
@@ -1464,39 +1458,39 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6541b35043e89d0001bcbedc",
           "name": "咸柠七baby童装店的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 782888.4400000015,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
           "name": "蕃妈设计师童装的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 777995.4900000014,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "65267a467fa15200013b9c5c",
           "name": "蚕多贝的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 774964.97,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 8,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426029904337439776",
@@ -1594,17 +1588,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6108f489c1c7880001345af1",
           "name": "LEOHAPPY设计师童装亲子装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 770638.5900000001,
+          "checkStatus": "ok",
           "todayViolations": 1,
           "week7Violations": 1,
           "totalActiveViolations": 10,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426118266048967700",
@@ -1726,17 +1720,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
           "name": "啵小爸BOZPAPA易发服装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 695680.9200000007,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 1,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425415304958939514",
@@ -1750,17 +1744,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "683952c4a1a15b00153345f4",
           "name": "歌旗高定童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 661993.7600000019,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 4,
           "totalActiveViolations": 4,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426115313371170579",
@@ -1810,17 +1804,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "64f6d65fdace090001ca48b2",
           "name": "真维斯童装旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 650215.1300000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 7,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425880976390813241",
@@ -1906,17 +1900,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6752630f3eb73600158af708",
           "name": "满妮mannymommy的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 649631.8700000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 7,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426102785173986240",
@@ -2004,28 +1998,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "68c1479efa43320015cc37cf",
           "name": "小首尔韩系童品的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 646598.1900000003,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "663c725197af9100018e1cf1",
           "name": "安踏儿童服饰专卖店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 639406.1999999998,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 4,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425764224427734399",
@@ -2075,28 +2069,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
           "name": "little MO&Co.旗舰店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 637887.3799999999,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "660a92f5745579000199ae01",
           "name": "PAW&PAW的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 620755.8900000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 10,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425493402060555398",
@@ -2218,17 +2212,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
           "name": "限定甜妹Pink童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 619699.6300000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 6,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426056150223921230",
@@ -2302,28 +2296,41 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "647da6a739b63800015abbb6",
           "name": "嘟嘟家童装店旗舰店",
-          "hasViolation": false,
+          "dgmv": 592012.38,
+          "checkStatus": "ok",
+          "todayViolations": 1,
+          "week7Violations": 1,
+          "totalActiveViolations": 1,
           "isBlackBox": false,
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "violations": [
+            {
+              "violationId": "426118642142781604",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-16 17:02",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            }
+          ]
         },
         {
           "id": "6504215e8265a10001b24aa3",
           "name": "贝贝Miki童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 527798.5599999999,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 9,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426059039747081735",
@@ -2433,39 +2440,39 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
           "name": "蓝鲸童话馆的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 527040.5699999991,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "68abc7d5ce578e00151c736d",
           "name": "青岛即墨童装源头工厂的的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 521485.170000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "627ca149928e3300017d3a8c",
           "name": "chenbebe的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 510321.15999999986,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 2,
           "totalActiveViolations": 9,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426114284515031280",
@@ -2581,17 +2588,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "662df71ac7b2730001531a8b",
           "name": "WOOKIDS 4号店的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 495538.4699999998,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 4,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425673333137671659",
@@ -2641,17 +2648,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "648fe9c948b95a0001e0acd0",
           "name": "祯有范童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 490003.70999999973,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 2,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426099834682911623",
@@ -2677,17 +2684,17 @@
               "isBlackBox": false,
               "canAppeal": true
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6583aa4f4f737f0001e2b7cb",
           "name": "柒柒公主日常穿搭的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 487179.86999999965,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 2,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425864679284668754",
@@ -2713,17 +2720,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "664026a0a57f5800010e52ff",
           "name": "右欧童装旗舰店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 484094.76999999944,
+          "checkStatus": "ok",
           "todayViolations": 1,
           "week7Violations": 1,
           "totalActiveViolations": 5,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426118214509359879",
@@ -2735,7 +2742,7 @@
                 "[直播间]直播间警告"
               ],
               "isBlackBox": false,
-              "canAppeal": true
+              "canAppeal": false
             },
             {
               "violationId": "425670318427403351",
@@ -2785,17 +2792,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "65aa5f49c787340001b1e335",
           "name": "乔一麻麻童装铺的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 461656.749999999,
+          "checkStatus": "ok",
           "todayViolations": 1,
           "week7Violations": 1,
           "totalActiveViolations": 11,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426118440644238946",
@@ -2929,17 +2936,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "6440342d76c7f600018e6691",
           "name": "ee.11的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 458602.2799999997,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 13,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "209628374938886717",
@@ -3097,17 +3104,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "62f8bde1d248f10001591312",
           "name": "小粗腿原创童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 441568.1200000002,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 5,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "426066038061790536",
@@ -3169,17 +3176,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "68c13794d8d80d00157a53d1",
           "name": "甜柚baby穿搭的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 438001.53999999934,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 2,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425975030668131785",
@@ -3212,28 +3219,28 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         },
         {
           "id": "699eb97b3f2158001514430d",
           "name": "布丁kids童品5店的店",
-          "hasViolation": false,
-          "isBlackBox": false,
+          "dgmv": 432899.65000000055,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 0,
-          "violations": [],
-          "checkStatus": "ok"
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "673d869a8413dc0015bd0c00",
           "name": "郑阿囍AXIStudio童装的店",
-          "hasViolation": true,
-          "isBlackBox": false,
+          "dgmv": 426201.97999999975,
+          "checkStatus": "ok",
           "todayViolations": 0,
           "week7Violations": 0,
           "totalActiveViolations": 5,
+          "isBlackBox": false,
           "violations": [
             {
               "violationId": "425667597934279299",
@@ -3295,8 +3302,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "checkStatus": "ok"
+          ]
         }
       ]
     }
