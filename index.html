@@ -245,7 +245,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
         <thead><tr>
           <th style="width:26%">商家名称</th>
           <th style="width:9%">今日新增</th>
-          <th style="width:9%">近7日</th>
+          <th style="width:9%">活跃违规</th>
           <th style="width:13%">处罚性质</th>
           <th>AM 建议</th>
         </tr></thead>
@@ -374,7 +374,7 @@ function switchTab(name, el) {
 // ── 看板渲染 ──
 function renderOverview(ms) {
   const total = ms.length;
-  const withV = ms.filter(m => m.week7Count > 0).length;
+  const withV = ms.filter(m => (m.totalActiveViolations || 0) > 0).length;
   const withBB = ms.filter(m => (m.violations||[]).some(v=>v.isBlackBox)).length;
   const tdCount = ms.filter(m => m.todayCount > 0).length;
   const tdSafe = ms.filter(m => m.todayCount === 0).length;
@@ -400,7 +400,7 @@ function renderOverview(ms) {
   document.getElementById('m-avg').textContent = avg + ' 条';
   document.getElementById('m-pct').textContent = Math.round(withV/total*100) + '%';
   document.getElementById('m-bbp2').textContent = Math.round(withBB/total*100) + '%';
-  document.getElementById('m-note2').textContent = withV > total*0.5 ? '类目整体违规率偏高，内容合规压力显著' : '类目整体合规状况良好';
+  document.getElementById('m-note2').textContent = withV > total*0.5 ? '类目整体违规率偏高，内容合规压力显著（含历史未撤销）' : '类目整体合规状况良好';
   document.getElementById('m-td').textContent = tdCount + ' 家';
   document.getElementById('m-tdbb').textContent = tdBB + ' 家';
   document.getElementById('m-tdwb').textContent = (tdCount - tdBB) + ' 家';
@@ -446,9 +446,9 @@ function filterMerchants() {
   let list = [...currentMerchants];
   if (currentFilter === 'today') list = list.filter(m => m.todayCount > 0);
   else if (currentFilter === 'blackbox') list = list.filter(m => m.hasBlackBox);
-  else if (currentFilter === 'safe') list = list.filter(m => m.week7Count === 0);
+  else if (currentFilter === 'safe') list = list.filter(m => (m.totalActiveViolations || 0) === 0);
   if (q) list = list.filter(m => m.name.toLowerCase().includes(q));
-  list.sort((a,b) => b.todayCount - a.todayCount || b.week7Count - a.week7Count);
+  list.sort((a,b) => b.todayCount - a.todayCount || (b.totalActiveViolations||0) - (a.totalActiveViolations||0) || b.week7Count - a.week7Count);
 
   const tbody = document.getElementById('merchant-tbody');
   tbody.innerHTML = '';
@@ -468,7 +468,7 @@ function filterMerchants() {
       <td><div style="font-weight:600;margin-bottom:3px">${m.name}</div>
         <a class="crm-link" href="https://crm.xiaohongshu.com/eccrm/merchant-detail/${m.id}?isSellerId=true&type=shopDiagnosis" target="_blank" onclick="event.stopPropagation()">🔗 苍穹详情</a></td>
       <td>${m.todayCount > 0 ? '<span class="cc">'+m.todayCount+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
-      <td>${m.week7Count > 0 ? '<span class="cc">'+m.week7Count+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
+      <td>${(m.totalActiveViolations||0) > 0 ? '<span class="cc">'+(m.totalActiveViolations||0)+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
       <td>${badgeHtml}</td>
       <td style="color:#555;font-size:12px">${advice}</td>`;
     tbody.appendChild(tr);
