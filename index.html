@@ -337,6 +337,11 @@ function loadAM(name) {
   const amData = DATA.ams[name];
   if (!amData) { return; }
   currentAM = name;
+  // 兼容新旧字段名：week7Violations/todayViolations → week7Count/todayCount
+  (amData.merchants || []).forEach(m => {
+    if (m.week7Count === undefined) m.week7Count = m.week7Violations || 0;
+    if (m.todayCount === undefined) m.todayCount = m.todayViolations || 0;
+  });
   currentMerchants = amData.merchants;
   document.getElementById('login-page').style.display = 'none';
   document.getElementById('main-page').style.display = 'block';
