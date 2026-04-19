@@ -1,17 +1,5 @@
 {
-  "updatedAt": "2026-04-16T18:35:46.019842+08:00",
-  "summary": {
-    "todayCount": 6,
-    "week7Count": 16,
-    "todayMerchants": 6,
-    "week7Merchants": 12,
-    "totalMerchants": 50,
-    "blackBoxMerchants": 11,
-    "communityBBMerchants": 9,
-    "tradeBBMerchants": 2,
-    "tdBBCount": 15,
-    "week7BBCount": 30
-  },
+  "updatedAt": "2026-04-19T23:22:31.656719",
   "ams": {
     "安芷": {
       "displayName": "安芷",
@@ -19,3106 +7,3221 @@
       "placeholder": false,
       "merchants": [
         {
-          "id": "65aa5f49c787340001b1e335",
-          "name": "乔一麻麻童装铺",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 25,
-          "isBlackBox": true,
-          "communityBlackBox": 4,
-          "tradeBlackBox": 0,
+          "id": "656c078b0852060001c9c6a1",
+          "name": "TooYoo与你｜男童穿搭的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 8,
+          "isBlackBox": false,
           "violations": [
             {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776318159000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1743472952000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1742462651000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1742462651000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1740794503000
-            },
-            {
+              "violationId": "425697134000996306",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-29 22:12",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1740632351000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740374589000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1739498536000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1738829458000
-            },
-            {
-              "reason": "严重站外导流",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1721329197000
-            },
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1716987249000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1715258629000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1715258579000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1713793872000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1713793507000
-            },
-            {
-              "reason": "信息质量差",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1712483735000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1712383454000
-            },
-            {
-              "reason": "信息质量差",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1712383427000
-            },
-            {
-              "reason": "信息质量差",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1712383045000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711681947000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711681611000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711681589000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711681527000
-            },
-            {
-              "reason": "违反平台规定",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711519990000
-            },
-            {
-              "reason": "信息质量差",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1711016278000
-            }
-          ],
-          "communityBBDetail": [
-            "笔记质量不佳×4（今日大量新增）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6108f489c1c7880001345af1",
-          "name": "LEOHAPPY设计师童装",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 10,
-          "isBlackBox": true,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 4,
-          "violations": [
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776307752000
-            },
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1764062687000
-            },
-            {
-              "reason": "材质宣传与实际参数不一致",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1757310380000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748138601000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1745636911000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1744686123000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1743732075000
-            },
-            {
-              "reason": "揽收超时率严重",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1743559319000
-            },
-            {
+              "violationId": "425693508612412840",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-27 10:10",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1740278000000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425685460128838523",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-21 20:55",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425684042705824042",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-20 21:27",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425661964917288231",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-05 15:54",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425659112807337940",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-03 16:41",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425531149253054063",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-07 10:01",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1738980138000
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425521064032287989",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-28 11:02",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": [
-            "商品价格信息异常×4（04-15）"
           ]
         },
         {
           "id": "648bbcda2719510001c0d731",
-          "name": "允儿妈童装",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 8,
-          "isBlackBox": true,
-          "communityBlackBox": 3,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776308135000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1766564259000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1766564259000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1766564259000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1766564259000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1766564259000
-            },
-            {
-              "reason": "商品发货时效描述不符",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1751951166000
-            },
-            {
-              "reason": "商品发货时效描述不符",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1751868427000
-            }
-          ],
-          "communityBBDetail": [
-            "A.ND 工业化流水号",
-            "A.ND 营销内容不合规",
-            "A.ND 质量不佳"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "664026a0a57f5800010e52ff",
-          "name": "右欧童装旗舰店",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 17,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776304680000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749607993000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749526758000
-            },
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1747217539000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1741921110000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1741508722000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1741084722000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1741084722000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1741083278000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1740011932000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739594688000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739275994000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738983022000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738833906000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738647543000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1738647543000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738639774000
-            }
-          ],
-          "communityBBDetail": [
-            "笔记质量不佳×2"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "647da6a739b63800015abbb6",
-          "name": "嘟嘟家童装店",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 1,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776330170000
-            }
-          ],
-          "communityBBDetail": [
-            "直播回放禁止展示",
-            "单场直播流量限制"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "66128389745579000199f6e9",
-          "name": "Eer｜二周年店庆",
-          "todayCount": 1,
-          "week7Count": 1,
-          "totalActiveViolations": 16,
+          "name": "允儿妈童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 5,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
-              "reason": "服饰虚假宣传关键信息不规范",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "time": 1776310805000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749219692000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1747368229000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1745550524000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740117401000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739979977000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1739930506000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739808592000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1739808592000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739800362000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739719485000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1739719485000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739714555000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739634448000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1739029748000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1731992405000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "664a0b72c7b2730001d99b3e",
-          "name": "限定甜妹Pink童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 6,
-          "isBlackBox": true,
-          "communityBlackBox": 4,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "信息不一致",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1772605361000
-            },
-            {
+              "violationId": "425954797345284929",
               "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1744774630000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1741831313000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1740621756000
-            },
-            {
-              "reason": "店铺物流信息异常违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1737421565000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1729569605000
-            }
-          ],
-          "communityBBDetail": [
-            "内容无美感×4（04-13/04-14）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6296050f56228a000189da4c",
-          "name": "桑桑姐～",
-          "todayCount": 0,
-          "week7Count": 1,
-          "totalActiveViolations": 6,
-          "isBlackBox": true,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 3,
-          "violations": [
-            {
-              "reason": "商品类目错放",
+              "violationId": "425954797345472714",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1775789366000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "虚假交易（严重违规）",
+              "violationId": "425954797345472715",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
-                "[店铺]扣违规积分"
+                "[商品]商品冻结"
               ],
-              "time": 1758769878000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "物流轨迹超时违规",
+              "violationId": "425954797345374450",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
-                "[店铺]扣违规积分"
+                "[商品]商品冻结"
               ],
-              "time": 1737432013000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "订单揽收超时不符平台规定",
+              "violationId": "425954797345374454",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
-                "[店铺]扣违规积分"
+                "[商品]商品冻结"
               ],
-              "time": 1735779929000
-            },
-            {
-              "reason": "虚假交易",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1733961564000
-            },
-            {
-              "reason": "周虚假发货高",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721710814000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": [
-            "商品价格信息异常×3（04-15/04-10）"
           ]
         },
         {
-          "id": "627ca149928e3300017d3a8c",
-          "name": "chenbebe",
-          "todayCount": 0,
-          "week7Count": 2,
-          "totalActiveViolations": 22,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "售卖山寨假货",
-              "actions": [
-                "[商品]商品关联的笔记限流",
-                "[商品]商品限流",
-                "[商品]商品搜索限流",
-                "[商品]限制该商品准入市集"
-              ],
-              "time": 1776070435000
-            },
-            {
-              "reason": "售卖山寨假货",
-              "actions": [
-                "[商品]商品关联的笔记限流",
-                "[商品]商品限流",
-                "[商品]商品搜索限流",
-                "[商品]限制该商品准入市集"
-              ],
-              "time": 1775703018000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1757659578000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1757659453000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1757486726000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1757469396000
-            },
-            {
-              "reason": "严重站外导流",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1757321438000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1757321238000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1750940126000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1746068726000
-            },
-            {
-              "reason": "著作权侵权",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1744774630000
-            },
-            {
-              "reason": "揽收超时率严重",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1744596173000
-            },
-            {
-              "reason": "虚假交易（严重违规）",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1741392476000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1740887001000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738901887000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736943431000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736826725000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736390231000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1727150403000
-            },
-            {
-              "reason": "虚假交易",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1726194736000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1720497606000
-            },
-            {
-              "reason": "商家客服服务态度差",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1708747200000
-            }
-          ],
-          "communityBBDetail": [
-            "笔记质量不佳（主账号）",
-            "未通过原创声明认证（子账号贝贝麻麻）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "673c0490f343ff00154c1f16",
-          "name": "芽芽宝贝买手店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 10,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1750660601000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749451256000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748318683000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1747117197000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1744389810000
-            },
-            {
-              "reason": "客服周回复率不达标",
-              "actions": [
-                "[店铺]扣违约金"
-              ],
-              "time": 1744084916000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1742797541000
-            },
-            {
-              "reason": "客服周回复率不达标",
-              "actions": [
-                "[店铺]扣违约金"
-              ],
-              "time": 1741060810000
-            },
-            {
-              "reason": "客服周回复率不达标",
-              "actions": [
-                "[店铺]扣违约金"
-              ],
-              "time": 1740456014000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1736416723000
-            }
-          ],
-          "communityBBDetail": [
-            "工业化流水号×2（子账号芽芽童装）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "68c10f4aff2efd001543a4e3",
-          "name": "派町韩系童品",
-          "todayCount": 0,
-          "week7Count": 1,
+          "id": "6489c7d1ebbcb2000155641e",
+          "name": "NANO KIDS的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 2,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "预售商品缺货违规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1775887857000
-            },
-            {
-              "reason": "售卖山寨假货",
-              "actions": [
-                "[商品]商品关联的笔记限流",
-                "[商品]商品限流",
-                "[商品]商品搜索限流",
-                "[商品]限制该商品准入市集"
-              ],
-              "time": 1764653078000
-            }
-          ],
-          "communityBBDetail": [
-            "拟真人像AIGC视频（子账号幼米）",
-            "封标跟风（子账号小向子）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "648fe9c948b95a0001e0acd0",
-          "name": "祯有范童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 2,
-          "isBlackBox": true,
-          "communityBlackBox": 2,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1775209157000
-            },
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1775208816000
-            }
-          ],
-          "communityBBDetail": [
-            "工业化流水号×2（子账号祯有范穿搭日记）"
-          ],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "64390a986fdda10001e84590",
-          "name": "ppapa shop",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 23,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744301723000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1744301723000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744298946000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1744298946000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744293762000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744218310000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1744218310000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744215813000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1744215813000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744213892000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1744213892000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744212132000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1744212132000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744203705000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1743925160000
-            },
-            {
+              "violationId": "425606594118264160",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-28 11:08",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1742954513000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "物流轨迹超时违规",
+              "violationId": "425405158098681590",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-12-10 12:00",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1742270413000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1741744868000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1741699766000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740043559000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739863625000
-            },
-            {
-              "reason": "店铺物流信息异常违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1737421564000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736471153000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "649e92f6a71a610001e56574",
-          "name": "Hush Puppies暇步士",
-          "todayCount": 0,
-          "week7Count": 1,
-          "totalActiveViolations": 21,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "服饰虚假宣传关键信息不规范",
-              "actions": [
-                "[笔记]笔记限流",
-                "[笔记]笔记搜索限流",
-                "[笔记]限制该笔记准入市集"
-              ],
-              "time": 1776159050000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1751079634000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1749807823000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1749391484000
-            },
-            {
-              "reason": "材质虚假",
-              "actions": [
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1749069904000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1749069904000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1749056891000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1749030613000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746576334000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746325625000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]直播限流",
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1746325625000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746319854000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746190326000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746166120000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746102388000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746075750000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]直播限流",
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1746075750000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746071543000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]直播限流",
-                "[账号]扣账号带货违规积分"
-              ],
-              "time": 1746071543000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1746070004000
-            },
-            {
-              "reason": "色情低俗",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1726209066000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6440342d76c7f600018e6691",
-          "name": "ee.11",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 16,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "售卖山寨假货",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1757406583000
-            },
-            {
-              "reason": "品牌发布不正确",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1757403031000
-            },
-            {
-              "reason": "品牌发布不正确",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1757399376000
-            },
-            {
-              "reason": "品牌发布不正确",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1757383264000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1746155441000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1744430496000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1744176988000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1743300101000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1740880895000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740637651000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736903133000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736042721000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1735290577000
-            },
-            {
-              "reason": "周虚假发货高",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1725336008000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1720497606000
-            },
-            {
-              "reason": "周虚假发货高",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1712656731000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "62f8bde1d248f10001591312",
-          "name": "小粗腿原创童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 16,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "商品类目错放",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1773194721000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1754974841000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1747451320000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1747109030000
-            },
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]本场直播限流"
-              ],
-              "time": 1739868825000
-            },
-            {
-              "reason": "违规营销-退换服务虚假",
-              "actions": [
-                "[直播间]本场直播限流"
-              ],
-              "time": 1739868825000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1725940803000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1725352719000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1724831366000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721710807000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1720510434000
-            },
-            {
-              "reason": "现货-超期发货率高",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1718085430000
-            },
-            {
-              "reason": "现货-超期发货率高",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1718085430000
-            },
-            {
-              "reason": "现货-超期发货率高",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1718085430000
-            },
-            {
-              "reason": "周虚假发货高",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1715659211000
-            },
-            {
-              "reason": "现货-月超期发货率高",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1715237236000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6464d4b7ebbcb2000151ff6c",
-          "name": "MiniBala旗舰店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 15,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1747026421000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1747019414000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740637689000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740637673000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740571933000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740571932000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740571890000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740374614000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740374601000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]本场直播限流"
-              ],
-              "time": 1738740060000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]本场直播限流"
-              ],
-              "time": 1738737554000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1738731605000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]本场直播限流"
-              ],
-              "time": 1738656347000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1725940802000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722924006000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "643e3beffde23e0001a3365a",
-          "name": "大小卷儿运营号",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 14,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "品牌信息滥发",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1773401408000
-            },
-            {
-              "reason": "商品类目错放",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1763622001000
-            },
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1752721107000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750737791000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]"
-              ],
-              "time": 1750660868000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750057637000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749781058000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749610219000
-            },
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1748918094000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1739782412000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739782411000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739772903000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739527145000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736301935000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "61d84bbcf64538000105ec02",
-          "name": "微怡麻麻",
-          "todayCount": 0,
-          "week7Count": 1,
-          "totalActiveViolations": 11,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "服饰虚假宣传关键信息不规范",
-              "actions": [
-                "[笔记]笔记限流",
-                "[笔记]笔记搜索限流",
-                "[笔记]限制该笔记准入市集"
-              ],
-              "time": 1776159040000
-            },
-            {
-              "reason": "品牌发布不正确",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1760701875000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1750401811000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1740810687000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1740632658000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739769286000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1739700333000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1739030930000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1738077380000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1718095986000
-            },
-            {
-              "reason": "售卖山寨假货",
-              "actions": [
-                "[商品]冻结"
-              ],
-              "time": 1713764998000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "66d6db7dd550aa0015e2a532",
-          "name": "蕃妈设计师童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 10,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1751249220000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750646207000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]"
-              ],
-              "time": 1750297883000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749871870000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1749359257000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749184894000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749090041000
-            },
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1748315073000
-            },
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1748231804000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748138602000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "660a92f5745579000199ae01",
-          "name": "PAW&PAW",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 10,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1739062957000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736827205000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1734408006000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1730174403000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1727150402000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722924005000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722317404000
-            },
-            {
-              "reason": "商家客服服务态度差",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722317401000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721710805000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721115571000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6583aa4f4f737f0001e2b7cb",
-          "name": "柒柒公主",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 10,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "严重站外导流",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1761192803000
-            },
-            {
-              "reason": "站外导流",
-              "actions": [
-                "[商品]商品限时整改"
-              ],
-              "time": 1756949449000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739845084000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间]本场直播限流",
-                "[账号]扣账号信誉分"
-              ],
-              "time": 1739845084000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739841131000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1739765832000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736412741000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736251057000
-            },
-            {
-              "reason": "色情低俗",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1734698899000
-            },
-            {
-              "reason": "商家客服服务涉嫌辱骂用户",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1728273600000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6504215e8265a10001b24aa3",
-          "name": "贝贝Miki童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 9,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "商品类目错放",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1772777589000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1744516887000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736996766000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1736565737000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1735811574000
-            },
-            {
-              "reason": "现货-超72小时未发货积压率高",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1723008602000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722924006000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1722317405000
-            },
-            {
-              "reason": "商家客服服务态度差",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721534401000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "656c078b0852060001c9c6a1",
-          "name": "TooYoo与你｜男童穿搭",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 8,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1751206326000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750990237000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750510510000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1750426024000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1749110086000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1748940086000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1741312864000
-            },
-            {
-              "reason": "材质宣传和实际商品不一致",
-              "actions": [
-                "[直播间] "
-              ],
-              "time": 1740711738000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "65267a467fa15200013b9c5c",
-          "name": "蚕多贝",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 8,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违反法律法规​",
-              "actions": [
-                "[商品]商品冻结"
-              ],
-              "time": 1771040983000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1751346057000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1749359256000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748923276000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748318685000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740637704000
-            },
-            {
-              "reason": "商品材质虚假",
-              "actions": [
-                "[商品]商品下架"
-              ],
-              "time": 1740637669000
-            },
-            {
-              "reason": "违反法律法规",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1720681487000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "62d27c563d1b6a000114fe9e",
-          "name": "河南伊日服装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 7,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1727150403000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721710807000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1721131003000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1720510434000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1720497606000
-            },
-            {
-              "reason": "信息质量差",
-              "actions": [
-                "[商品]商品违规下架"
-              ],
-              "time": 1710487874000
-            },
-            {
-              "reason": "客服三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违约金"
-              ],
-              "time": 1707395963000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "64f6d65fdace090001ca48b2",
-          "name": "真维斯童装旗舰店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 7,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "【违规营销】低价引流",
-              "actions": [
-                "[笔记]笔记下架"
-              ],
-              "time": 1762164186000
-            },
-            {
-              "reason": "【违规营销】低价引流",
-              "actions": [
-                "[笔记]笔记下架"
-              ],
-              "time": 1762145132000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1739246417000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1739033658000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1737102179000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1737014994000
-            },
-            {
-              "reason": "商家客服服务态度差",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1730433600000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6752630f3eb73600158af708",
-          "name": "满妮mannymommy",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 7,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "服饰虚假宣传关键信息不规范",
-              "actions": [
-                "[笔记]笔记限流",
-                "[笔记]笔记搜索限流",
-                "[笔记]限制该笔记准入市集"
-              ],
-              "time": 1775385020000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1749528685000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1746414649000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1742875205000
-            },
-            {
-              "reason": "虚假宣传商品功效",
-              "actions": [
-                "[笔记]笔记仅自己可见"
-              ],
-              "time": 1741769093000
-            },
-            {
-              "reason": "自主客服服务-三分钟回复率不达标",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736827204000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736737561000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
         },
         {
           "id": "68873c8b4c27360015d58b7b",
           "name": "balaOne官方旗舰店",
-          "todayCount": 0,
-          "week7Count": 0,
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 6,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "426099388173624990",
               "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-04-03 10:15",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1775182544000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "426099372421831351",
               "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-04-03 10:00",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1775181605000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "426089462873134713",
               "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-03-27 13:55",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1774590949000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "426089313371480408",
               "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-03-27 11:27",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1774582038000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "426079092103720108",
               "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-03-20 10:13",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1773972803000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425924520341791482",
               "reason": "品牌发布不正确",
+              "level": "一般违规",
+              "time": "2025-12-03 19:00",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品下架"
               ],
-              "time": 1764759608000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
+        },
+        {
+          "id": "66128389745579000199f6e9",
+          "name": "Eer｜4.16早8.30二周年店庆的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "6464d4b7ebbcb2000151ff6c",
+          "name": "MiniBala旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 11,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425626913239435490",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2025-05-12 13:07",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425626836500359031",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2025-05-12 11:10",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519821696214852",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-27 14:28",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519821428518762",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-27 14:27",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425518718476823754",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-26 20:12",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425518718460286951",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-26 20:12",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425518717772917729",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-26 20:11",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425515408030852502",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-24 13:23",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425515407812005997",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-24 13:23",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425487945153612050",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2025-02-05 15:21",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]本场直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425487843416585940",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2025-02-05 14:39",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]本场直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
         },
         {
           "id": "6440b228a3c2d90001dccd85",
-          "name": "A.ND设计师童装",
-          "todayCount": 0,
-          "week7Count": 0,
+          "name": "A.ND设计师童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 6,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "425954797362324409",
               "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1766564259000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425954797345374451",
               "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1766564259000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425954797345374452",
               "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-12-24 16:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1766564259000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425764511053635666",
               "reason": "虚假交易",
+              "level": "一般违规",
+              "time": "2025-08-15 09:45",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1755222311000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425624169124338616",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-10 14:08",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1746857282000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425415304959154935",
               "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2024-12-17 12:00",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1734408006000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
+        },
+        {
+          "id": "69796643a64ce7001555d053",
+          "name": "绮遇童年的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
         },
         {
           "id": "63db9c9e505ba20001836df0",
-          "name": "番茄弟弟",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 6,
+          "name": "番茄弟弟的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 4,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "425663186415319040",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-06 12:08",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1749182893000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425508144787673799",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-19 13:08",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1739941691000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425498014603775616",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-12 13:24",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1739337885000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425497871309570897",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-02-12 11:02",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1739329344000
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "649e92f6a71a610001e56574",
+          "name": "Hush Puppies暇步士童装旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 1,
+          "totalActiveViolations": 7,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426115771238239739",
+              "reason": "服饰虚假宣传关键信息不规范",
+              "level": "一般违规",
+              "time": "2026-04-14 17:30",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记限流",
+                "[笔记]笔记搜索限流",
+                "[笔记]限制该笔记准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
             },
             {
+              "violationId": "425695008445194523",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-28 11:00",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425673671014118117",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-13 17:43",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425666686008351896",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-08 22:04",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425660631581639493",
+              "reason": "材质虚假",
+              "level": "一般违规",
+              "time": "2025-06-05 04:45",
+              "status": "已处罚",
+              "actions": [
+                "[账号]扣账号带货违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425661290792011462",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-05 04:45",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425661072469662705",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-05 01:08",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "643e3beffde23e0001a3365a",
+          "name": "大小卷儿运营号的店",
+          "checkStatus": "ok",
+          "todayViolations": 1,
+          "week7Violations": 1,
+          "totalActiveViolations": 8,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426122687528450421",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 12:01",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426069505693203399",
               "reason": "品牌信息滥发",
+              "level": "一般违规",
+              "time": "2026-03-13 19:30",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425905434462708558",
+              "reason": "商品类目错放",
+              "level": "一般违规",
+              "time": "2025-11-20 15:00",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425722547814069749",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2025-07-17 10:58",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425689273271256921",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-24 12:03",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425687982717561950",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-23 14:41",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425677862181230837",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-16 15:07",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425673221955605901",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-13 10:17",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "68c10f4aff2efd001543a4e3",
+          "name": "派町韩系童品的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 2,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426111221391473025",
+              "reason": "预售商品缺货违规",
+              "level": "一般违规",
+              "time": "2026-04-11 14:10",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425922733064920207",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2025-12-02 13:24",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品关联的笔记限流",
+                "[商品]商品限流",
+                "[商品]商品搜索限流",
+                "[商品]限制该商品准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "64390a986fdda10001e84590",
+          "name": "ppapa shop的店",
+          "checkStatus": "ok",
+          "todayViolations": 1,
+          "week7Violations": 1,
+          "totalActiveViolations": 1,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426122691118449877",
+              "reason": "日维度超期发货率高",
+              "level": "一般违规",
+              "time": "2026-04-19 12:05",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]店铺警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "698595ba8ab5a80015f612af",
+          "name": "允儿妈萌宝的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "67ad9357af01d90015f29f1a",
+          "name": "一秋妈设计师童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "673c0490f343ff00154c1f16",
+          "name": "芽芽宝贝买手店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 10,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425687978254822260",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-23 14:36",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425667688799336915",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-09 14:40",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425648687361044046",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-05-27 12:04",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425628529791167252",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-05-13 14:19",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425582771840722133",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-04-12 00:43",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425577656534888096",
+              "reason": "客服周回复率不达标",
+              "level": "一般违规",
+              "time": "2025-04-08 12:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违约金"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425556057983707118",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-03-24 14:25",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425526920489364856",
+              "reason": "客服周回复率不达标",
+              "level": "一般违规",
+              "time": "2025-03-04 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违约金"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425516773695489365",
+              "reason": "客服周回复率不达标",
+              "level": "一般违规",
+              "time": "2025-02-25 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违约金"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425449005638123185",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-01-09 17:58",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6877591f673c1e001513e072",
+          "name": "佳宝北美的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "62d27c563d1b6a000114fe9e",
+          "name": "河南伊日服装的店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 7,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425293542574822585",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-09-24 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425202281314604200",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-23 13:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425192553817658726",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-16 19:56",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425182142397501413",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-09 15:33",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425181927179385263",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2024-07-09 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "208841209632862206",
+              "reason": "信息质量差",
+              "level": "一般违规",
+              "time": "2024-03-15 15:31",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品违规下架"
               ],
-              "time": 1720665883000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "物流轨迹超时违规",
+              "violationId": "208789335974312549",
+              "reason": "客服三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-02-08 20:39",
+              "status": "已处罚",
               "actions": [
-                "[店铺]扣违规积分"
+                "[店铺]扣违约金"
               ],
-              "time": 1718095986000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
         },
         {
           "id": "6482f8188b61ef00019f59df",
           "name": "ELLE KIDS童装旗舰店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 5,
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 4,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "425632689802528396",
               "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2025-05-16 13:55",
+              "status": "已处罚",
               "actions": [
                 "[直播间]直播限流"
               ],
-              "time": 1747374919000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425498077149237655",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-12 14:26",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1739341613000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425498077149237656",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-12 14:26",
+              "status": "已处罚",
               "actions": [
                 "[直播间]本场直播限流",
                 "[账号]扣账号信誉分"
               ],
-              "time": 1739341613000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425498043545189239",
               "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-12 13:53",
+              "status": "已处罚",
               "actions": [
                 "[直播间] "
               ],
-              "time": 1739339610000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1736222406000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
         },
         {
-          "id": "673d869a8413dc0015bd0c00",
-          "name": "郑阿囍AXIStudio童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 5,
+          "id": "69ba4ce6fb821000151f7fe7",
+          "name": "悦禾4号店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1749445840000
-            },
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748923294000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1748837660000
-            },
-            {
-              "reason": "订单揽收超时不符平台规定",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1747623879000
-            },
-            {
-              "reason": "揽收超时率严重",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1735002670000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          "violations": []
         },
         {
-          "id": "683952c4a1a15b00153345f4",
-          "name": "歌旗高定童装",
-          "todayCount": 0,
-          "week7Count": 4,
-          "totalActiveViolations": 4,
+          "id": "6296050f56228a000189da4c",
+          "name": "桑桑姐～的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 6,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1776149047000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1776074930000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1775978726000
-            },
-            {
-              "reason": "违规营销-包运费虚假",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1775821690000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "663c725197af9100018e1cf1",
-          "name": "安踏儿童服饰",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 4,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "售卖山寨假货",
+              "violationId": "426109568957135945",
+              "reason": "商品类目错放",
+              "level": "一般违规",
+              "time": "2026-04-10 10:49",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品冻结"
               ],
-              "time": 1755205227000
+              "isBlackBox": false,
+              "canAppeal": true
             },
             {
+              "violationId": "425824029352400479",
+              "reason": "虚假交易（严重违规）",
+              "level": "严重违规",
+              "time": "2025-09-25 11:11",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425466039377532796",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2025-01-21 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425438322007622117",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-01-02 09:05",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425407814905072551",
+              "reason": "虚假交易",
+              "level": "严重违规",
+              "time": "2024-12-12 07:59",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425202281432045492",
+              "reason": "周虚假发货高",
+              "level": "一般违规",
+              "time": "2024-07-23 13:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "61d84bbcf64538000105ec02",
+          "name": "微怡麻麻的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 1,
+          "totalActiveViolations": 11,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426115771070777908",
+              "reason": "服饰虚假宣传关键信息不规范",
+              "level": "一般违规",
+              "time": "2026-04-14 17:30",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记限流",
+                "[笔记]笔记搜索限流",
+                "[笔记]限制该笔记准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "425856442879589548",
+              "reason": "品牌发布不正确",
+              "level": "一般违规",
+              "time": "2025-10-17 19:51",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425683636479051083",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-20 14:43",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425522724121770572",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-03-01 14:31",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519737290064233",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-02-27 13:04",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425505252312236908",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-17 13:14",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425504095472138264",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-02-16 18:05",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425492864753410788",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-02-09 00:08",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425476866839343658",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-01-28 23:16",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425141634659013470",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2024-06-11 16:53",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "208896190650205287",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2024-04-22 13:49",
+              "status": "已处罚",
+              "actions": [
+                "[商品]冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6541b35043e89d0001bcbedc",
+          "name": "咸柠七baby童装店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "66d6db7dd550aa0015e2a532",
+          "name": "蕃妈设计师童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "65267a467fa15200013b9c5c",
+          "name": "蚕多贝的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 8,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426029904337439776",
+              "reason": "违反法律法规​",
+              "level": "一般违规",
+              "time": "2026-02-14 11:49",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425699478281323001",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2025-07-01 13:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425666145279415548",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-08 13:07",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425658830748045890",
               "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-06-03 12:01",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1746504053000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425648687394989093",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-05-27 12:04",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519821931097201",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-27 14:28",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519821360696748",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-27 14:27",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "209012230076851202",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2024-07-11 15:04",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品违规下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6108f489c1c7880001345af1",
+          "name": "LEOHAPPY设计师童装亲子装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 9,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425912827946923052",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2025-11-25 17:24",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425799543018516922",
+              "reason": "材质宣传与实际参数不一致",
+              "level": "一般违规",
+              "time": "2025-09-08 13:46",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425645666086828380",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-25 10:03",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425603694696415569",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-26 11:08",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425587743097594830",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-15 11:02",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425571736861748430",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-04 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425568838514038339",
+              "reason": "揽收超时率严重",
+              "level": "一般违规",
+              "time": "2025-04-02 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425513787100126639",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-23 10:33",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425492012605267925",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-02-08 10:02",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "66c5b7d4077c7f0015a76a8f",
+          "name": "啵小爸BOZPAPA易发服装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 1,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425415304958939514",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2024-12-17 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "683952c4a1a15b00153345f4",
+          "name": "歌旗高定童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 3,
+          "totalActiveViolations": 3,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426121072922835079",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-18 15:44",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "426115313371170579",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-14 14:44",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "426114002902930950",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-13 18:08",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "64f6d65fdace090001ca48b2",
+          "name": "真维斯童装旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 7,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425880976390813241",
+              "reason": "【违规营销】低价引流",
+              "level": "一般违规",
+              "time": "2025-11-03 18:03",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425880656700958182",
+              "reason": "【违规营销】低价引流",
+              "level": "一般违规",
+              "time": "2025-11-03 12:45",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425496480025603058",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2025-02-11 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425492910504902869",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-02-09 00:54",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425460505664738063",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-01-17 16:22",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425459042959936996",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-01-16 16:09",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425348625496220860",
               "reason": "商家客服服务态度差",
+              "level": "一般违规",
+              "time": "2024-11-01 12:00",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1733025600000
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6752630f3eb73600158af708",
+          "name": "满妮mannymommy的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 7,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426102785173986240",
+              "reason": "服饰虚假宣传关键信息不规范",
+              "level": "一般违规",
+              "time": "2026-04-05 18:30",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记限流",
+                "[笔记]笔记搜索限流",
+                "[笔记]限制该笔记准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425668987825961683",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-10 12:11",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425616742991763041",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-05 11:10",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425557360985698080",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-03-25 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425538803488756039",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-03-12 16:44",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425455892366311368",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-01-14 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425454388406579329",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-01-13 11:06",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "68c1479efa43320015cc37cf",
+          "name": "小首尔韩系童品的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "663c725197af9100018e1cf1",
+          "name": "安踏儿童服饰专卖店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 4,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425764224427734399",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2025-08-15 05:00",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425618242941991095",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-05-06 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425392112040007993",
+              "reason": "商家客服服务态度差",
+              "level": "一般违规",
+              "time": "2024-12-01 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "208979168958822707",
               "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2024-06-18 19:41",
+              "status": "已处罚",
               "actions": [
                 "[商品]限时整改"
               ],
-              "time": 1718710891000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
+        },
+        {
+          "id": "64c8b27ee21b7a00014a7125",
+          "name": "little MO&Co.旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "660a92f5745579000199ae01",
+          "name": "PAW&PAW的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 10,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425493402060555398",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-02-09 09:02",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425455892383297663",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-01-14 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425415304958939486",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-12-17 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425344276892155863",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-10-29 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425293542574879742",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-09-24 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425222635365955568",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-08-06 14:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425212458323456430",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-30 13:30",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425212458273174840",
+              "reason": "商家客服服务态度差",
+              "level": "一般违规",
+              "time": "2024-07-30 13:30",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425202281264234423",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-23 13:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425192294911671350",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-16 15:39",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "664a0b72c7b2730001d99b3e",
+          "name": "限定甜妹Pink童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 6,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426056150223921230",
+              "reason": "信息不一致",
+              "level": "一般违规",
+              "time": "2026-03-04 14:22",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425589228049193023",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-04-16 11:37",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425539847383908376",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-13 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519554384868772",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-02-27 10:02",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425465864072621675",
+              "reason": "店铺物流信息异常违规",
+              "level": "一般违规",
+              "time": "2025-01-21 09:06",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425334130048631257",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2024-10-22 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "647da6a739b63800015abbb6",
+          "name": "嘟嘟家童装店旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 10,
+          "week7Violations": 10,
+          "totalActiveViolations": 10,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426123354154109926",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 23:03",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426123326760911459",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 22:36",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426123134137577973",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 19:25",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426122600437474997",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-19 15:44",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "426122912166378178",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-19 15:44",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426122895448449837",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 15:28",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426122725063872734",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-19 12:38",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426122600437474996",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-19 10:35",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426122168166046256",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 03:25",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426120981780893536",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-19 03:25",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6504215e8265a10001b24aa3",
+          "name": "贝贝Miki童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 9,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426059039747081735",
+              "reason": "商品类目错放",
+              "level": "一般违规",
+              "time": "2026-03-06 14:13",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425584903805651659",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-13 12:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425458737144597295",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-01-16 11:06",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425451505678212779",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-01-11 11:22",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425438852905634915",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-01-02 17:52",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425224054701648493",
+              "reason": "现货-超72小时未发货积压率高",
+              "level": "一般违规",
+              "time": "2024-08-07 13:30",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425222635382682779",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-08-06 14:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425212458323456667",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2024-07-30 13:30",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425199321713000196",
+              "reason": "商家客服服务态度差",
+              "level": "一般违规",
+              "time": "2024-07-21 12:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "67a6d7d52302820015ffe7f3",
+          "name": "蓝鲸童话馆的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 1,
+          "totalActiveViolations": 1,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426119670095910000",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-17 19:25",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "68abc7d5ce578e00151c736d",
+          "name": "青岛即墨童装源头工厂的的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 0,
+          "isBlackBox": false,
+          "violations": []
+        },
+        {
+          "id": "627ca149928e3300017d3a8c",
+          "name": "chenbebe的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 1,
+          "totalActiveViolations": 9,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426114284515031280",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2026-04-13 16:53",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品关联的笔记限流",
+                "[商品]商品限流",
+                "[商品]商品搜索限流",
+                "[商品]限制该商品准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "426108120278999624",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2026-04-09 10:50",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品关联的笔记限流",
+                "[商品]商品限流",
+                "[商品]商品搜索限流",
+                "[商品]限制该商品准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425805401604426379",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-12 14:46",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425805399508418180",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-12 14:44",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425802501630225731",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-10 14:45",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425802210881052211",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-10 09:56",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425799728557723762",
+              "reason": "严重站外导流",
+              "level": "一般违规",
+              "time": "2025-09-08 16:50",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425799725202293114",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-08 16:47",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425692667906127807",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-06-26 20:15",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
         },
         {
           "id": "662df71ac7b2730001531a8b",
-          "name": "WOOKIDS 4号店",
-          "todayCount": 0,
-          "week7Count": 0,
+          "name": "WOOKIDS 4号店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 4,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "425673333137671659",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-13 12:08",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1749787686000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425593610778599390",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-19 12:11",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1745035862000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425581884058256116",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-11 10:01",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1744336895000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425551442956722657",
               "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-21 10:01",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1742522463000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
         },
         {
-          "id": "6489c7d1ebbcb2000155641e",
-          "name": "NANO KIDS",
-          "todayCount": 0,
-          "week7Count": 0,
+          "id": "648fe9c948b95a0001e0acd0",
+          "name": "祯有范童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 2,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
-              "reason": "订单揽收超时不符平台规定",
+              "violationId": "426099834682911623",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-04-03 17:39",
+              "status": "已处罚",
               "actions": [
-                "[店铺]扣违规积分"
+                "[商品]商品冻结"
               ],
-              "time": 1745809728000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
-              "reason": "自主客服服务-三分钟回复率不达标",
+              "violationId": "426099828961151459",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2026-04-03 17:33",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "6583aa4f4f737f0001e2b7cb",
+          "name": "柒柒公主日常穿搭的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 2,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425864679284668754",
+              "reason": "严重站外导流",
+              "level": "一般违规",
+              "time": "2025-10-23 12:13",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425793487617093995",
+              "reason": "站外导流",
+              "level": "一般违规",
+              "time": "2025-09-04 09:30",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品限时整改"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "664026a0a57f5800010e52ff",
+          "name": "右欧童装旗舰店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 4,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425670318427403351",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-11 10:13",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425668955513475388",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-06-10 11:39",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425630192597970261",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2025-05-14 18:12",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425541353927795531",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-03-14 10:58",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "65aa5f49c787340001b1e335",
+          "name": "乔一麻麻童装铺的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 1,
+          "totalActiveViolations": 11,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426119703440789269",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2026-04-17 10:37",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品关联的笔记限流",
+                "[商品]商品限流",
+                "[商品]商品搜索限流",
+                "[商品]限制该商品准入市集"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425567389466378662",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-01 10:02",
+              "status": "已处罚",
               "actions": [
                 "[店铺]扣违规积分"
               ],
-              "time": 1733803206000
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425550439478614101",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-03-20 17:24",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425550439477916665",
+              "reason": "著作权侵权",
+              "level": "一般违规",
+              "time": "2025-03-20 17:24",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425522452598802969",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-01 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519732139430591",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-02-27 12:59",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425515407594154461",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-24 13:23",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425500709881017226",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-02-14 10:02",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425489484614145830",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2025-02-06 16:10",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "209023096847425938",
+              "reason": "严重站外导流",
+              "level": "一般违规",
+              "time": "2024-07-19 02:59",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品违规下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "208950251041066335",
+              "reason": "违反法律法规",
+              "level": "一般违规",
+              "time": "2024-05-29 20:54",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
+        },
+        {
+          "id": "6440342d76c7f600018e6691",
+          "name": "ee.11的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 13,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "209628374938886717",
+              "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2025-09-09 16:29",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "209628315347335677",
+              "reason": "品牌发布不正确",
+              "level": "一般违规",
+              "time": "2025-09-09 15:30",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "209628254025490951",
+              "reason": "品牌发布不正确",
+              "level": "一般违规",
+              "time": "2025-09-09 14:29",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "209627983711008298",
+              "reason": "品牌发布不正确",
+              "level": "一般违规",
+              "time": "2025-09-09 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425612394219839557",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-02 11:10",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425583454404981289",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-04-12 12:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425579201280053801",
+              "reason": "材质宣传和实际商品不一致",
+              "level": "一般违规",
+              "time": "2025-04-09 13:36",
+              "status": "已处罚",
+              "actions": [
+                "[直播间] "
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425564489558158460",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-30 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425523902016050784",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-03-02 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425519821058676759",
+              "reason": "商品材质虚假",
+              "level": "一般违规",
+              "time": "2025-02-27 14:27",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品下架"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425457166243743208",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-01-15 09:05",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425442730925806817",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-01-05 10:05",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425430112043433844",
+              "reason": "虚假宣传商品功效",
+              "level": "一般违规",
+              "time": "2024-12-27 17:09",
+              "status": "已处罚",
+              "actions": [
+                "[笔记]笔记仅自己可见"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
+        },
+        {
+          "id": "62f8bde1d248f10001591312",
+          "name": "小粗腿原创童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 5,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "426066038061790536",
+              "reason": "商品类目错放",
+              "level": "一般违规",
+              "time": "2026-03-11 10:05",
+              "status": "已处罚",
+              "actions": [
+                "[商品]商品冻结"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425760359179534847",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-08-12 13:00",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425634135428132595",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-17 11:08",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425628392771693107",
+              "reason": "自主客服服务-三分钟回复率不达标",
+              "level": "一般违规",
+              "time": "2025-05-13 12:03",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425506854619519297",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2025-02-18 16:53",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]本场直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
         },
         {
           "id": "68c13794d8d80d00157a53d1",
-          "name": "甜柚baby穿搭",
-          "todayCount": 0,
-          "week7Count": 0,
+          "name": "甜柚baby穿搭的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 2,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
           "violations": [
             {
+              "violationId": "425975030668131785",
               "reason": "【商品】笔记蹭品牌",
+              "level": "一般违规",
+              "time": "2026-01-07 15:17",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品搜索限流",
                 "[商品]限制该商品准入市集",
@@ -3126,193 +3229,106 @@
                 "[笔记]笔记搜索限流",
                 "[笔记]笔记仅自己可见"
               ],
-              "time": 1767770258000
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
+              "violationId": "425911607102467123",
               "reason": "售卖山寨假货",
+              "level": "一般违规",
+              "time": "2025-11-24 21:12",
+              "status": "已处罚",
               "actions": [
                 "[商品]商品关联的笔记限流",
                 "[商品]商品限流",
                 "[商品]商品搜索限流",
                 "[商品]限制该商品准入市集"
               ],
-              "time": 1763989920000
+              "isBlackBox": false,
+              "canAppeal": false
             }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "67ad9357af01d90015f29f1a",
-          "name": "一秋妈设计师童装",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 1,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "违规营销-虚假现货信息",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "time": 1748320639000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "66c5b7d4077c7f0015a76a8f",
-          "name": "啵小爸BOZPAPA",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 1,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [
-            {
-              "reason": "物流轨迹超时违规",
-              "actions": [
-                "[店铺]扣违规积分"
-              ],
-              "time": 1734408006000
-            }
-          ],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "69796643a64ce7001555d053",
-          "name": "绮遇童年",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "698595ba8ab5a80015f612af",
-          "name": "允儿妈萌宝",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6877591f673c1e001513e072",
-          "name": "佳宝北美",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "69ba4ce6fb821000151f7fe7",
-          "name": "悦禾4号店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "6541b35043e89d0001bcbedc",
-          "name": "咸柠七baby",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "68c1479efa43320015cc37cf",
-          "name": "小首尔韩系童品",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "64c8b27ee21b7a00014a7125",
-          "name": "little MO&Co.旗舰店",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "67a6d7d52302820015ffe7f3",
-          "name": "蓝鲸童话馆",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
-        },
-        {
-          "id": "68abc7d5ce578e00151c736d",
-          "name": "青岛即墨源头工厂",
-          "todayCount": 0,
-          "week7Count": 0,
-          "totalActiveViolations": 0,
-          "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          ]
         },
         {
           "id": "699eb97b3f2158001514430d",
-          "name": "布丁kids",
-          "todayCount": 0,
-          "week7Count": 0,
+          "name": "布丁kids童品5店的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "communityBlackBox": 0,
-          "tradeBlackBox": 0,
-          "violations": [],
-          "communityBBDetail": [],
-          "tradeBBDetail": []
+          "violations": []
+        },
+        {
+          "id": "673d869a8413dc0015bd0c00",
+          "name": "郑阿囍AXIStudio童装的店",
+          "checkStatus": "ok",
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 5,
+          "isBlackBox": false,
+          "violations": [
+            {
+              "violationId": "425667597934279299",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-09 13:10",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425658831083937456",
+              "reason": "物流轨迹超时违规",
+              "level": "一般违规",
+              "time": "2025-06-03 12:01",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425657394367494588",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-06-02 12:14",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425637030504564074",
+              "reason": "订单揽收超时不符平台规定",
+              "level": "一般违规",
+              "time": "2025-05-19 11:04",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "425425281765494097",
+              "reason": "揽收超时率严重",
+              "level": "一般违规",
+              "time": "2024-12-24 09:11",
+              "status": "已处罚",
+              "actions": [
+                "[店铺]扣违规积分"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            }
+          ]
         }
       ]
     }
