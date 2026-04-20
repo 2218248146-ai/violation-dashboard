@@ -59,7 +59,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .scard .sn { font-size: 34px; font-weight: 800; margin: 6px 0 4px; }
 .scard .sl { font-size: 12px; color: #888; }
 .scard .ss { font-size: 11px; color: #bbb; margin-top: 3px; }
-.sn-total { color: #1d1d1f; } .sn-viol { color: #e8344e; } .sn-bb { color: #b5190e; } .sn-safe { color: #1a9950; }
+.sn-total { color: #1d1d1f; } .sn-viol { color: #e8344e; } .sn-bb { color: #b5190e; } .sn-safe { color: #1a9950; } .sn-comm { color: #7b5ef6; }
+.scard.community-card { border-color: #e8e0ff; background: linear-gradient(135deg, #faf8ff 0%, #f0ecff 100%); }
+
+/* 社区违规 tag */
+.comm-tag { display: inline-block; padding: 1px 6px; border-radius: 5px; font-size: 10px; font-weight: 700; background: #f0ecff; color: #7b5ef6; border: 1px solid #d4c8ff; margin-left: 4px; }
 
 /* 基准卡片 */
 .metric-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
@@ -69,7 +73,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .mr:last-of-type { border: none; }
 .mr .lbl { font-size: 12px; color: #666; }
 .mr .val { font-size: 16px; font-weight: 800; }
-.val-r { color: #e8344e; } .val-b { color: #1a7fe8; } .val-g { color: #999; }
+.val-r { color: #e8344e; } .val-b { color: #1a7fe8; } .val-g { color: #999; } .val-p { color: #7b5ef6; }
 .mc-note { margin-top: 10px; font-size: 11px; color: #aaa; border-top: 1px solid #f0f0f0; padding-top: 8px; }
 
 /* 违规风向 */
@@ -87,6 +91,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .sh { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
 .sh h2 { font-size: 15px; font-weight: 700; }
 .tag { font-size: 11px; color: #e8344e; background: #fff0f2; border: 1px solid #ffcdd4; padding: 2px 8px; border-radius: 10px; }
+.tag-purple { font-size: 11px; color: #7b5ef6; background: #f0ecff; border: 1px solid #d4c8ff; padding: 2px 8px; border-radius: 10px; }
 .sg { margin-bottom: 32px; }
 .upd { font-size: 12px; color: #bbb; margin-bottom: 12px; margin-top: -4px; }
 
@@ -96,6 +101,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .search-input:focus { border-color: #e8344e; }
 .fb { padding: 7px 12px; border-radius: 8px; font-size: 12px; cursor: pointer; border: 1.5px solid #eee; background: white; color: #555; transition: all .15s; }
 .fb.active { border-color: #e8344e; background: #fff0f2; color: #e8344e; font-weight: 600; }
+.fb.active-purple { border-color: #7b5ef6; background: #f0ecff; color: #7b5ef6; font-weight: 600; }
 
 /* 表格 */
 .mt { width: 100%; border-collapse: collapse; background: white; border-radius: 14px; overflow: hidden; border: 1px solid #eee; }
@@ -113,13 +119,22 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .dr td { background: #fff8f8 !important; padding: 0 !important; border-bottom: 1px solid #f5f5f5 !important; }
 .di { padding: 14px 18px 18px; }
 .di h4 { font-size: 12px; font-weight: 700; color: #555; margin-bottom: 10px; }
+
+/* 违规区块分组 */
+.vi-section { margin-bottom: 14px; }
+.vi-section-title { font-size: 11px; font-weight: 700; color: #999; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; padding: 4px 8px; background: #f8f8f8; border-radius: 6px; display: inline-block; }
+.vi-section-title.comm { color: #7b5ef6; background: #f0ecff; }
+
 .vi { display: flex; align-items: flex-start; gap: 10px; padding: 9px 12px; background: white; border-radius: 10px; margin-bottom: 7px; border: 1px solid #eee; }
+.vi.vi-community { border-color: #e0d8ff; background: #faf8ff; }
 .vi:last-child { margin-bottom: 0; }
 .vi-b { display: flex; flex-direction: column; gap: 3px; min-width: 50px; }
 .vi-c { flex: 1; }
 .vi-reason { font-size: 12.5px; font-weight: 600; color: #1d1d1f; margin-bottom: 3px; }
+.vi-target { font-size: 11px; color: #888; margin-bottom: 2px; }
 .vi-date { font-size: 11px; color: #aaa; }
 .vi-tip { font-size: 11.5px; color: #666; margin-top: 5px; background: #f8f8f8; padding: 5px 9px; border-radius: 6px; border-left: 3px solid #e8344e; }
+.vi-tip.comm-tip { border-left-color: #7b5ef6; background: #f8f6ff; }
 
 /* 徽标 */
 .badge { display: inline-block; padding: 2px 6px; border-radius: 6px; font-size: 10px; font-weight: 700; }
@@ -127,7 +142,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .bwb { background: #f0f6ff; color: #1a5fbd; border: 1px solid #cde; }
 .bok { background: #f0faf4; color: #1a7a4a; border: 1px solid #b8e6cb; }
 .btd { background: #fff8e6; color: #b87a00; border: 1px solid #f5d87a; }
+.bcomm { background: #f0ecff; color: #6244d4; border: 1px solid #d4c8ff; }
 .cc { font-weight: 800; color: #e8344e; }
+.cp { font-weight: 800; color: #7b5ef6; }
 
 /* 健康商家 */
 .hw { background: white; border-radius: 14px; padding: 16px 20px; border: 1px solid #eee; display: flex; flex-wrap: wrap; gap: 7px; }
@@ -136,6 +153,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 .crm-link { font-size: 11px; color: #aaa; text-decoration: none; }
 .crm-link:hover { color: #e8344e; }
 .empty-row td { text-align: center; color: #ccc; font-size: 13px; padding: 28px !important; }
+
+/* 社区黑盒栏 */
+.comm-cell { font-size: 12px; }
+.comm-count { font-weight: 800; color: #7b5ef6; }
 
 @media (max-width:900px) {
   .summary-row { grid-template-columns: repeat(2,1fr); }
@@ -166,8 +187,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 </div>
 <div class="toast" id="toast"></div>
 
-
-
 <div id="main-page">
   <div class="banner">
     <div>
@@ -175,10 +194,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       <p id="banner-sub"></p>
     </div>
     <div id="crm-banner" style="background:#fff8e1;border-left:4px solid #f59e0b;padding:10px 24px;font-size:13px;color:#92400e;display:none;align-items:center;justify-content:space-between;gap:12px;">
-  <span>⚠️ 违规数据需要苍穹权限，每天14:00自动扫描。如需立刻扫描，请确保 <b>Lobi 已开启</b>且<b>苍穹已登录</b>，然后点击→</span>
-  <button onclick="triggerCrmScan()" style="padding:6px 16px;border-radius:8px;background:#f59e0b;color:white;border:none;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap">立刻扫描违规</button>
-</div>
-<div class="banner-right">
+      <span>⚠️ 违规数据需要苍穹权限，每天14:00自动扫描。如需立刻扫描，请确保 <b>Lobi 已开启</b>且<b>苍穹已登录</b>，然后点击→</span>
+      <button onclick="triggerCrmScan()" style="padding:6px 16px;border-radius:8px;background:#f59e0b;color:white;border:none;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap">立刻扫描违规</button>
+    </div>
+    <div class="banner-right">
       <span class="am-chip" id="am-chip"></span>
       <button class="switch-btn" onclick="switchAM()">切换 AM</button>
     </div>
@@ -189,8 +208,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       <div class="tab" onclick="switchTab('merchants',this)">🏪 商家明细</div>
     </div>
 
+    <!-- 看板tab -->
     <div class="tab-content active" id="tab-overview">
-      <div class="summary-row">
+      <!-- 电商侧摘要 -->
+      <div class="sh" style="margin-bottom:8px"><h2>⚡ 电商侧违规（直播间 / 商品 / 店铺）</h2></div>
+      <div class="summary-row" style="margin-bottom:16px">
         <div class="scard"><div class="sl">监控商家总数</div><div class="sn sn-total" id="s-total">-</div><div class="ss" id="s-cat"></div></div>
         <div class="scard"><div class="sl">今日新增违规</div><div class="sn sn-viol" id="s-viol">-</div><div class="ss" id="s-viol-pct"></div></div>
         <div class="scard"><div class="sl">近7日有违规</div><div class="sn sn-viol" id="s-week7">-</div><div class="ss" id="s-week7-pct"></div></div>
@@ -199,27 +221,36 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
         <div class="scard"><div class="sl">今日无新增</div><div class="sn sn-safe" id="s-safe">-</div><div class="ss">经营状态健康</div></div>
       </div>
 
+      <!-- 社区侧摘要 -->
+      <div class="sh" style="margin-bottom:8px"><h2>⚫ 社区侧违规（笔记 / 直播回放 · 含黑盒）</h2><span class="tag-purple">静默限流，商家无感知</span></div>
+      <div class="summary-row" style="margin-bottom:28px">
+        <div class="scard community-card"><div class="sl">有社区侧违规</div><div class="sn sn-comm" id="s-comm-total">-</div><div class="ss" id="s-comm-pct"></div></div>
+        <div class="scard community-card"><div class="sl">含社区黑盒</div><div class="sn sn-bb" id="s-comm-bb">-</div><div class="ss">⚫ 笔记/直播流量被静默限制</div></div>
+        <div class="scard community-card"><div class="sl">社区黑盒最严重</div><div class="sn sn-comm" id="s-comm-max-count">-</div><div class="ss" id="s-comm-max-name">-</div></div>
+        <div class="scard community-card"><div class="sl">无社区违规</div><div class="sn sn-safe" id="s-comm-safe">-</div><div class="ss">社区内容合规健康</div></div>
+      </div>
+
       <div class="sg">
         <div class="sh"><h2>📈 违规基准对比</h2><span class="tag" id="s-tag">近7日</span></div>
         <p class="upd" id="upd-label"></p>
         <div class="metric-grid">
-          <div class="mc"><div class="mc-title">🔴 高风险商家</div>
+          <div class="mc"><div class="mc-title">🔴 高风险商家（电商侧）</div>
             <div class="mr"><span class="lbl">违规条数最高</span><span class="val val-r" id="m-max">-</span></div>
             <div class="mr"><span class="lbl">含黑盒处罚</span><span class="val val-r" id="m-bbpct">-</span></div>
             <div class="mr"><span class="lbl">最常见违规类型</span><span class="val val-r" id="m-toptype">-</span></div>
             <div class="mc-note" id="m-topnames"></div>
           </div>
           <div class="mc"><div class="mc-title">📊 整体均值</div>
-            <div class="mr"><span class="lbl">人均近7日违规</span><span class="val val-b" id="m-avg">-</span></div>
+            <div class="mr"><span class="lbl">人均近7日电商违规</span><span class="val val-b" id="m-avg">-</span></div>
             <div class="mr"><span class="lbl">有违规商家占比</span><span class="val val-b" id="m-pct">-</span></div>
             <div class="mr"><span class="lbl">黑盒处罚商家占比</span><span class="val val-b" id="m-bbp2">-</span></div>
             <div class="mc-note" id="m-note2"></div>
           </div>
-          <div class="mc"><div class="mc-title">⚠️ 今日新增</div>
-            <div class="mr"><span class="lbl">今日新增违规商家</span><span class="val val-g" id="m-td">-</span></div>
-            <div class="mr"><span class="lbl">今日新增黑盒</span><span class="val val-g" id="m-tdbb">-</span></div>
-            <div class="mr"><span class="lbl">可申诉白盒</span><span class="val val-g" id="m-tdwb">-</span></div>
-            <div class="mc-note">白盒处罚商家可申诉，AM 可主动推动整改</div>
+          <div class="mc"><div class="mc-title">⚫ 社区侧黑盒统计</div>
+            <div class="mr"><span class="lbl">有社区违规商家</span><span class="val val-p" id="m-comm-total">-</span></div>
+            <div class="mr"><span class="lbl">含社区黑盒商家</span><span class="val val-p" id="m-comm-bb">-</span></div>
+            <div class="mr"><span class="lbl">最常见社区违规</span><span class="val val-p" id="m-comm-toptype">-</span></div>
+            <div class="mc-note">社区黑盒：静默限流，商家无感知，无法申诉，只能靠后续合规内容恢复权重</div>
           </div>
         </div>
       </div>
@@ -230,26 +261,33 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
       </div>
 
       <div class="sg">
+        <div class="sh"><h2>⚫ 社区侧黑盒商家 TOP 10</h2><span class="tag-purple">静默限流中，建议重点关注</span></div>
+        <div id="comm-top-wrap" style="background:white;border-radius:14px;border:1px solid #eee;overflow:hidden;"></div>
+      </div>
+
+      <div class="sg">
         <div class="sh"><h2>✅ 今日无新增违规商家</h2><span class="tag" id="healthy-tag"></span></div>
         <div class="hw" id="healthy-wrap"></div>
       </div>
     </div>
 
+    <!-- 商家明细tab -->
     <div class="tab-content" id="tab-merchants">
       <div class="search-bar">
         <input class="search-input" id="search-input" placeholder="🔍 搜索商家名称…" oninput="filterMerchants()">
         <button class="fb active" onclick="setFilter('all',this)">全部</button>
         <button class="fb" onclick="setFilter('today',this)">今日有违规</button>
-        <button class="fb" onclick="setFilter('blackbox',this)">含黑盒</button>
+        <button class="fb" onclick="setFilter('blackbox',this)">电商黑盒</button>
+        <button class="fb" onclick="setFilter('comm_blackbox',this)">⚫ 社区黑盒</button>
         <button class="fb" onclick="setFilter('safe',this)">无违规</button>
       </div>
       <table class="mt">
         <thead><tr>
-          <th style="width:24%">商家名称</th>
-          <th style="width:8%">今日新增</th>
-          <th style="width:8%">近7日</th>
-          <th style="width:8%">活跃违规</th>
-          <th style="width:13%">处罚性质</th>
+          <th style="width:20%">商家名称</th>
+          <th style="width:7%">今日新增</th>
+          <th style="width:7%">近7日</th>
+          <th style="width:8%">电商处罚</th>
+          <th style="width:14%">⚫ 社区侧黑盒</th>
           <th>AM 建议</th>
         </tr></thead>
         <tbody id="merchant-tbody"></tbody>
@@ -263,22 +301,28 @@ body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft
 const _meta = document.querySelector('meta[name="data-url"]');
 const GITHUB_DATA_URL = _meta ? _meta.content : "https://raw.githubusercontent.com/2218248146-ai/violation-dashboard/main/data.json";
 
-
 // ── AI 解读库 ──
 const TIPS = {
-  '工业化流水号': '平台检测到笔记与其他账号高度雷同，判定批量仿制。建议立即停用内容模板工具，下架违规笔记，改为差异化原创内容。黑盒无法申诉，只能靠后续合规内容恢复权重。',
+  '工业化流水号': '平台检测到笔记与其他账号高度雷同，判定批量仿制。需立即停用内容模板工具，下架违规笔记，改为差异化原创内容。黑盒无法申诉，只能靠后续合规内容恢复权重。',
   '封标跟风': '蹭爆款标题关键词（如他人货号/品名），平台容忍度极低。建议立即修改笔记标题，回归自有产品真实描述。',
-  '价格信息异常': '商品定价存在异常，可能涉及隐性低价引流。建议核查所有商品价格，不符合规则的立即下架。',
-  '天眼识别水下': '平台主动巡查识别水下商家，情节较重，不可拖延，需立即整改，否则可能升级为店铺级处罚。',
-  '虚假宣传': '笔记含夸大或不实描述，白盒处罚可申诉。修改违规措辞后发起申诉，同时排查其他笔记话术。',
+  '价格信息异常': '商品定价存在异常。建议核查所有商品价格，不符合规则的立即下架。',
+  '天眼识别水下': '平台主动巡查识别，情节较重，需立即整改，否则可能升级为店铺级处罚。',
+  '虚假宣传': '笔记含夸大或不实描述，白盒处罚可申诉。修改违规措辞后发起申诉，排查其他笔记话术。',
   '虚假营销': '笔记营销内容不实，白盒可申诉。修改后申诉，同步排查其他促销话术。',
+  '包运费': '运费营销话术与实际不符，白盒可申诉。核实真实运费情况后修改并申诉。',
   'AIGC': 'AIGC 视频合规性需核查，平台管控持续趋严。建议减少 AIGC 视频使用，回归真实种草内容。',
-  '拟真人像': '即使已声明 AIGC 仍触发处罚，说明平台标准在提高。建议核查 AIGC 声明方式是否符合最新要求。',
+  '拟真人像': '即使已声明 AIGC 仍触发处罚，说明平台标准在提高。核查 AIGC 声明方式是否符合最新要求。',
   '售卖山寨假货': '⚠️ 高风险！平台对知识产权违规容忍度极低，可能触发连带处罚甚至店铺封禁。需立即下架相关商品，优先处理。',
-  '不合规营销': '笔记中含不符合规范的营销推广内容。排查笔记中的促销话术，黑盒处罚需通过后续合规内容恢复。',
   '内容质量': '平台判定笔记内容质量不佳，黑盒限流。需推动商家提升内容质量，停止批量低质发布。',
-  '导流': '笔记/直播中存在导流至站外的行为。需立即整改，导流类违规平台会持续监测。',
-  '包运费': '运费营销话术与实际不符。白盒可申诉，核实真实运费情况后修改并申诉。',
+  '原创度不足': '笔记内容与其他账号高度重复，平台判定缺乏原创性。黑盒无法申诉，需从源头改善内容质量。',
+  '流量作弊': '⚠️ 涉及非正常流量行为，平台重点打击。需立即核查，避免升级处罚。',
+  '高价商家': '账号被判定为高价商家并触发流控，属于平台流量调控策略。黑盒静默限流，可尝试优化内容质量和用户互动指标。',
+  '无美感': '笔记/视频画面质量不佳，被算法判定不适合大范围分发。建议商家提升拍摄和后期质量，画面清晰度、构图、色彩均要改善。',
+  '导流': '笔记/直播中存在导流至站外的行为，需立即整改。',
+  '直播回放': '直播回放被限制展示，说明直播内容存在合规问题。核查直播话术和行为，避免重复触发。',
+  '揽收超时': '物流履约问题，督促商家提升发货效率。',
+  '客服': '提醒商家提升客服响应速度和服务质量。',
+  '互动': '直播间互动不足，提醒主播加强与观众的实时互动。',
   'default': '建议联系商家确认违规详情，根据处罚状态决定是否申诉，同步排查相似内容。'
 };
 function getTip(r) {
@@ -297,7 +341,6 @@ async function loadData() {
     const resp = await fetch(GITHUB_DATA_URL + '?nocache=' + Date.now(), {cache: 'no-store'});
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     DATA = await resp.json();
-    // 兼容旧结构（key="全部"）：自动迁移为"安芷"
     if (DATA.ams && DATA.ams['全部'] && !DATA.ams['安芷']) {
       DATA.ams['安芷'] = {...DATA.ams['全部'], displayName: '安芷'};
       delete DATA.ams['全部'];
@@ -313,7 +356,6 @@ async function loadData() {
 function renderLoginPage() {
   const grid = document.getElementById('am-grid');
   grid.innerHTML = '';
-  // 固定显示的 AM 列表（有数据 + 无数据都显示，点击统一走 tryLoadAM）
   const knownAMs = ['安芷', '夏日', '精卫', '蘑朵'];
   knownAMs.forEach(name => {
     const btn = document.createElement('button');
@@ -322,11 +364,9 @@ function renderLoginPage() {
     btn.onclick = () => tryLoadAM(name);
     grid.appendChild(btn);
   });
-  // 隐藏底部「查看我的看板」按钮（不再需要二次点击）
   document.getElementById('login-btn').style.display = 'none';
 }
 
-// 统一入口：有数据直接进，没数据静默等待轮询
 function tryLoadAM(name) {
   const amData = DATA && DATA.ams && DATA.ams[name];
   if (amData && !amData.placeholder && amData.merchants && amData.merchants.length > 0) {
@@ -340,20 +380,21 @@ function loadAM(name) {
   const amData = DATA.ams[name];
   if (!amData) { return; }
   currentAM = name;
-  // 兼容新旧字段名：week7Violations/todayViolations → week7Count/todayCount
   (amData.merchants || []).forEach(m => {
     if (m.week7Count === undefined) m.week7Count = m.week7Violations || 0;
     if (m.todayCount === undefined) m.todayCount = m.todayViolations || 0;
+    if (!m.communityViolations) m.communityViolations = [];
+    if (m.communityViolationCount === undefined) m.communityViolationCount = m.communityViolations.length;
+    if (m.communityBlackboxCount === undefined) m.communityBlackboxCount = m.communityViolations.filter(v=>v.blackbox||v.isBlackBox).length;
   });
   currentMerchants = amData.merchants;
   document.getElementById('login-page').style.display = 'none';
   document.getElementById('main-page').style.display = 'block';
-  // 显示苍穹扫描提示
   document.getElementById('crm-banner').style.display = 'flex';
   document.getElementById('banner-title').textContent = '👗 ' + (amData.category || '') + ' 违规风向看板';
   document.getElementById('banner-sub').textContent = name + ' AM · ' + amData.merchants.length + ' 家监控商家 · 每日17:00自动更新';
   document.getElementById('am-chip').textContent = '👤 ' + name;
-  document.getElementById('upd-label').textContent = '数据更新于 ' + (DATA.updatedAt || '').slice(0, 10);
+  document.getElementById('upd-label').textContent = '数据更新于 ' + (DATA.updatedAt || '').slice(0, 16).replace('T', ' ');
   document.getElementById('s-cat').textContent = amData.category || '';
   document.getElementById('s-tag').textContent = '近7日 · ' + name + '名下' + amData.merchants.length + '家';
   renderOverview(amData.merchants);
@@ -384,6 +425,14 @@ function renderOverview(ms) {
   const tdBBCount = ms.filter(m => m.todayCount > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
   const week7BBCount = ms.filter(m => m.week7Count > 0 && (m.violations||[]).some(v=>v.isBlackBox)).length;
   const tdSafe = ms.filter(m => m.todayCount === 0).length;
+
+  // 社区侧统计
+  const commWithV = ms.filter(m => m.hasCommunityViolation || m.communityViolationCount > 0).length;
+  const commBB = ms.filter(m => m.communityIsBlackBox || m.communityBlackboxCount > 0).length;
+  const commSafe = total - commWithV;
+  const commSorted = [...ms].filter(m => m.communityBlackboxCount > 0).sort((a,b) => b.communityBlackboxCount - a.communityBlackboxCount);
+  const commMax = commSorted[0];
+
   document.getElementById('s-total').textContent = total;
   document.getElementById('s-viol').textContent = tdCount;
   document.getElementById('s-viol-pct').textContent = '占比 ' + Math.round(tdCount/total*100) + '%';
@@ -393,12 +442,30 @@ function renderOverview(ms) {
   document.getElementById('s-bb-week7').textContent = week7BBCount;
   document.getElementById('s-safe').textContent = tdSafe;
 
+  // 社区侧
+  document.getElementById('s-comm-total').textContent = commWithV;
+  document.getElementById('s-comm-pct').textContent = '占比 ' + Math.round(commWithV/total*100) + '%';
+  document.getElementById('s-comm-bb').textContent = commBB;
+  document.getElementById('s-comm-max-count').textContent = commMax ? commMax.communityBlackboxCount + ' 条' : '—';
+  document.getElementById('s-comm-max-name').textContent = commMax ? commMax.name.slice(0, 12) : '—';
+  document.getElementById('s-comm-safe').textContent = commSafe;
+
   const maxV = Math.max(...ms.map(m => m.week7Count), 0);
   const topNames = ms.filter(m => m.week7Count === maxV && maxV > 0).map(m => m.name.slice(0,8));
   const avg = (ms.reduce((s,m) => s+m.week7Count, 0)/total).toFixed(1);
+
+  // 电商违规类型统计
   const reasons = {};
-  ms.forEach(m => m.violations.forEach(v => { reasons[v.reason] = (reasons[v.reason]||0)+1; }));
+  ms.forEach(m => (m.violations||[]).forEach(v => { reasons[v.reason] = (reasons[v.reason]||0)+1; }));
   const topType = Object.entries(reasons).sort((a,b)=>b[1]-a[1])[0];
+
+  // 社区违规类型统计
+  const commReasons = {};
+  ms.forEach(m => (m.communityViolations||[]).forEach(v => {
+    const r = v.reason || '';
+    commReasons[r] = (commReasons[r]||0)+1;
+  }));
+  const topCommType = Object.entries(commReasons).sort((a,b)=>b[1]-a[1])[0];
 
   document.getElementById('m-max').textContent = maxV > 0 ? maxV + ' 条' : '无';
   document.getElementById('m-bbpct').textContent = Math.round(withBB/total*100) + '%';
@@ -408,22 +475,30 @@ function renderOverview(ms) {
   document.getElementById('m-pct').textContent = Math.round(withV/total*100) + '%';
   document.getElementById('m-bbp2').textContent = Math.round(withBB/total*100) + '%';
   document.getElementById('m-note2').textContent = withV > total*0.5 ? '类目整体违规率偏高，内容合规压力显著（含历史未撤销）' : '类目整体合规状况良好';
-  document.getElementById('m-td').textContent = tdCount + ' 家';
-  document.getElementById("m-tdbb").textContent = tdBBCount + " 家";
-  document.getElementById("m-tdwb").textContent = (tdCount - tdBBCount) + " 家";
+  document.getElementById('m-comm-total').textContent = commWithV + ' 家';
+  document.getElementById('m-comm-bb').textContent = commBB + ' 家';
+  document.getElementById('m-comm-toptype').textContent = topCommType ? topCommType[0].slice(0,12) : '无';
 
-  // 违规风向色块
+  // 违规风向色块（含社区侧）
+  const allViolations = [];
+  ms.forEach(m => {
+    (m.violations||[]).forEach(v => allViolations.push({...v, source:'trade'}));
+    (m.communityViolations||[]).forEach(v => allViolations.push({...v, source:'community'}));
+  });
+
   const trendDefs = [
-    { cls:'vc-red', title:'🤖 流水号/仿制内容', keys:['流水号','相似笔记'], advice:'批量化仿制内容的平台检测持续升级，涉及商家需立即停用内容模板工具，改为差异化原创内容。黑盒处罚无法申诉，只能靠后续合规内容恢复权重。' },
-    { cls:'vc-orange', title:'💰 价格信息异常', keys:['价格','水下商家'], advice:'商品定价异常相关违规，部分涉及天眼识别水下商家，说明平台正在主动巡查，情节较重，需优先跟进。' },
-    { cls:'vc-purple', title:'🏷️ 封标跟风', keys:['封标','跟风'], advice:'蹭爆款标题关键词行为，平台容忍度极低，均为黑盒处罚。涉及商家需立即修改笔记标题。' },
-    { cls:'vc-teal', title:'🎭 内容合规', keys:['AIGC','拟真人','虚假宣传','虚假营销','内容质量','不合规营销'], advice:'AIGC 视频与内容质量类违规集中出现，平台管控趋严。建议商家回归真实种草内容，减少模板化生产。' },
+    { cls:'vc-red', title:'🤖 流水号/仿制内容', keys:['流水号','相似笔记','原创度'], advice:'批量化仿制内容持续触发平台检测，涉及商家需立即停用内容模板工具，改为差异化原创内容。黑盒处罚无法申诉。' },
+    { cls:'vc-orange', title:'💰 价格 / 虚假营销', keys:['价格','虚假宣传','虚假营销','包运费','现货'], advice:'价格异常和虚假营销话术类违规，部分白盒可申诉，整改后尽快发起申诉。重点排查直播话术。' },
+    { cls:'vc-purple', title:'🏷️ 内容质量 / 封标', keys:['封标','跟风','无美感','质量','AIGC','画面'], advice:'内容质量类黑盒处罚集中出现，均为社区侧限流。提升拍摄质量，停止封面标题跟风，减少模板化低质内容。' },
+    { cls:'vc-teal', title:'📡 流量 / 账号风控', keys:['流量作弊','高价商家','流控','流量干预'], advice:'流量作弊和高价商家流控类黑盒属于平台主动风控，静默限流，商家无感知。核查是否存在非正常流量行为。' },
   ];
   const vcGrid = document.getElementById('vc-grid');
   vcGrid.innerHTML = '';
   trendDefs.forEach(def => {
-    const cnt = ms.reduce((s,m) => s + m.violations.filter(v => def.keys.some(k => v.reason.includes(k))).length, 0);
-    const aff = [...new Set(ms.filter(m => m.violations.some(v => def.keys.some(k => v.reason.includes(k)))).map(m => m.name.slice(0,6)))];
+    const cnt = allViolations.filter(v => def.keys.some(k => (v.reason||'').includes(k))).length;
+    const aff = [...new Set(ms.filter(m =>
+      [...(m.violations||[]), ...(m.communityViolations||[])].some(v => def.keys.some(k => (v.reason||'').includes(k)))
+    ).map(m => m.name.slice(0,6)))];
     const div = document.createElement('div');
     div.className = 'vc ' + def.cls;
     div.innerHTML = `<div class="vc-title">${def.title}（${cnt}条）</div><ol>
@@ -431,6 +506,32 @@ function renderOverview(ms) {
       <li>${def.advice}</li></ol>`;
     vcGrid.appendChild(div);
   });
+
+  // 社区黑盒TOP10
+  const commTopWrap = document.getElementById('comm-top-wrap');
+  if (commSorted.length === 0) {
+    commTopWrap.innerHTML = '<div style="padding:20px;text-align:center;color:#aaa;font-size:13px">✅ 暂无社区侧黑盒违规</div>';
+  } else {
+    const top10 = commSorted.slice(0, 10);
+    const rows = top10.map((m, i) => {
+      const topReasons = [...new Set((m.communityViolations||[]).filter(v=>v.blackbox||v.isBlackBox).map(v=>v.reason))].slice(0,2);
+      return `<tr style="border-bottom:1px solid #f0ecff">
+        <td style="padding:10px 16px;font-size:13px"><span style="color:#7b5ef6;font-weight:700;margin-right:8px">${i+1}</span><span style="font-weight:600">${m.name}</span></td>
+        <td style="padding:10px 16px;font-size:13px;color:#7b5ef6;font-weight:800">${m.communityBlackboxCount} 条黑盒</td>
+        <td style="padding:10px 16px;font-size:12px;color:#666">${topReasons.join(' / ') || '—'}</td>
+        <td style="padding:10px 16px"><a href="https://crm.xiaohongshu.com/eccrm/merchant-detail/${m.id}?isSellerId=true&type=shopDiagnosis" target="_blank" class="crm-link">🔗 苍穹</a></td>
+      </tr>`;
+    }).join('');
+    commTopWrap.innerHTML = `<table style="width:100%;border-collapse:collapse">
+      <thead><tr style="background:#f8f6ff">
+        <th style="padding:10px 16px;font-size:11px;color:#7b5ef6;font-weight:600;text-align:left">商家</th>
+        <th style="padding:10px 16px;font-size:11px;color:#7b5ef6;font-weight:600;text-align:left">黑盒数量</th>
+        <th style="padding:10px 16px;font-size:11px;color:#7b5ef6;font-weight:600;text-align:left">主要违规类型</th>
+        <th style="padding:10px 16px;font-size:11px;color:#7b5ef6;font-weight:600;text-align:left">链接</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+  }
 
   // 健康商家
   const healthy = ms.filter(m => m.todayCount === 0);
@@ -443,8 +544,9 @@ function renderMerchants(ms) { currentFilter = 'all'; currentMerchants = ms; fil
 
 function setFilter(type, btn) {
   currentFilter = type;
-  document.querySelectorAll('.fb').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  document.querySelectorAll('.fb').forEach(b => { b.classList.remove('active'); b.classList.remove('active-purple'); });
+  if (type === 'comm_blackbox') btn.classList.add('active-purple');
+  else btn.classList.add('active');
   filterMerchants();
 }
 
@@ -452,21 +554,52 @@ function filterMerchants() {
   const q = document.getElementById('search-input').value.toLowerCase();
   let list = [...currentMerchants];
   if (currentFilter === 'today') list = list.filter(m => m.todayCount > 0);
-  else if (currentFilter === 'blackbox') list = list.filter(m => m.hasBlackBox);
-  else if (currentFilter === 'safe') list = list.filter(m => (m.totalActiveViolations || 0) === 0);
+  else if (currentFilter === 'blackbox') list = list.filter(m => (m.violations||[]).some(v=>v.isBlackBox));
+  else if (currentFilter === 'comm_blackbox') list = list.filter(m => m.communityBlackboxCount > 0 || m.communityIsBlackBox);
+  else if (currentFilter === 'safe') list = list.filter(m => (m.totalActiveViolations || 0) === 0 && !m.hasCommunityViolation);
   if (q) list = list.filter(m => m.name.toLowerCase().includes(q));
-  list.sort((a,b) => b.todayCount - a.todayCount || (b.totalActiveViolations||0) - (a.totalActiveViolations||0) || b.week7Count - a.week7Count);
+  list.sort((a,b) => b.todayCount - a.todayCount || (b.totalActiveViolations||0) - (a.totalActiveViolations||0) || b.communityBlackboxCount - a.communityBlackboxCount || b.week7Count - a.week7Count);
 
   const tbody = document.getElementById('merchant-tbody');
   tbody.innerHTML = '';
-  if (!list.length) { tbody.innerHTML = '<tr class="empty-row"><td colspan="5">没有符合条件的商家</td></tr>'; return; }
+  if (!list.length) { tbody.innerHTML = '<tr class="empty-row"><td colspan="6">没有符合条件的商家</td></tr>'; return; }
 
   list.forEach((m, idx) => {
-    const badgeHtml = m.violations.length > 0
-      ? [...new Set(m.violations.map(v=>v.isBlackBox))].map(bb => `<span class="badge ${bb?'bbb':'bwb'}">${bb?'⚫黑盒':'⚪白盒'}</span>`).join(' ')
+    // 电商侧处罚标签
+    const tradeViolations = m.violations || [];
+    const tradeBadgeHtml = tradeViolations.length > 0
+      ? [...new Set(tradeViolations.map(v=>v.isBlackBox))].map(bb => `<span class="badge ${bb?'bbb':'bwb'}">${bb?'⚫黑盒':'⚪白盒'}</span>`).join(' ')
       : '<span class="badge bok">✅ 合规</span>';
-    const topV = m.violations.find(v=>v.isBlackBox) || m.violations[0];
-    const advice = m.week7Count === 0 ? '近7日无违规，经营状态健康，保持当前节奏。' : (topV ? getTip(topV.reason) : '建议联系商家核查近期违规情况。');
+
+    // 社区侧显示
+    const commViolations = m.communityViolations || [];
+    const commBBCount = m.communityBlackboxCount || commViolations.filter(v=>v.blackbox||v.isBlackBox).length;
+    const commTotalCount = m.communityViolationCount || commViolations.length;
+    let commCell = '';
+    if (commBBCount > 0) {
+      const topReason = commViolations.find(v=>v.blackbox||v.isBlackBox);
+      commCell = `<span class="comm-count">⚫${commBBCount}</span> 条<br><span style="font-size:11px;color:#999">${topReason ? topReason.reason.slice(0,12) : ''}</span>`;
+    } else if (commTotalCount > 0) {
+      commCell = `<span style="color:#aaa;font-size:11px">${commTotalCount}条(白盒)</span>`;
+    } else {
+      commCell = '<span style="color:#ddd">—</span>';
+    }
+
+    // AM建议
+    const topV = tradeViolations.find(v=>v.isBlackBox) || tradeViolations[0];
+    const topCommV = commViolations.find(v=>v.blackbox||v.isBlackBox) || commViolations[0];
+    let advice = '';
+    if (m.week7Count === 0 && commBBCount === 0) {
+      advice = '近7日无违规，经营状态健康，保持当前节奏。';
+    } else if (commBBCount > 5) {
+      advice = `⚫ 社区黑盒${commBBCount}条，${topCommV ? getTip(topCommV.reason||'') : ''}`;
+    } else if (topV) {
+      advice = getTip(topV.reason);
+    } else if (topCommV) {
+      advice = `社区侧：${getTip(topCommV.reason||'')}`;
+    } else {
+      advice = '建议联系商家核查近期违规情况。';
+    }
 
     const tr = document.createElement('tr');
     tr.id = 'row-' + idx;
@@ -476,30 +609,58 @@ function filterMerchants() {
         <a class="crm-link" href="https://crm.xiaohongshu.com/eccrm/merchant-detail/${m.id}?isSellerId=true&type=shopDiagnosis" target="_blank" onclick="event.stopPropagation()">🔗 苍穹详情</a></td>
       <td>${m.todayCount > 0 ? '<span class="cc">'+m.todayCount+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
       <td>${m.week7Count > 0 ? '<span class="cc">'+m.week7Count+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
-      <td>${(m.totalActiveViolations||0) > 0 ? '<span class="cc">'+(m.totalActiveViolations||0)+'</span> 条' : '<span style="color:#ccc">—</span>'}</td>
-      <td>${badgeHtml}</td>
+      <td class="comm-cell">${tradeBadgeHtml}</td>
+      <td class="comm-cell">${commCell}</td>
       <td style="color:#555;font-size:12px">${advice}</td>`;
     tbody.appendChild(tr);
 
+    // 展开行（分电商侧+社区侧两区块）
     const dtr = document.createElement('tr');
     dtr.className = 'dr'; dtr.id = 'detail-' + idx;
-    if (!m.violations.length) {
-      dtr.innerHTML = '<td colspan="5"><div class="di" style="color:#aaa;font-size:13px">近7日无违规记录 ✅</div></td>';
-    } else {
-      const items = m.violations.map(v => `
+    let detailContent = '';
+
+    // 电商侧
+    if (tradeViolations.length > 0) {
+      const tradeItems = tradeViolations.map(v => `
         <div class="vi">
           <div class="vi-b">
             <span class="badge ${v.isBlackBox?'bbb':'bwb'}">${v.isBlackBox?'⚫黑盒':'⚪白盒'}</span>
-            ${v.isToday?'<span class="badge btd">今日</span>':''}
           </div>
           <div class="vi-c">
             <div class="vi-reason">${v.reason}</div>
-            <div class="vi-date">${v.date}</div>
+            <div class="vi-date">${v.time||v.date||''} ${v.status?'· '+v.status:''}</div>
+            ${(v.actions||[]).length ? '<div class="vi-date">处罚：'+v.actions.join(' / ')+'</div>' : ''}
             <div class="vi-tip">💡 ${getTip(v.reason)}</div>
           </div>
         </div>`).join('');
-      dtr.innerHTML = `<td colspan="5"><div class="di"><h4>违规明细（共 ${m.violations.length} 条，点击行收起）</h4>${items}</div></td>`;
+      detailContent += `<div class="vi-section"><div class="vi-section-title">⚡ 电商侧（共 ${tradeViolations.length} 条）</div>${tradeItems}</div>`;
+    } else {
+      detailContent += `<div class="vi-section"><div class="vi-section-title">⚡ 电商侧</div><div style="color:#aaa;font-size:12px;padding:6px 0">无活跃违规记录 ✅</div></div>`;
     }
+
+    // 社区侧
+    if (commViolations.length > 0) {
+      const commItems = commViolations.map(v => `
+        <div class="vi vi-community">
+          <div class="vi-b">
+            <span class="badge ${(v.blackbox||v.isBlackBox)?'bbb':'bwb'}">${(v.blackbox||v.isBlackBox)?'⚫黑盒':'⚪白盒'}</span>
+            <span class="badge bcomm">社区</span>
+          </div>
+          <div class="vi-c">
+            <div class="vi-reason">${v.reason||'—'}</div>
+            ${v.target ? '<div class="vi-target">📝 '+v.target+'</div>' : ''}
+            <div class="vi-date">${v.time||v.date||''} ${v.status?'· '+v.status:''}</div>
+            ${v.punishment ? '<div class="vi-date">处罚：'+v.punishment+'</div>' : ''}
+            <div class="vi-tip comm-tip">💡 ${getTip(v.reason||'')}</div>
+          </div>
+        </div>`).join('');
+      const bbCnt = commViolations.filter(v=>v.blackbox||v.isBlackBox).length;
+      detailContent += `<div class="vi-section"><div class="vi-section-title comm">⚫ 社区侧（共 ${commViolations.length} 条，黑盒 ${bbCnt} 条）</div>${commItems}</div>`;
+    } else {
+      detailContent += `<div class="vi-section"><div class="vi-section-title comm">⚫ 社区侧</div><div style="color:#aaa;font-size:12px;padding:6px 0">无社区侧违规记录 ✅</div></div>`;
+    }
+
+    dtr.innerHTML = `<td colspan="6"><div class="di"><h4>${m.name} 违规明细（点击行收起）</h4>${detailContent}</div></td>`;
     tbody.appendChild(dtr);
   });
 }
@@ -513,7 +674,6 @@ function toggleDetail(idx) {
   if (!isOpen) { detail.classList.add('open'); row.classList.add('expanded'); }
 }
 
-// ── 其他AM输入 ──
 function onOtherInput() {
   const v = document.getElementById('other-input').value.trim();
   document.getElementById('request-btn').disabled = v.length === 0;
@@ -525,7 +685,6 @@ function requestReport() {
   tryLoadAM(name);
 }
 
-// 无数据时：显示等待提示，每30秒轮询一次
 function startPolling(name) {
   document.getElementById('load-status').textContent =
     `「${name}」的数据每天14:00自动更新，就绪后页面自动跳入 ⏳`;
@@ -546,18 +705,12 @@ function startPolling(name) {
   }, 30000);
 }
 
-// 苍穹立刻扫描（需要 Lobi+苍穹在线）
 function triggerCrmScan() {
   const btn = event.target;
   btn.textContent = '⏳ 已发起扫描…';
   btn.disabled = true;
   showToast('已通知青青立刻扫描苍穹，约15-20分钟后违规数据更新 🌿');
-  // 实际上触发一次定时任务（通过 cron API 或 hi 消息通知）
-  // 这里用 hi 消息方式：发给自己的 Lobi（即用户本人）
-  setTimeout(() => {
-    btn.textContent = '立刻扫描违规';
-    btn.disabled = false;
-  }, 3000);
+  setTimeout(() => { btn.textContent = '立刻扫描违规'; btn.disabled = false; }, 3000);
 }
 
 function showToast(msg, ms = 3000) {
