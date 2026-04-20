@@ -1,19 +1,29 @@
 {
-  "updatedAt": "2026-04-19T23:22:31.656719",
+  "updatedAt": "2026-04-20T12:12:43.533113",
+  "checkDate": "2026-04-20",
+  "checkMethod": "hawkeye_api",
+  "note": "本次使用电商侧hawkeye API检查（含直播间、商品、店铺违规），不含社区侧笔记黑盒",
   "ams": {
     "安芷": {
       "displayName": "安芷",
       "category": "童装童鞋·亲子生活",
       "placeholder": false,
+      "totalChecked": 50,
+      "withViolation": 38,
+      "blackboxCount": 0,
+      "todayNewCount": 5,
+      "week7NewCount": 10,
       "merchants": [
         {
           "id": "656c078b0852060001c9c6a1",
           "name": "TooYoo与你｜男童穿搭的店",
+          "dgmv": 2478061.2100000004,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 8,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 8,
           "violations": [
             {
               "violationId": "425697134000996306",
@@ -111,16 +121,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533011",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "648bbcda2719510001c0d731",
-          "name": "允儿妈童装的店",
+          "name": "允儿妈童装旗舰店",
+          "dgmv": 2400762.959999999,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 5,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 5,
           "violations": [
             {
               "violationId": "425954797345284929",
@@ -182,16 +196,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533032",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
           "name": "NANO KIDS的店",
+          "dgmv": 2092371.5600000012,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 2,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 2,
           "violations": [
             {
               "violationId": "425606594118264160",
@@ -217,16 +235,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533035",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "68873c8b4c27360015d58b7b",
           "name": "balaOne官方旗舰店",
+          "dgmv": 1854910.8900000057,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 6,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 6,
           "violations": [
             {
               "violationId": "426099388173624990",
@@ -300,26 +322,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533037",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "66128389745579000199f6e9",
-          "name": "Eer｜4.16早8.30二周年店庆的店",
+          "name": "Eer的店",
+          "dgmv": 1779245.3299999991,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533038",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6464d4b7ebbcb2000151ff6c",
           "name": "MiniBala旗舰店",
+          "dgmv": 1765567.8200000012,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 11,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 11,
           "violations": [
             {
               "violationId": "425626913239435490",
@@ -453,16 +483,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533040",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6440b228a3c2d90001dccd85",
           "name": "A.ND设计师童装的店",
+          "dgmv": 1638110.9100000004,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 6,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 6,
           "violations": [
             {
               "violationId": "425954797362324409",
@@ -536,26 +570,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533042",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "69796643a64ce7001555d053",
           "name": "绮遇童年的店",
+          "dgmv": 1566459.3600000052,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533047",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "63db9c9e505ba20001836df0",
           "name": "番茄弟弟的店",
+          "dgmv": 1337831.01,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 4,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 4,
           "violations": [
             {
               "violationId": "425663186415319040",
@@ -605,16 +647,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533049",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "649e92f6a71a610001e56574",
           "name": "Hush Puppies暇步士童装旗舰店",
+          "dgmv": 1319632.87,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "totalActiveViolations": 7,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 0,
+          "totalActiveViolations": 7,
           "violations": [
             {
               "violationId": "426115771238239739",
@@ -702,29 +748,21 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533050",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "643e3beffde23e0001a3365a",
           "name": "大小卷儿运营号的店",
+          "dgmv": 1165355.6300000024,
           "checkStatus": "ok",
-          "todayViolations": 1,
-          "week7Violations": 1,
-          "totalActiveViolations": 8,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 7,
           "violations": [
-            {
-              "violationId": "426122687528450421",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 12:01",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
             {
               "violationId": "426069505693203399",
               "reason": "品牌信息滥发",
@@ -809,16 +847,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533052",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "68c10f4aff2efd001543a4e3",
           "name": "派町韩系童品的店",
+          "dgmv": 1048745.4200000009,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 2,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 2,
           "violations": [
             {
               "violationId": "426111221391473025",
@@ -847,22 +889,26 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533054",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "64390a986fdda10001e84590",
           "name": "ppapa shop的店",
+          "dgmv": 1045196.0300000003,
           "checkStatus": "ok",
-          "todayViolations": 1,
-          "week7Violations": 1,
-          "totalActiveViolations": 1,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 1,
+          "totalActiveViolations": 1,
           "violations": [
             {
-              "violationId": "426122691118449877",
+              "violationId": "426124080295232389",
               "reason": "日维度超期发货率高",
               "level": "一般违规",
-              "time": "2026-04-19 12:05",
+              "time": "2026-04-20 11:05",
               "status": "已处罚",
               "actions": [
                 "[店铺]店铺警告"
@@ -870,36 +916,48 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533055",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "698595ba8ab5a80015f612af",
           "name": "允儿妈萌宝的店",
+          "dgmv": 974349.8199999998,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533057",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "67ad9357af01d90015f29f1a",
           "name": "一秋妈设计师童装的店",
+          "dgmv": 972368.4000000019,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533058",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "673c0490f343ff00154c1f16",
           "name": "芽芽宝贝买手店的店",
+          "dgmv": 963870.5399999998,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 10,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 10,
           "violations": [
             {
               "violationId": "425687978254822260",
@@ -1021,26 +1079,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533059",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6877591f673c1e001513e072",
           "name": "佳宝北美的店",
+          "dgmv": 957353.22,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533062",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "62d27c563d1b6a000114fe9e",
           "name": "河南伊日服装的店的店",
+          "dgmv": 942495.0100000005,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 7,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 7,
           "violations": [
             {
               "violationId": "425293542574822585",
@@ -1126,16 +1192,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533063",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6482f8188b61ef00019f59df",
           "name": "ELLE KIDS童装旗舰店",
+          "dgmv": 915642.1599999999,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 4,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 4,
           "violations": [
             {
               "violationId": "425632689802528396",
@@ -1186,26 +1256,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533065",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "69ba4ce6fb821000151f7fe7",
           "name": "悦禾4号店的店",
+          "dgmv": 893067.9000000022,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533066",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6296050f56228a000189da4c",
           "name": "桑桑姐～的店",
+          "dgmv": 801000.5700000009,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 6,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 6,
           "violations": [
             {
               "violationId": "426109568957135945",
@@ -1279,16 +1357,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533067",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "61d84bbcf64538000105ec02",
           "name": "微怡麻麻的店",
+          "dgmv": 784955.68,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "totalActiveViolations": 11,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 0,
+          "totalActiveViolations": 11,
           "violations": [
             {
               "violationId": "426115771070777908",
@@ -1424,36 +1506,48 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533069",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6541b35043e89d0001bcbedc",
           "name": "咸柠七baby童装店的店",
+          "dgmv": 782888.4400000015,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533070",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
           "name": "蕃妈设计师童装的店",
+          "dgmv": 777995.4900000013,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533072",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "65267a467fa15200013b9c5c",
           "name": "蚕多贝的店",
+          "dgmv": 774964.9699999999,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 8,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 8,
           "violations": [
             {
               "violationId": "426029904337439776",
@@ -1551,16 +1645,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533073",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6108f489c1c7880001345af1",
           "name": "LEOHAPPY设计师童装亲子装的店",
+          "dgmv": 770638.5900000001,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 9,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 9,
           "violations": [
             {
               "violationId": "425912827946923052",
@@ -1670,16 +1768,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533074",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
           "name": "啵小爸BOZPAPA易发服装的店",
+          "dgmv": 695680.9200000007,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 1,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 1,
           "violations": [
             {
               "violationId": "425415304958939514",
@@ -1693,16 +1795,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533077",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "683952c4a1a15b00153345f4",
           "name": "歌旗高定童装的店",
+          "dgmv": 661993.760000002,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 3,
-          "totalActiveViolations": 3,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 3,
+          "todayCount": 0,
+          "totalActiveViolations": 3,
           "violations": [
             {
               "violationId": "426121072922835079",
@@ -1740,16 +1846,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533078",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "64f6d65fdace090001ca48b2",
           "name": "真维斯童装旗舰店",
+          "dgmv": 650215.1300000001,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 7,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 7,
           "violations": [
             {
               "violationId": "425880976390813241",
@@ -1835,16 +1945,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533080",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6752630f3eb73600158af708",
           "name": "满妮mannymommy的店",
+          "dgmv": 649631.8700000005,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 7,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 7,
           "violations": [
             {
               "violationId": "426102785173986240",
@@ -1932,26 +2046,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533082",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "68c1479efa43320015cc37cf",
           "name": "小首尔韩系童品的店",
+          "dgmv": 646598.1900000004,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533083",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "663c725197af9100018e1cf1",
           "name": "安踏儿童服饰专卖店",
+          "dgmv": 639406.2000000001,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 4,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 4,
           "violations": [
             {
               "violationId": "425764224427734399",
@@ -2001,26 +2123,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533084",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
           "name": "little MO&Co.旗舰店",
+          "dgmv": 637887.38,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533086",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "660a92f5745579000199ae01",
           "name": "PAW&PAW的店",
+          "dgmv": 620755.8899999999,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 10,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 10,
           "violations": [
             {
               "violationId": "425493402060555398",
@@ -2142,16 +2272,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533087",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
           "name": "限定甜妹Pink童装的店",
+          "dgmv": 619699.6300000002,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 6,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 6,
           "violations": [
             {
               "violationId": "426056150223921230",
@@ -2225,17 +2359,81 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533089",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "647da6a739b63800015abbb6",
           "name": "嘟嘟家童装店旗舰店",
+          "dgmv": 592012.3800000001,
           "checkStatus": "ok",
-          "todayViolations": 10,
-          "week7Violations": 10,
-          "totalActiveViolations": 10,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 11,
+          "todayCount": 5,
+          "totalActiveViolations": 11,
           "violations": [
+            {
+              "violationId": "426124056398314665",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 10:41",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426123887686648191",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
+            },
+            {
+              "violationId": "426124016367946643",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 10:01",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426123947321591223",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 08:53",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426123887686648190",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 07:53",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
             {
               "violationId": "426123354154109926",
               "reason": "违规营销-包运费虚假",
@@ -2297,54 +2495,6 @@
               "canAppeal": true
             },
             {
-              "violationId": "426122895448449837",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 15:28",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426122725063872734",
-              "reason": "违规营销-虚假现货信息",
-              "level": "一般违规",
-              "time": "2026-04-19 12:38",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426122600437474996",
-              "reason": "违规营销-虚假现货信息",
-              "level": "一般违规",
-              "time": "2026-04-19 10:35",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426122168166046256",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 03:25",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
               "violationId": "426120981780893536",
               "reason": "违规营销-包运费虚假",
               "level": "一般违规",
@@ -2356,16 +2506,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533090",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6504215e8265a10001b24aa3",
           "name": "贝贝Miki童装的店",
+          "dgmv": 527798.5600000002,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 9,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 9,
           "violations": [
             {
               "violationId": "426059039747081735",
@@ -2475,17 +2629,33 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533093",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
           "name": "蓝鲸童话馆的店",
+          "dgmv": 527040.5699999991,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "totalActiveViolations": 1,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 2,
+          "todayCount": 1,
+          "totalActiveViolations": 2,
           "violations": [
+            {
+              "violationId": "426123411102528347",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-20 00:00",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
             {
               "violationId": "426119670095910000",
               "reason": "违规营销-虚假现货信息",
@@ -2498,26 +2668,34 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533094",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "68abc7d5ce578e00151c736d",
           "name": "青岛即墨童装源头工厂的的店",
+          "dgmv": 521485.170000002,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533095",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "627ca149928e3300017d3a8c",
           "name": "chenbebe的店",
+          "dgmv": 510321.16,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "totalActiveViolations": 9,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 0,
+          "totalActiveViolations": 9,
           "violations": [
             {
               "violationId": "426114284515031280",
@@ -2633,16 +2811,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533097",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "662df71ac7b2730001531a8b",
           "name": "WOOKIDS 4号店的店",
+          "dgmv": 495538.46999999974,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 4,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 4,
           "violations": [
             {
               "violationId": "425673333137671659",
@@ -2692,17 +2874,33 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533098",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "648fe9c948b95a0001e0acd0",
           "name": "祯有范童装的店",
+          "dgmv": 490003.70999999973,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 2,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 1,
+          "totalActiveViolations": 3,
           "violations": [
+            {
+              "violationId": "426124062799047095",
+              "reason": "违规营销-虚假现货信息",
+              "level": "一般违规",
+              "time": "2026-04-20 10:47",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
             {
               "violationId": "426099834682911623",
               "reason": "违反法律法规",
@@ -2727,16 +2925,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533100",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6583aa4f4f737f0001e2b7cb",
           "name": "柒柒公主日常穿搭的店",
+          "dgmv": 487179.8699999996,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 2,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 2,
           "violations": [
             {
               "violationId": "425864679284668754",
@@ -2762,16 +2964,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533101",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "664026a0a57f5800010e52ff",
           "name": "右欧童装旗舰店",
+          "dgmv": 484094.7699999996,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 4,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 4,
           "violations": [
             {
               "violationId": "425670318427403351",
@@ -2821,16 +3027,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533103",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "65aa5f49c787340001b1e335",
           "name": "乔一麻麻童装铺的店",
+          "dgmv": 461656.74999999895,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 1,
-          "totalActiveViolations": 11,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 0,
+          "totalActiveViolations": 11,
           "violations": [
             {
               "violationId": "426119703440789269",
@@ -2967,16 +3177,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533104",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "6440342d76c7f600018e6691",
           "name": "ee.11的店",
+          "dgmv": 458602.2799999998,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 13,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 13,
           "violations": [
             {
               "violationId": "209628374938886717",
@@ -3134,16 +3348,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533105",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "62f8bde1d248f10001591312",
           "name": "小粗腿原创童装的店",
+          "dgmv": 441568.12000000034,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 5,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 5,
           "violations": [
             {
               "violationId": "426066038061790536",
@@ -3205,16 +3423,20 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533107",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "68c13794d8d80d00157a53d1",
           "name": "甜柚baby穿搭的店",
+          "dgmv": 438001.53999999934,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 2,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 2,
           "violations": [
             {
               "violationId": "425975030668131785",
@@ -3247,27 +3469,47 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533109",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "699eb97b3f2158001514430d",
           "name": "布丁kids童品5店的店",
+          "dgmv": 432899.6500000005,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 0,
+          "hasViolation": false,
           "isBlackBox": false,
-          "violations": []
+          "week7Count": 0,
+          "todayCount": 0,
+          "totalActiveViolations": 0,
+          "violations": [],
+          "checkedAt": "2026-04-20T12:12:43.533110",
+          "note": "电商侧违规（hawkeye API）"
         },
         {
           "id": "673d869a8413dc0015bd0c00",
           "name": "郑阿囍AXIStudio童装的店",
+          "dgmv": 426201.9799999998,
           "checkStatus": "ok",
-          "todayViolations": 0,
-          "week7Violations": 0,
-          "totalActiveViolations": 5,
+          "hasViolation": true,
           "isBlackBox": false,
+          "week7Count": 1,
+          "todayCount": 1,
+          "totalActiveViolations": 6,
           "violations": [
+            {
+              "violationId": "426123951658169046",
+              "reason": "无交流互动或回复不及时",
+              "level": "一般违规",
+              "time": "2026-04-20 08:57",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
             {
               "violationId": "425667597934279299",
               "reason": "订单揽收超时不符平台规定",
@@ -3328,7 +3570,9 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "checkedAt": "2026-04-20T12:12:43.533112",
+          "note": "电商侧违规（hawkeye API）"
         }
       ]
     }
