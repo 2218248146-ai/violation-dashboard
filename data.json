@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-04-20T14:34:10.051639",
-  "checkMode": "api",
-  "checkModeNote": "本次使用 hawkeye API（电商侧违规），不含社区侧笔记黑盒",
+  "updatedAt": "2026-04-21T14:02:13.693797",
+  "checkMethod": "hawkeye-api",
+  "note": "API方式：仅覆盖电商侧直播间违规，不含社区侧笔记黑盒",
   "ams": {
     "安芷": {
       "displayName": "安芷",
@@ -115,12 +115,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "66128389745579000199f6e9",
@@ -132,93 +127,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "视频-画面无美感",
-              "target": "今晚袜子大上新！",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1356342641257549824",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "准备好 3月1号亲子上新咯～",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1344612293474340864",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "愿每一位宝贝 成长路上都光芒万丈",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1321386647317286912",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人直播",
-              "target": "Eer家年服大上新！",
-              "punishment": "直播警告",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1320738775367208960",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "🍰太喜欢碎花了 幸福感爆棚",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1312336909304131584",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "账号存在违反社区规则的内容",
-              "target": "Eer",
-              "punishment": "冻结账号, 禁止用户修改个人资料, 删除用户的所有合集, 用户评论仅自己可见, 重置用户头像（不通过）, 禁止用户开播, 封禁用户连麦权限, 重置用户简介（不通过）, 禁止用户修改小红书号, 重置用户名（不通过）, 账号笔记仅自己可见, 重置用户背景图（不通过）, 禁止用户注销, 限制用户个人页展示, 用户私信禁言, 禁止用户修改背景图, 禁止用户修改头像",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1300302104471150592",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记使用非原创素材进行营销推广",
-              "target": "不费力穿搭的女装来啦！",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1284869994225160192",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记封标包含博眼球的内容",
-              "target": "这套亲子……有被震惊到🥲",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1284869435882569728",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 8,
-          "communityBlackboxCount": 4
+          "violations": []
         },
         {
           "id": "648bbcda2719510001c0d731",
@@ -291,193 +200,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记内容存在原创度不足或与历史内容高度重复",
-              "target": "拥抱春天～喜欢哪一件我送你呀🌸",
-              "punishment": "该篇笔记已不被推荐给未关注用户",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1352277138097594368",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记内容存在原创度不足或与历史内容高度重复",
-              "target": "把春天的温柔都藏进细节里🪡",
-              "punishment": "该篇笔记已不被推荐给未关注用户",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1349337918878294016",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "0元宠粉🎁拍立得＋允儿妈衣服派送中‼️",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1345283075067080704",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "新春宠粉🎁辞旧启新，温暖在延续",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1345283072881623040",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "韩系开衫叠穿这件！温柔蘑菇风拿捏了",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344668670952333312",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "女宝牛仔裤穿搭，还得是这件开衫！",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344668672162627584",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "针织开衫内搭怎么选？这套封神✨",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344668667886403584",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "毛衣妈妈推荐！这件超实用不挑人",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344668664127541248",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "儿童运动套装没灵感？试试这条酷裤！",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344613399261450240",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "萌娃早春战袍！这件年服太绝了",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344613395485913088",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "谁见谁夸的蘑菇刺针织连帽开衫",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344613395345129472",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "谁说儿童麻花开衫不好看！😍",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344613396210073600",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片或视频损坏",
-              "target": "小酒窝同款穿搭！这件蘑菇外套太绝了",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1344613393322688512",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "仅允许投广-图文",
-              "target": "暖秋絮语～喜欢哪一件我送你呀🍂🥥",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1289780835142160384",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "无及时且有效的互动",
-              "target": "谁懂！被他家秋冬新品美疯了……",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1288109177899765760",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "引导站外交易",
-              "target": "把一闪一闪的小星星穿在脚上✨",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1272211881798504448",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "0元宠粉🎁送你双倍好礼“亲”凉一夏🏝",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1268482210525646848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人",
-              "target": "上架一秒拍完的裙子长这样❗️❗️",
-              "punishment": "审核驳回",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1267359124513284096",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 18,
-          "communityBlackboxCount": 17
+          ]
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
@@ -514,163 +237,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "我们周三晚上见啦❗️",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1363300014913961984",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含平台不鼓励的内容",
-              "target": "今天是穿亮色的小孩姐呀～",
-              "punishment": "该篇笔记已不可被他人查看",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1361607622306975744",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "新品｜新品｜新品～ 巨巨巨巨巨…巨好穿",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1358595350014377984",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含平台不鼓励的内容",
-              "target": "是嗲嗲的喇叭裤～",
-              "punishment": "该篇笔记已不可被他人查看",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1355064367528009728",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含平台不鼓励的内容",
-              "target": "nano.新品 ｜一条不挑腿的神裤～",
-              "punishment": "该篇笔记已不可被他人查看",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1353347659444838400",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "身体暴露凸显或涉性讨论",
-              "target": "梨形人来嘚瑟下这条裤子～",
-              "punishment": "该篇笔记流量已受到限制, 该篇笔记流量已受到限制, 该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1351770273789599744",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "身体暴露凸显或涉性讨论",
-              "target": "梨形人来嘚瑟下这条裤子～",
-              "punishment": "该篇笔记流量已受到限制, 该篇笔记流量已受到限制, 该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1348945392520749056",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "敏感部位裸露",
-              "target": "这是一家宝藏店铺",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1346320862860238848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "年款可以见一下面了",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1304096591731535872",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "所有人在找的外套就是我们家的❗️❗️",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1302918263915151362",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记内容涉及低质营销",
-              "target": "喜欢什么做什么",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1290848815184035840",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "这是一家有亲子装的宝藏店铺",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1290699632040837120",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "这是一家有亲子装的宝藏店铺",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1290699633865469952",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "好喜欢这种穿搭啊",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1289491787803754496",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "身体暴露凸显或涉性讨论",
-              "target": "女儿偷穿爸爸的衣服！",
-              "punishment": "笔记限流, 笔记限流, 笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1287593932542308352",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 15,
-          "communityBlackboxCount": 5
+          ]
         },
         {
           "id": "68873c8b4c27360015d58b7b",
@@ -755,12 +322,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "6464d4b7ebbcb2000151ff6c",
@@ -905,463 +467,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1362106253427658752",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "夏季新品发布会｜自然的惊喜还在继续",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1360877846099279872",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1359327461275369472",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1352456817733660672",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1348067978504863744",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1338285145316380672",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "MiniBala",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1336557073578291200",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "🔥双旦宠粉0元送❗️高标鹅绒羽绒服🎁",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1331168803374325760",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号",
-              "target": "MiniBala",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1321769163172208640",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "双十二宝宝衣物一站式清单 | 闭眼入啦❗️",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1315611610861293568",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "🔔圣诞宠粉0元送❗️高标鹅绒羽绒服🎁",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1313767053543276544",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "🔔圣诞宠粉0元送❗️高标鹅绒羽绒服🎁",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1308329131502510080",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "❗️宠粉0元送❗️秋季时尚软防护外套🎁",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1306885606868119552",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "宠粉0元送❗️高标鹅绒🔥萌趣羽绒服🎁",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1300360985890766848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "流量作弊",
-              "target": "万圣节宠粉❗️0元送🎁鹅绒精灵羽绒服~",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1300360980244733952",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1298921411453190144",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1298921412384329728",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记图片、正文、视频、话题等涉及推广第三方平台",
-              "target": "京东千款打5折❗️1年仅1次👏闭眼冲啊！",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1295297543544201216",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1295028804943024128",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1295028803931291648",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1289092036863414272",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1289092034081529856",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1288493495657504768",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1288493494917754880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1287375502123732992",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1287375501147242496",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1285884906740416514",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1285884905314213888",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1284864988660203520",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1284864989370486784",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1277469986447630336",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1277469985350017024",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1275697546112507904",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1275697546962632704",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "入园倒计时｜用满满仪式感🎁迎接成长一刻",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1275694295466110976",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1272810377181511680",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新！和迷你巴拉一起趣运动！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1272810376200564736",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "夏季大收官~买多件更划算！",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1271315724376662016",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "夏季大收官~买多件更划算！",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1271315723677028352",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "早秋上新，和mini一起趣运动吧",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1268394424433893376",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "早秋上新，和mini一起趣运动吧",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1268394425495990272",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "迷你巴拉反季羽绒专场~",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1264044337913643008",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "迷你巴拉反季羽绒专场~",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1264044339260956672",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "人体皮肤及外貌特征异常",
-              "target": "🔥直接抄作业！三伏天宝宝穿衣攻略✅",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1260912164861124608",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "mini巴拉夏季清货来啦~",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1245342945381154816",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 45,
-          "communityBlackboxCount": 28
+          ]
         },
         {
           "id": "69796643a64ce7001555d053",
@@ -1373,12 +479,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "6440b228a3c2d90001dccd85",
@@ -1463,113 +564,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "怎么都能搭的百搭神裤",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1361947380544614400",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记含有不合规营销推广内容",
-              "target": "把夏天穿成蓝白调～",
-              "punishment": "存在笔记图片或视频中夹带广告\n存在笔记内容以产品推广为主，且评论区高频出现引导至第三方平台交易的违规",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1361567493199925248",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "生活没了色彩会老得很快吧～",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1361567440029765632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在音频质量不佳的问题",
-              "target": "属于春夏的🌿",
-              "punishment": "该篇笔记已不被推荐给未关注用户",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1359361417624948736",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "超高展中风险控热",
-              "target": "这套我先穿为敬🩵",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1357970028047179776",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在其他创作者或平台的信息，原创度不足",
-              "target": "谁家的马甲这么好看呀！颜色设计都太吸睛啦",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1346498857232494592",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "高级感年服，撑住接下来一个个大场面🧨",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1318821342260174848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "年服要提前准备呀！",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1318820834153803776",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "这是我给你们的年服～",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1318820834020237312",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "快过年喽！中式穿起来！",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1318820834011848704",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 10,
-          "communityBlackboxCount": 4
+          ]
         },
         {
           "id": "63db9c9e505ba20001836df0",
@@ -1630,193 +625,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "夏天的风🍃吹到了我的心头❤️6组防晒交作业",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1359458408250929152",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "6组防晒衣不同风格OOTD👏快来抄作业吧",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1359118810717736960",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人",
-              "target": "全网都在找的爆款条纹卫衣",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1356819262161494016",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人",
-              "target": "2023！百搭的鸭舌帽",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1354334290324267008",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人",
-              "target": "老墨，我想吃鱼了……",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1353227931317751808",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播封面标题驳回-不推荐",
-              "target": "彩色的春日期待期待🩷💜💙",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1351711444736770048",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导向私域",
-              "target": "彩色的春日期待期待🩷💜💙",
-              "punishment": "①涉及引导用户脱离平台进行交易或互动的行为，包括但不限于直接引导添加私域信息/三方信息、使用表情符号",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1351711441460879360",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导向私域",
-              "target": "春天花花同学会💕",
-              "punishment": "①涉及引导用户脱离平台进行交易或互动的行为，包括但不限于直接引导添加私域信息/三方信息、使用表情符号",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1351350307688247296",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播封面标题驳回-不推荐",
-              "target": "春天花花同学会💕",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1351350308936822784",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "target": "微风缓缓☀️时光慢慢🌴万物复苏🌸",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1349189703957852160",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-体裁不适配",
-              "target": "周五福利日即将开启🔛这些是明天部分秒杀款",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1331811993551364096",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-体裁不适配",
-              "target": "🎱小众球衣风🩷🖤black pink 春装上新😎",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1331212452440154112",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-体裁不适配",
-              "target": "小众又高级的穿搭分享❤️❤️❤️",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1328536885975203840",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "推荐一首歌❤️",
-              "punishment": "笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1319478204436709376",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "救命🆘怎么会有这么好看的红毛衣😻",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1304610186760998912",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被问了好多次的牛仔套装🤠",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1288343562062995458",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "秋上新💌限量发售中🤩",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1281987758037676032",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "未成年人",
-              "target": "潮酷真两件！衬衫马甲+拼接T恤",
-              "punishment": "审核驳回",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1250002710526201856",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 18,
-          "communityBlackboxCount": 18
+          ]
         },
         {
           "id": "643e3beffde23e0001a3365a",
@@ -1913,163 +722,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "可以当姐妹装的polo裙👗",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362990981652107264",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "幼儿园穿搭｜奶呼呼的法式公主裙～",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362384551133384704",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "整理了宝宝的夏装，你们家宝宝穿什么呀",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1361901645624655874",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "闭眼入| 女宝夏季百搭神装",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359905271989919744",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "哪套让妈妈心动了，又来选小裙子啦🎀",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359903995759390720",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "多巴胺女孩👧穿搭好甜呐～",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1359861435562041344",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "多巴胺女孩👧穿搭好甜呐～",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359861436874858496",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "色导北上不出",
-              "target": "请查收你的粉粉嫩嫩小裙子🎀",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1358355775139418112",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "色情导流笔记限流",
-              "target": "请查收你的粉粉嫩嫩小裙子🎀",
-              "punishment": "该篇笔记流量已受到限制, 该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1358355774116007936",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "标题为空",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1348458604179570688",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "为了这口“奶油”，我连夜拍图！这条幼儿",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1347036179528560640",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "雪世界的小精灵就是艾莎公主❄️",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1322460581850533888",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "这么冷的天，她也穿的这么暖和～",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1319266629270638592",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "年味满满的新年战袍来啦～",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1316634002538258434",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未通过原创声明认证",
-              "target": "一眼就爱上的国风拜年服！！",
-              "punishment": "原创声明拒绝/下线",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1315873466803740672",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 15,
-          "communityBlackboxCount": 10
+          ]
         },
         {
           "id": "64390a986fdda10001e84590",
@@ -2083,94 +736,19 @@
           "isBlackBox": false,
           "violations": [
             {
-              "violationId": "426124080295232389",
-              "reason": "日维度超期发货率高",
+              "violationId": "426125530266133304",
+              "reason": "周维度超期发货率高",
               "level": "一般违规",
-              "time": "2026-04-20 11:05",
-              "status": "已处罚",
+              "time": "2026-04-21 11:05",
+              "status": "待处罚",
               "actions": [
-                "[店铺]店铺警告"
+                "[店铺]所有笔记限流",
+                "[店铺]直播间限流"
               ],
               "isBlackBox": false,
-              "canAppeal": false
+              "canAppeal": true
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "今日拍摄vlog～",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362480325781852160",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "ppapa家的速干衣真的好穿不挑肤哦～",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362146926574215168",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "ppapa家的速干衣真的好穿不挑肤哦～",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362146334601445376",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "防晒衣的尽头是TA❗️❗️",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1360333960812134400",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "PPAPA SHOP新品｜上衣简约裤子就不简约～",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1360333389952303104",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "怎么会有这么可爱的恐龙衣服🦕",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359563806451367936",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "超高展中风险控热",
-              "target": "夏天也能随心穿！不闲置～",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359561984250945536",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 7,
-          "communityBlackboxCount": 4
+          ]
         },
         {
           "id": "68c10f4aff2efd001543a4e3",
@@ -2210,12 +788,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "6296050f56228a000189da4c",
@@ -2300,33 +873,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "视频-画面无美感",
-              "target": "我们放假啦！2025年结束🔚☑️",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1344949389771689984",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "马家！懂的来捡漏",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1336966603643781120",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 2,
-          "communityBlackboxCount": 2
+          ]
         },
         {
           "id": "62d27c563d1b6a000114fe9e",
@@ -2423,153 +970,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "今日份软糯人类幼崽 是被治愈的一天",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362596413720186880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "我们上新啦！",
-              "punishment": "单场直播流量限制",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1352128046711812096",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "简介中存在违反平台规则的内容",
-              "target": "河南伊日服装的店",
-              "punishment": "重置用户简介（不通过）",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1343427492382752768",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号",
-              "target": "河南伊日服装的店",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1321342165151272960",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "愿每个宝宝都被这个世界温柔以待。",
-              "punishment": "笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1316452276011868160",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "仅允许投广-图文",
-              "target": "伊日40g豆浆棉连体衣，手感软糯天花板",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1293355415146438656",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记使用非原创素材进行营销推广",
-              "target": "🍃透气不闷汉，宝宝睡得香-治愈系夏凉被",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1254612384651964416",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记使用非原创素材进行营销推广",
-              "target": "高腰护肚，防止着凉！实用型肚围分享",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1254612242151395328",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "每天被问上百遍的小裙子来了哦",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1231481772047982592",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在影响用户种草体验的内容",
-              "target": "伊日家的款只管看花型版型然后闭眼入的底气",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1151703764323041280",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记的标题、正文、视频、图片或评论处存在违规导流内容",
-              "target": "我替0 染色系列面料说两句",
-              "punishment": "笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1150704440857870336",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "违反平台规则",
-              "target": "新生儿必备👶薄夹棉连体衣（双层护肚版）",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1148887503008317440",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在他人相似或重复的素材内容，请注意作品原创度\n",
-              "target": "百变炸街套装来袭哦。",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1145615163760918528",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含非原创素材，或涉嫌盗用他人内容",
-              "target": "百变炸街套装来袭哦。",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1145584441866805248",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 14,
-          "communityBlackboxCount": 5
+          ]
         },
         {
           "id": "698595ba8ab5a80015f612af",
@@ -2581,43 +982,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "她家衣服也太好看了吧~",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1348816799336742912",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "允儿妈春款大上新喽！！！",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1348511457361727488",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "允儿妈春款大上新喽！！！",
-              "punishment": "",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1348443886466854912",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 3,
-          "communityBlackboxCount": 3
+          "violations": []
         },
         {
           "id": "69ba4ce6fb821000151f7fe7",
@@ -2629,12 +994,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "67ad9357af01d90015f29f1a",
@@ -2646,23 +1006,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": false,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "🩵💛夏日小甜妹穿搭",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362708230132682752",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 1,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "649e92f6a71a610001e56574",
@@ -2761,293 +1105,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记画面、音频等包含低质内容",
-              "target": "周年庆来啦！现在点进来还不晚！",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1332962435928178688",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "救命！这件长款羽绒服让娃告别臃肿CR958",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1330734105374240768",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "出门被问 N 次链接，保暖又百搭～CA590",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1324208450439729152",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1302831126226010112",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1302831125501186048",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1301086744812093440",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1301086744012021760",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1301066262879436800",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "暇步士冬上新！羽绒服轻盈不压身",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1301066262063226880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问无数次！时光游记风新款收腰风衣超飒",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1263747950163525632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "暇步士童装 反季秋款上新",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1263035450210586624",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍂被追问 N 次的儿童风衣！拒水防风超飒",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1261935140679364608",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被问N次山野奇遇记儿童风衣，户外 “战衣”",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1255402068727996418",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含虚构体验或人设的内容",
-              "target": "挖到宝了！暇步士童装风衣",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1252487276094279680",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问 800次的童装外套❗️拼色拒水超保暖",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1251782574883917824",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被问N次的夏日童装，暇步士太可了",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1250292807418286080",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问 N 次❗工装风童装神裤，速干透气",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1242298722593013760",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问 N 次的童装神裤！",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1241589269694431232",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "暇步士童装 春日出游季",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1236142031268732928",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "暇步士童装 春日出游季",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1235093977346076672",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问 N 次的防晒衣，一衣解锁 N 种搭法~",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1233326138280841216",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被追问无数次！宝宝的防晒宝藏皮肤衣",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1218496407907434496",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含虚构体验或人设的内容",
-              "target": "暇步士|儿童工装版加绒厚外套，保暖又时髦",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1206132649779744768",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含虚构体验或人设的内容",
-              "target": "暇步士|拼接气凝胶三防厚外套",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1199978394871365632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "年终狂欢购",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1199613904334864384",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记含有虚假消费体验",
-              "target": "暇步士|舒适的儿童圆领打底衫",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1199221495709650944",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记使用非原创素材进行营销推广",
-              "target": "暇步士|三防冲锋衣🛡️，户外探险必备！",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1155348742874247168",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在他人相似或重复的素材内容，请注意作品原创度\n",
-              "target": "暇步士童装| 长袖Polo衫，学院风的休闲范儿",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1151122098968076288",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 28,
-          "communityBlackboxCount": 16
+          ]
         },
         {
           "id": "6877591f673c1e001513e072",
@@ -3059,173 +1117,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "拉夫劳伦男大童短袖紫色上身效果",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1348576614515724288",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "拉夫劳伦男大童短袖紫色上身效果",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1348368308874309632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "这个粉也好看耶～🥰",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1347638404056002560",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在内容质量不佳的问题",
-              "target": "奥莱拉夫买买买结账",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1346297354022400000",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "target": "拉夫劳伦男大童圆领短袖~~",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1344889403889823744",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "拉夫劳伦女款老干部夹克也好看的嘞",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1343162683043053568",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-体裁不适配",
-              "target": "拉夫男款短袖这件粉色也不错哦😌",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1342766623913934848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "target": "春节不打烊|新衣开箱！顺丰包邮到家",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1339827719303053312",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "拉夫劳伦｜大童老干部夹克",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1339175238637436928",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在内容质量不佳的问题",
-              "target": "元气早春开衫|拉夫女童baby蓝",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1336213997944389632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "target": "领口标背面为什么会有缝线｜实拍证实正常",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1334411874337734656",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "拉夫1年1度清仓狂欢",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1310768034424504320",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "拉夫1年1度清仓狂欢",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1310561336571539456",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "拉夫1年1度清仓狂欢",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1310403304034430976",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "拉夫1年1度清仓狂欢",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1310234650703056896",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记中存在高风险内容",
-              "target": "拉夫劳伦 美国海淘 梅西百货 大童",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1223485632207478784",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 16,
-          "communityBlackboxCount": 15
+          "violations": []
         },
         {
           "id": "6541b35043e89d0001bcbedc",
@@ -3237,253 +1129,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "咸柠七baby童装店",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362105558429028352",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "标题为空",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1360451024613117952",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "标题为空",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359751002714722304",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "标题为空",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1359750339118026752",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "target": "咸柠七baby童装店",
-              "punishment": "账号下的笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1359330583586557952",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🩰救命！女儿穿上可爱的像个小手办~",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1357947028899696640",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记内容存在原创度不足或与历史内容高度重复",
-              "target": "🗞芭蕾少女风！又是喜欢女儿穿搭的一天#",
-              "punishment": "存在明确表示作品搬运自其他平台或作者的内容\n存在其他平台或作者的内容特征，如：界面、样式、特效、水印",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1354381387471048704",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍧救命！这套真的好可爱啊！超乖超甜的~",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1353572148225449984",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🗻救命！这样穿搭真的好韩啊啊~",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1353571888671436800",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "💛元气小欧尼穿搭！ 一套好韩啊啊~",
-              "punishment": "该篇笔记已不可被他人查看",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1347734584322834432",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍧救命！粉白𝐂𝐏小芭蕾真的好韩啊～",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1347512443219513344",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🧸救命❗️女鹅这样穿也泰可爱啦~",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1347135094808522752",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "无及时且有效的互动",
-              "target": "咸柠七baby开播啦",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1345988158253113344",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "无及时且有效的互动",
-              "target": "咸柠七baby开播啦",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1345223273803546624",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "🧊好治愈蓝色系~泰可爱！泰显白啦！",
-              "punishment": "笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1343406905604681730",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "🍟显白天花板！是超可爱的芭蕾tutu公主～",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1329327333893464066",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "💓巨巨巨显白！女儿穿上可爱的像个小手办",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1319540436707835904",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "【🧧 新年主题】一眼心动的小香公主裙！",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1318516306276179968",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "预告·👮🏻‍♀️🐰兔子警官朱迪来咯",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1312233178794999808",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍊巨巨巨显白～ 超火小博主秋冬穿搭！！",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1310415905322844162",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍊 巨巨巨显白～韩系小博主穿搭！！",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1304253693725282304",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍂巨巨巨显白～  超火小博主穿搭！！！",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1299240829862375424",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍊巨巨巨显白原创款！爱惨这套叠穿美学啦",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1288373484403363840",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "🍊 巨巨巨显白～韩系小博主穿搭！！",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1285048658996453376",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 24,
-          "communityBlackboxCount": 22
+          "violations": []
         },
         {
           "id": "673c0490f343ff00154c1f16",
@@ -3616,213 +1262,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "BOBO 26SS｜上新啦定⏰拼手速",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1363329672876630016",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "PEPE 26SS｜意大利手工童鞋天花板！",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362975574544453632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "Bonjour SS26 | 法式繁花，一眼心动的温柔",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362596512283312128",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour SS26 | 法式繁花，一眼心动的温柔",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362596511054381056",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容 ",
-              "target": "Bonjour26SS | 法式繁花，一眼心动的温柔",
-              "punishment": "该篇笔记不被大范围公开展示推荐, 该篇笔记不会在搜索结果中向他人展示",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1362596408363540480",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS | 法式繁花，一眼心动的温柔",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362596407180746752",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS 夏日法式限定🌷",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362596292596838400",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS| 春日的浪漫，是这条粉裙给的",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362596175479128064",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS谁懂啊，这件碎花裙太戳人了",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362595783719735296",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS解锁春夏的浪漫呀",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362595687623507968",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS|沦陷在法式田园少女里",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362595251885408256",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS|复古田园少女穿搭",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362595153150038016",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour26SS|把生活的温柔缝进包包里",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362595020652883968",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour Suranne 26SS成人系列全新上线",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362594652257734656",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "BJ26SS哪位少女能抵挡粉色的暴击呀💕",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362594421729751042",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour 26SS｜预告抢先看",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362594321369489408",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Bonjour 26SS｜法式温柔藏在每一处细节里",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362594151546957824",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "PEPE 26SS｜爆款上新啦",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362359972908732416",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Solii Sola 26SS｜彩虹糖色系扎染",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362303325992865792",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "工业化流水号-经营账号-他相似笔记",
-              "target": "Solii Sola26SS｜奶酷幼崽🍼",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1362298907619143680",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 20,
-          "communityBlackboxCount": 18
+          ]
         },
         {
           "id": "65267a467fa15200013b9c5c",
@@ -3931,413 +1371,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记包含虚假营销的内容",
-              "target": "今年宝妈圈真的被这款真丝云片枕刷屏了",
-              "punishment": "该篇笔记已不被推荐给未关注用户",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1360440403825504256",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "感谢小红书，让我家宝宝蚕丝睡袋被夸爆了！",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1359742311044169728",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "救命！这款真丝云片枕，拯救热敏枕秃三宝娃",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1355391842293219328",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记画面、音频等包含低质内容",
-              "target": "🐷这个蚕丝睡袋太柔软了",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1328606944852848640",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "被问了N遍的蚕丝睡袋，真的太舒服了",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1326046490549059584",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "举报综合违规模型自动处置",
-              "target": "你的委屈，我们都懂。",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1321436254041714688",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "标题为空",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1321015209855766528",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在隐私泄露风险",
-              "target": "化纤对宝宝到底好不好，所有妈妈们来评评理",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1300055782836514816",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "手工现做宝宝桑蚕丝睡袋",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1222805755760279552",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播/播放视频",
-              "target": "手工现做宝宝桑蚕丝睡袋",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1222805754649583616",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "手工现做宝宝桑蚕丝睡袋",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1192343781648916480",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "手工现做宝宝桑蚕丝睡袋",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1190544722136162304",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "手工现做宝宝桑蚕丝睡袋",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1190544720221462528",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "一直在找的桑蚕丝睡袋☃️",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1177974102451044352",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "怎么舍得给宝宝用化纤睡袋",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1174962693474578432",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1172145511275880448",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1171801240711110656",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1169141951219621888",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1168430482356936704",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1168103706969092096",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1167439504552984576",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1167368337787408384",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1166718903624982528",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1166253838039949312",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1163361086910074880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1163062684308336640",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1163027270437429248",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1162628001518837760",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1160794563932438528",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1160444271348117504",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1160442650941554688",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1160123093681401856",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1159806257932759040",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1159806257226928128",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1159768777020518400",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记包含观感不佳的画面",
-              "target": "现在已经33周➕，离卸货不远咯",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1159740979928866816",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1159398854606942208",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "真的没有一件睡袋比它更舒服 不服来战",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1159398853302784000",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "真的没有一件睡袋比它更舒服",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1154687775176171520",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "低互动/无互动/挂播",
-              "target": "真的没有一件睡袋比它更舒服",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1152138133156679680",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 40,
-          "communityBlackboxCount": 29
+          ]
         },
         {
           "id": "6108f489c1c7880001345af1",
@@ -4458,12 +1492,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
@@ -4475,153 +1504,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "拟真人像-未主动声明AIGC视频",
-              "target": "上新啦｜把夏天穿在身上～",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1354367065204105216",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "蕃妈出品，都是精品",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1336209530727886848",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "身体暴露凸显或两性话题",
-              "target": "标题为空",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1295190030610554880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "身体暴露凸显或涉性表述",
-              "target": "标题为空",
-              "punishment": "笔记限流, 笔记限流, 笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚",
-              "violationId": "1295190030610554880",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "播放录制好的视频内容/出现其他平台直播特征",
-              "target": "秋季新款首上新，蕃妈品质好",
-              "punishment": "关闭本场直播间",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已处罚",
-              "violationId": "1275623633710993408",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "秋季新款首上新，蕃妈品质好",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1275623635429597184",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在他人相似或重复的素材内容，请注意作品原创度",
-              "target": "标题为空",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1231892641656504320",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记存在他人相似或重复的素材内容，请注意作品原创度",
-              "target": "标题为空",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1231888795153989632",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "秋款来咯..",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1156394560103325696",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "秋款来咯..",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1156394561511550976",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "秋款来咯..",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1155667105183252480",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "秋款来咯..",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1155667103617581056",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "秋款来咯..",
-              "punishment": "本场直播禁止生成回放",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1155387801714626560",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "直播间流量干预-公域停推",
-              "target": "秋款来咯..",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1155387800308871168",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 14,
-          "communityBlackboxCount": 10
+          "violations": []
         },
         {
           "id": "6482f8188b61ef00019f59df",
@@ -4683,33 +1566,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "直播-禁止生成回顾action",
-              "target": "ELLEKIDS春款最后一波上新",
-              "punishment": "直播回放禁止展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1349954140832440320",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "导流行为",
-              "target": "ELLEKIDS春款最后一波上新",
-              "punishment": "单场直播流量限制",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1349954139914399744",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 2,
-          "communityBlackboxCount": 1
+          ]
         },
         {
           "id": "61d84bbcf64538000105ec02",
@@ -4856,133 +1713,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "封标跟风",
-              "target": "救命！这条短裤真好看！",
-              "punishment": "该篇笔记流量已受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1362359145407373312",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "画面或声音存在异常",
-              "target": "大小朋友都能穿的童装",
-              "punishment": "单场直播流量限制",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1353188394930565120",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "爱了爱了～",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1324578198215991296",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "好喜欢我的帽子围巾～",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1324565148422250496",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记未经授权搬运/抄袭他人原创作品",
-              "target": "年终收官之作！！！",
-              "punishment": "笔记流量限制, 笔记下架",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中",
-              "violationId": "1324558533812408320",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "应急处置-中度",
-              "target": "人间小可爱～",
-              "punishment": "笔记流量限制, 笔记仅自己可见",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消",
-              "violationId": "1321391316826767360",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "无及时且有效的互动",
-              "target": "大小朋友都能穿的童装",
-              "punishment": "本场直播限流",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1255405625761128448",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "封标跟风",
-              "target": "一身都巨巨巨舒服～",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1228895190308384768",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "内容画风-重",
-              "target": "梨形本命！！！亲子Polo短袖返单啦！！！",
-              "punishment": "最新话题feed下不出",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1203338850112065536",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "内容画风-重",
-              "target": "过年啦！最后两天啦！",
-              "punishment": "最新话题feed下不出",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1200627657098350592",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "笔记使用非原创素材进行营销推广",
-              "target": "今年的新款羽绒服～小模特图来啦！",
-              "punishment": "笔记仅粉丝可见",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消",
-              "violationId": "1171682534033612802",
-              "tenant": "SNS"
-            },
-            {
-              "reason": "标题党-轻",
-              "target": "不敢想象跟女儿一起穿这件…",
-              "punishment": "笔记流量限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "violationId": "1155020368752975872",
-              "tenant": "SNS"
-            }
-          ],
-          "communityViolationCount": 12,
-          "communityBlackboxCount": 6
+          ]
         },
         {
           "id": "683952c4a1a15b00153345f4",
@@ -4996,16 +1727,40 @@
           "isBlackBox": false,
           "violations": [
             {
-              "violationId": "426124239202848692",
+              "violationId": "426125609029048207",
               "reason": "违规营销-包运费虚假",
               "level": "一般违规",
-              "time": "2026-04-20 13:43",
+              "time": "2026-04-21 12:23",
               "status": "已处罚",
               "actions": [
                 "[直播间]直播间警告"
               ],
               "isBlackBox": false,
               "canAppeal": true
+            },
+            {
+              "violationId": "426124541064794202",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 18:42",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426124239219625909",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 17:21",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播限流"
+              ],
+              "isBlackBox": false,
+              "canAppeal": false
             },
             {
               "violationId": "426121072922835079",
@@ -5018,37 +1773,8 @@
               ],
               "isBlackBox": false,
               "canAppeal": false
-            },
-            {
-              "violationId": "426115313371170579",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-14 14:44",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "isBlackBox": false,
-              "canAppeal": false
-            },
-            {
-              "violationId": "426114002902930950",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-13 18:08",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播限流"
-              ],
-              "isBlackBox": false,
-              "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
@@ -5073,12 +1799,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "68c1479efa43320015cc37cf",
@@ -5090,12 +1811,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "64f6d65fdace090001ca48b2",
@@ -5192,12 +1908,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
@@ -5282,34 +1993,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "内容无美感",
-              "punishment": "笔记流量受限",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消"
-            },
-            {
-              "reason": "内容无美感",
-              "punishment": "笔记流量受限",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消"
-            },
-            {
-              "reason": "内容无美感",
-              "punishment": "笔记流量受限",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已取消"
-            }
-          ],
-          "communityViolationCount": 3,
-          "communityBlackboxCount": 3
+          ]
         },
         {
           "id": "663c725197af9100018e1cf1",
@@ -5370,27 +2054,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "高价商家社区账号流控",
-              "punishment": "账号下笔记流量受限",
-              "source": "社区",
-              "blackbox": true,
-              "target": "安踏种草小能手（子账号）"
-            },
-            {
-              "reason": "高价商家社区账号流控",
-              "punishment": "账号下笔记流量受限",
-              "source": "社区",
-              "blackbox": true,
-              "target": "安踏儿童服饰（主账号）"
-            }
-          ],
-          "communityViolationCount": 2,
-          "communityBlackboxCount": 2
+          ]
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
@@ -5402,12 +2066,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "6752630f3eb73600158af708",
@@ -5506,12 +2165,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "627ca149928e3300017d3a8c",
@@ -5520,7 +2174,7 @@
           "rank": 35,
           "checkStatus": "ok",
           "todayViolations": 0,
-          "week7Violations": 1,
+          "week7Violations": 0,
           "totalActiveViolations": 9,
           "isBlackBox": false,
           "violations": [
@@ -5638,27 +2292,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中"
-            },
-            {
-              "reason": "内容无美感",
-              "punishment": "笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            }
-          ],
-          "communityViolationCount": 2,
-          "communityBlackboxCount": 1
+          ]
         },
         {
           "id": "647da6a739b63800015abbb6",
@@ -5666,16 +2300,40 @@
           "dgmv": 536239.83,
           "rank": 36,
           "checkStatus": "ok",
-          "todayViolations": 5,
-          "week7Violations": 10,
-          "totalActiveViolations": 10,
+          "todayViolations": 1,
+          "week7Violations": 6,
+          "totalActiveViolations": 6,
           "isBlackBox": false,
           "violations": [
             {
-              "violationId": "426124056398314665",
+              "violationId": "426125648629489178",
               "reason": "违规营销-包运费虚假",
               "level": "一般违规",
-              "time": "2026-04-20 10:41",
+              "time": "2026-04-21 13:03",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426124854003965965",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 23:53",
+              "status": "已处罚",
+              "actions": [
+                "[直播间]直播间警告"
+              ],
+              "isBlackBox": false,
+              "canAppeal": true
+            },
+            {
+              "violationId": "426124801160477628",
+              "reason": "违规营销-包运费虚假",
+              "level": "一般违规",
+              "time": "2026-04-20 23:01",
               "status": "已处罚",
               "actions": [
                 "[直播间]直播间警告"
@@ -5694,78 +2352,6 @@
               ],
               "isBlackBox": false,
               "canAppeal": false
-            },
-            {
-              "violationId": "426124016367946643",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-20 10:01",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426123947321591223",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-20 08:53",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426123887686648190",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-20 07:53",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426123354154109926",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 23:03",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426123326760911459",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 22:36",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
-            {
-              "violationId": "426123134137577973",
-              "reason": "违规营销-包运费虚假",
-              "level": "一般违规",
-              "time": "2026-04-19 19:25",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
             },
             {
               "violationId": "426122600437474997",
@@ -5791,21 +2377,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "直播-禁止生成回顾action",
-              "punishment": "直播回放禁止展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中",
-              "target": "嘟嘟家夏款直播 回放"
-            }
-          ],
-          "communityViolationCount": 1,
-          "communityBlackboxCount": 1
+          ]
         },
         {
           "id": "6504215e8265a10001b24aa3",
@@ -5926,34 +2498,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": false,
-              "status": "处罚中"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            }
-          ],
-          "communityViolationCount": 3,
-          "communityBlackboxCount": 2
+          ]
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
@@ -5961,16 +2506,16 @@
           "dgmv": 521582.77,
           "rank": 38,
           "checkStatus": "ok",
-          "todayViolations": 1,
+          "todayViolations": 0,
           "week7Violations": 2,
           "totalActiveViolations": 2,
           "isBlackBox": false,
           "violations": [
             {
-              "violationId": "426123411102528347",
+              "violationId": "426124738475547730",
               "reason": "违规营销-虚假现货信息",
               "level": "一般违规",
-              "time": "2026-04-20 00:00",
+              "time": "2026-04-20 21:58",
               "status": "已处罚",
               "actions": [
                 "[直播间]直播间警告"
@@ -5990,12 +2535,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "660a92f5745579000199ae01",
@@ -6128,12 +2668,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "648fe9c948b95a0001e0acd0",
@@ -6141,23 +2676,11 @@
           "dgmv": 482131.42,
           "rank": 40,
           "checkStatus": "ok",
-          "todayViolations": 1,
-          "week7Violations": 1,
-          "totalActiveViolations": 3,
+          "todayViolations": 0,
+          "week7Violations": 0,
+          "totalActiveViolations": 2,
           "isBlackBox": false,
           "violations": [
-            {
-              "violationId": "426124062799047095",
-              "reason": "违规营销-虚假现货信息",
-              "level": "一般违规",
-              "time": "2026-04-20 10:47",
-              "status": "已处罚",
-              "actions": [
-                "[直播间]直播间警告"
-              ],
-              "isBlackBox": false,
-              "canAppeal": true
-            },
             {
               "violationId": "426099834682911623",
               "reason": "违反法律法规",
@@ -6182,12 +2705,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "664026a0a57f5800010e52ff",
@@ -6248,27 +2766,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": false,
-              "status": "已取消"
-            },
-            {
-              "reason": "笔记存在创作质量不佳的内容",
-              "punishment": "笔记不被大范围公开展示/推荐",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚"
-            }
-          ],
-          "communityViolationCount": 2,
-          "communityBlackboxCount": 1
+          ]
         },
         {
           "id": "662df71ac7b2730001531a8b",
@@ -6329,12 +2827,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "6440342d76c7f600018e6691",
@@ -6503,12 +2996,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "6583aa4f4f737f0001e2b7cb",
@@ -6545,34 +3033,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "视频-画面无美感",
-              "punishment": "笔记流量受到限制",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚"
-            },
-            {
-              "reason": "视频-画面无美感",
-              "punishment": "笔记限流",
-              "source": "社区",
-              "blackbox": true,
-              "status": "已处罚"
-            }
-          ],
-          "communityViolationCount": 3,
-          "communityBlackboxCount": 3
+          ]
         },
         {
           "id": "69b50853e9fa67001563cf2f",
@@ -6584,12 +3045,7 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          "violations": []
         },
         {
           "id": "64e0b2637264af0001afc6c6",
@@ -6662,12 +3118,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "65aa5f49c787340001b1e335",
@@ -6815,12 +3266,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "679dca7b2302820015ffe2f2",
@@ -6965,12 +3411,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "68c13794d8d80d00157a53d1",
@@ -7014,12 +3455,7 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ],
-          "hasCommunityViolation": false,
-          "communityIsBlackBox": false,
-          "communityViolations": [],
-          "communityViolationCount": 0,
-          "communityBlackboxCount": 0
+          ]
         },
         {
           "id": "699eb97b3f2158001514430d",
@@ -7031,40 +3467,9 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": [],
-          "hasCommunityViolation": true,
-          "communityIsBlackBox": true,
-          "communityViolations": [
-            {
-              "reason": "直播-禁止生成回顾action",
-              "punishment": "直播回放禁止展示",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            },
-            {
-              "reason": "直播-允许生成回顾action",
-              "punishment": "直播回放正常生成",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            },
-            {
-              "reason": "直播-允许生成回顾action",
-              "punishment": "直播回放正常生成",
-              "source": "社区",
-              "blackbox": true,
-              "status": "处罚中"
-            }
-          ],
-          "communityViolationCount": 3,
-          "communityBlackboxCount": 3
+          "violations": []
         }
-      ],
-      "communityWithViolation": 28,
-      "communityBlackboxCount": 27
+      ]
     }
-  },
-  "checkMethod": "hawkeye_api + browser_screenshot",
-  "note": "本次同时检查电商侧（hawkeye API）和社区侧（苍穹截图），覆盖全量违规类型"
+  }
 }
