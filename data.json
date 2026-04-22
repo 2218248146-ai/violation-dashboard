@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T14:02:13.693797",
+  "updatedAt": "2026-04-21T21:28:22.908221",
   "checkMethod": "hawkeye-api",
   "note": "API方式：仅覆盖电商侧直播间违规，不含社区侧笔记黑盒",
   "ams": {
@@ -115,7 +115,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "笔记关联商品价格信息异常（交易黑盒，处罚中至2026/10/18）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "笔记关联商品价格信息异常",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "66128389745579000199f6e9",
@@ -127,7 +145,32 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "应急处置-中度（社区黑盒，处罚中）；拟真人像-未声明AIGC（社区黑盒，已处罚）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "拟真人像-未声明AIGC",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "648bbcda2719510001c0d731",
@@ -200,7 +243,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "社区黑盒处罚中：流量作弊×2、笔记图片损坏×3、笔记原创度不足×2；共2786条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "社区黑盒处罚中：流量作弊、笔记图片损坏、笔记原创度不足",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6489c7d1ebbcb2000155641e",
@@ -237,7 +298,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风（社区黑盒，处罚中）；工业化流水号（社区黑盒，已处罚）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "68873c8b4c27360015d58b7b",
@@ -322,7 +408,17 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "无社区黑盒"
+          },
+          "overallRisk": "low",
+          "communityViolations": [],
+          "communityViolationCount": 0,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": false
         },
         {
           "id": "6464d4b7ebbcb2000151ff6c",
@@ -467,7 +563,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "工业化流水号（社区黑盒，已处罚）；高价商家社区账号流控（社区黑盒，部分已取消）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            },
+            {
+              "reason": "高价商家社区账号流控",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "69796643a64ce7001555d053",
@@ -479,7 +600,17 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "无社区黑盒（仅交易白盒已取消）"
+          },
+          "overallRisk": "low",
+          "communityViolations": [],
+          "communityViolationCount": 0,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": false
         },
         {
           "id": "6440b228a3c2d90001dccd85",
@@ -564,7 +695,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "工业化流水号×多（社区黑盒，已处罚/已取消）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "工业化流水号×多",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "63db9c9e505ba20001836df0",
@@ -625,7 +774,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "社区黑盒处罚中：未成年人×3、封标跟风、导向私域等；共103条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "社区黑盒处罚中：未成年人、封标跟风、导向私域等",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "643e3beffde23e0001a3365a",
@@ -722,7 +889,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "工业化流水号×5（社区黑盒，已处罚）；笔记未通过原创声明认证（社区黑盒，处罚中）；共188条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            },
+            {
+              "reason": "笔记未通过原创声明认证",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "64390a986fdda10001e84590",
@@ -748,7 +940,25 @@
               "isBlackBox": false,
               "canAppeal": true
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "社区黑盒均已取消，无处罚中"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "社区黑盒均已取消，无处罚中",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "68c10f4aff2efd001543a4e3",
@@ -788,7 +998,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风×3（社区黑盒，处罚中）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6296050f56228a000189da4c",
@@ -873,7 +1101,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒商品价格信息异常处罚中×5，无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中，无社区黑盒",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "62d27c563d1b6a000114fe9e",
@@ -970,7 +1216,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "应急处置-中度（社区黑盒，处罚中）；工业化流水号（社区黑盒，已处罚）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "698595ba8ab5a80015f612af",
@@ -982,7 +1253,25 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "直播间流量干预-公域停推×3（社区黑盒，处罚中）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "直播间流量干预-公域停推",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "69ba4ce6fb821000151f7fe7",
@@ -994,7 +1283,25 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "暂无数据，干净"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "暂无数据，干净",
+              "isBlackBox": false,
+              "isActive": false,
+              "blackbox": false,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "67ad9357af01d90015f29f1a",
@@ -1006,7 +1313,25 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "交易黑盒处罚中，无社区黑盒"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒处罚中，无社区黑盒",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "649e92f6a71a610001e56574",
@@ -1105,7 +1430,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风×3（社区黑盒，处罚中）；直播禁止生成回踩action×2（社区黑盒，处罚中）；共53条"
+          },
+          "overallRisk": "high",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6877591f673c1e001513e072",
@@ -1117,7 +1467,32 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "拟真人像-未声明AIGC×4（社区黑盒，已处罚）；交易黑盒处罚中至2026/8/26"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "拟真人像-未声明AIGC",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            },
+            {
+              "reason": "交易黑盒处罚中至2026/8/26",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6541b35043e89d0001bcbedc",
@@ -1129,7 +1504,32 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风×3（社区黑盒，处罚中）；应急处置-中度（社区黑盒，处罚中）；共96条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "673c0490f343ff00154c1f16",
@@ -1262,7 +1662,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "工业化流水号×3（社区黑盒，已处罚）；交易黑盒笔记关联商品价格信息异常（处罚中至2026/10/18）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            },
+            {
+              "reason": "交易黑盒笔记关联商品价格信息异常",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "65267a467fa15200013b9c5c",
@@ -1371,7 +1796,39 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风×3（社区黑盒，处罚中）；举报综合违规模型处置（社区，处罚中）；应急处置-中度（社区，处罚中）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "举报综合违规模型处置",
+              "isBlackBox": false,
+              "isActive": true,
+              "blackbox": false,
+              "status": "处罚中"
+            },
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": false,
+              "isActive": true,
+              "blackbox": false,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 3,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6108f489c1c7880001345af1",
@@ -1492,7 +1949,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒商品价格信息异常处罚中×3；无社区黑盒处罚中"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "66d6db7dd550aa0015e2a532",
@@ -1504,7 +1979,25 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "拟真人像（社区黑盒，已处罚），无处罚中"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "拟真人像，无处罚中",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "6482f8188b61ef00019f59df",
@@ -1566,7 +2059,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "直播-禁止生成回踩action（社区黑盒，处罚中）；交易黑盒商品价格信息异常处罚中"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "直播-禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "61d84bbcf64538000105ec02",
@@ -1713,7 +2231,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风（社区黑盒，处罚中）；共59条"
+          },
+          "overallRisk": "high",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "683952c4a1a15b00153345f4",
@@ -1722,7 +2258,7 @@
           "rank": 27,
           "checkStatus": "ok",
           "todayViolations": 1,
-          "week7Violations": 4,
+          "week7Violations": 3,
           "totalActiveViolations": 4,
           "isBlackBox": false,
           "violations": [
@@ -1774,7 +2310,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "违规营销-包运费虚假（交易白盒，处罚中）；无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "违规营销-包运费虚假",
+              "isBlackBox": false,
+              "isActive": true,
+              "blackbox": false,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "66c5b7d4077c7f0015a76a8f",
@@ -1799,7 +2353,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒商品价格信息异常处罚中×多（共1784条）；无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中×多",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "68c1479efa43320015cc37cf",
@@ -1811,7 +2383,25 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "身体暴露凸显或涉性讨论（社区黑盒，处罚中）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "身体暴露凸显或涉性讨论",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "64f6d65fdace090001ca48b2",
@@ -1908,7 +2498,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风（社区黑盒，处罚中）；笔记原创度不足（社区黑盒，处罚中）；共109条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "笔记原创度不足",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "664a0b72c7b2730001d99b3e",
@@ -1993,7 +2608,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "内容无美感×182（社区黑盒，全部已取消）；无处罚中"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "内容无美感",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "663c725197af9100018e1cf1",
@@ -2054,7 +2687,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "高价商家社区账号流控（社区，已处罚）；严重违规账号安全风险（社区，已处罚）；无处罚中社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "高价商家社区账号流控",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            },
+            {
+              "reason": "严重违规账号安全风险",
+              "isBlackBox": false,
+              "isActive": false,
+              "blackbox": false,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "64c8b27ee21b7a00014a7125",
@@ -2066,7 +2724,32 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "直播问分发-市集刷除action（社区，处罚中）；高价商家社区账号流控（社区，已取消）"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "直播问分发-市集刷除action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "高价商家社区账号流控",
+              "isBlackBox": false,
+              "isActive": false,
+              "blackbox": false,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6752630f3eb73600158af708",
@@ -2165,7 +2848,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒笔记关联商品价格信息异常处罚中×多；无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒笔记关联商品价格信息异常处罚中×多",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "627ca149928e3300017d3a8c",
@@ -2292,7 +2993,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "内容无美感、笔记质量不佳（社区黑盒，全部已处罚）；无处罚中"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "内容无美感、笔记质量不佳",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "647da6a739b63800015abbb6",
@@ -2301,7 +3020,7 @@
           "rank": 36,
           "checkStatus": "ok",
           "todayViolations": 1,
-          "week7Violations": 6,
+          "week7Violations": 5,
           "totalActiveViolations": 6,
           "isBlackBox": false,
           "violations": [
@@ -2377,7 +3096,39 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "直播-禁止生成回踩action（社区黑盒，处罚中）；直播间应急风险-控热（社区黑盒，处罚中）；违规营销-包运费虚假（处罚中）"
+          },
+          "overallRisk": "high",
+          "communityViolations": [
+            {
+              "reason": "直播-禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播间应急风险-控热",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "违规营销-包运费虚假",
+              "isBlackBox": false,
+              "isActive": true,
+              "blackbox": false,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 3,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6504215e8265a10001b24aa3",
@@ -2498,7 +3249,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风（社区黑盒，处罚中）；共150条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "67a6d7d52302820015ffe7f3",
@@ -2507,7 +3276,7 @@
           "rank": 38,
           "checkStatus": "ok",
           "todayViolations": 0,
-          "week7Violations": 2,
+          "week7Violations": 1,
           "totalActiveViolations": 2,
           "isBlackBox": false,
           "violations": [
@@ -2535,7 +3304,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "封标跟风×3（社区黑盒，处罚中）；直播-禁止生成回踩action（社区黑盒，处罚中）"
+          },
+          "overallRisk": "high",
+          "communityViolations": [
+            {
+              "reason": "封标跟风",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播-禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "660a92f5745579000199ae01",
@@ -2668,7 +3462,32 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "真实人-贬损评价（社区黑盒，处罚中）；直播-禁止生成回踩action×2（社区黑盒，处罚中）；共100条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "真实人-贬损评价",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播-禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 2,
+          "communityBlackboxCount": 2,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "648fe9c948b95a0001e0acd0",
@@ -2705,7 +3524,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "工业化流水号（社区黑盒，已处罚）；无处罚中"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "工业化流水号",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "664026a0a57f5800010e52ff",
@@ -2766,7 +3603,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": false,
+            "details": "笔记质量不佳（社区黑盒，全部已处罚）；无处罚中"
+          },
+          "overallRisk": "low",
+          "communityViolations": [
+            {
+              "reason": "笔记质量不佳",
+              "isBlackBox": true,
+              "isActive": false,
+              "blackbox": true,
+              "status": "已处罚"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": false,
+          "hasCommunityViolation": true
         },
         {
           "id": "662df71ac7b2730001531a8b",
@@ -2827,7 +3682,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒商品价格信息异常处罚中×多（共166条）；无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中×多",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6440342d76c7f600018e6691",
@@ -2996,7 +3869,39 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "应急处置-中度（社区黑盒，处罚中）；直播-禁止生成回踩action×2（社区黑盒，处罚中）；直播间流量干预-公域停推（社区黑盒，处罚中）；共120条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播-禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            },
+            {
+              "reason": "直播间流量干预-公域停推",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 3,
+          "communityBlackboxCount": 3,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "6583aa4f4f737f0001e2b7cb",
@@ -3033,7 +3938,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "应急处置-中度×2（社区黑盒，处罚中）；共121条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "69b50853e9fa67001563cf2f",
@@ -3045,7 +3968,11 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "communityViolations": [],
+          "communityViolationCount": 0,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false
         },
         {
           "id": "64e0b2637264af0001afc6c6",
@@ -3118,7 +4045,11 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "communityViolations": [],
+          "communityViolationCount": 0,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false
         },
         {
           "id": "65aa5f49c787340001b1e335",
@@ -3266,7 +4197,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "应急处置-中度×2（社区黑盒，处罚中）；共128条"
+          },
+          "overallRisk": "high",
+          "communityViolations": [
+            {
+              "reason": "应急处置-中度",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "679dca7b2302820015ffe2f2",
@@ -3411,7 +4360,11 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "communityViolations": [],
+          "communityViolationCount": 0,
+          "communityBlackboxCount": 0,
+          "communityIsBlackBox": false
         },
         {
           "id": "68c13794d8d80d00157a53d1",
@@ -3455,7 +4408,25 @@
               "isBlackBox": false,
               "canAppeal": false
             }
-          ]
+          ],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "交易黑盒商品价格信息异常处罚中×多；无社区黑盒"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "交易黑盒商品价格信息异常处罚中×多",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         },
         {
           "id": "699eb97b3f2158001514430d",
@@ -3467,9 +4438,37 @@
           "week7Violations": 0,
           "totalActiveViolations": 0,
           "isBlackBox": false,
-          "violations": []
+          "violations": [],
+          "commViolations": {
+            "hasActiveBlackBox": true,
+            "details": "直播-允许/禁止生成回踩action（社区黑盒，全部处罚中）；共108条"
+          },
+          "overallRisk": "medium",
+          "communityViolations": [
+            {
+              "reason": "直播-允许/禁止生成回踩action",
+              "isBlackBox": true,
+              "isActive": true,
+              "blackbox": true,
+              "status": "处罚中"
+            }
+          ],
+          "communityViolationCount": 1,
+          "communityBlackboxCount": 1,
+          "communityIsBlackBox": true,
+          "hasCommunityViolation": true
         }
       ]
     }
+  },
+  "checkDate": "2026-04-21",
+  "summary": {
+    "total": 50,
+    "ecomViolations": 7,
+    "commBlackBox": 38,
+    "bothViolations": 5,
+    "highRisk": 5,
+    "generatedAt": "2026-04-21T21:28:22.908221",
+    "checkDate": "2026-04-21"
   }
 }
